@@ -1,7 +1,8 @@
 from scipy.stats import chi2_contingency
 from scipy.stats import chi2
 import utils
-import np #uh oh
+import numpy as np
+#import pickle
 
 #todo: implement addtl stat tests
 #       look into effect size measures
@@ -13,7 +14,7 @@ def contingency_table(lemma1, total1, lemma2, total2):
         [lemma2, total2-lemma2]
     ]
 
-def chi2(lemma1, total1, lemma2, total2):
+def chi_squared(lemma1, total1, lemma2, total2):
     #double check this calculation
     contingency_tbl(lemma1, total1, lemma2, total2)
 
@@ -73,7 +74,7 @@ def ll_singledoc(lemma, short_urn, data):
     log_ratio = np.log2(p1/p2) if p1 > 0 and p2 > 0 else np.nan
 
     #fac-check that this is okay:
-    p_val = 1-chi2.cdf(G, df=1)
+    p_val = chi2.sf(G, df=1)
 
     return {
         "log likelihood": G,
@@ -89,7 +90,10 @@ def ztest(lemma, short_urn, data):
     #maybe cut this one out
     return
 
-def calc_stats(lemma, short_urn, data_file:
-    data = open_data(data_file)
+def calc_stats(lemma, short_urn, data_file):
+    data = utils.open_data(data_file)
+    print(ll_singledoc(lemma, short_urn, data))
+
+calc_stats("ἀνήρ", "0012-001.xml", "testPickle")
 
 
