@@ -3,6 +3,9 @@ import os
 import pickle
 import utils
 
+#Generates a dictionary of dictionaries with lemma counts for each document
+# format => {document: {lemma: count, lemma: count}}
+
 #returns dict of lemmas and counts for a document
 def get_lemmas(file, running_dict):
     try:
