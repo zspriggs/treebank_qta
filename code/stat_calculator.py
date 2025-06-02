@@ -1,14 +1,10 @@
 from scipy.stats import chi2_contingency
 from scipy.stats import chi2
-import utils
 import numpy as np
-#import pickle
 
 #todo: implement addtl stat tests
 #       look into effect size measures
-#       refactor to be a class?
-#       refactor to have better names so less confusing
-#       make this file have less knowledge of details, should just be doing stat tests
+#       double check current test logic and results
 
 def contingency_table(lemma1, total1, lemma2, total2):
     return [
@@ -16,65 +12,75 @@ def contingency_table(lemma1, total1, lemma2, total2):
         [lemma2, total2-lemma2]
     ]
 
-def chi_squared(lemma1, total1, lemma2, total2):
-    #double check this calculation
-    table = contingency_table(lemma1, total1, lemma2, total2)
+#assumes no list overlap between first_urns and second_urns
+#if second_urns is passed empty, then first_urns are comapred against whole corpus
+def get_totals(first_urns: list, second_urns: list, lemma: str, data):
+    if len(first_urns) == 0:
+        print("No document(s) given.")
+        return
+    
+    lemma1 = lemma2 = total1 = total2 = 0
+    for urn in first_urns:
+        lemma1 += data[urn][lemma]
+        total1 += data[urn]["TOTAL_WORDS"]
 
+    if len(second_urns) == 0: #If we want to compare the first list against all the lemmas
+        lemma2 = data["totals"][lemma] - lemma1
+        total2 = data["totals"]["TOTAL_WORDS"] - total1
+    else:
+        for urn in second_urns: 
+            lemma2 += data[urn][lemma]
+            total2 += data[urn]["TOTAL_WORDS"]
+
+    if lemma1 < 5 or lemma2 < 5 or total1 < 5 or total2 < 5:
+        print("Not enough data.")
+        return
+    
+    return lemma1, total1, lemma2, total2
+
+def chi_squared_lemma(first_urns: list, second_urns: list, lemma: str, data):
+    lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data)
+    return calc_chi_squared(lemma1, total1, lemma2, total2)
+
+def log_likelihood_lemma(first_urns: list, second_urns: list, lemma: str, data):
+    lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data)
+    return calc_log_likelihood(lemma1, total1, lemma2, total2)
+
+def calc_chi_squared(var1, total1, var2, total2):
+    table = contingency_table(var1, total1, var2, total2)
+    
     #chi2 value, p value, degrees of freedom, expected frequency
     chi2, p, dof, expected = chi2_contingency(table)
 
     return chi2, p, dof, expected
 
-#factor this out
-def get_totals(lemma, short_urn, data):
-    doc_lemma = data[short_urn][lemma]
-    doc_total = data[short_urn]["TOTAL_WORDS"]
-
-    #assumes that document totals are included in corpus totals
-    corp_lemma = data["totals"][lemma] - doc_lemma
-    corp_total = data["totals"]["TOTAL_WORDS"] - doc_total
-
-    return doc_lemma, doc_total, corp_lemma, corp_total
-
-#factor this out
-def chi2_singledoc(lemma, short_urn, data):
-    doc_lemma, doc_total, corp_lemma, corp_total = get_totals(lemma, short_urn, data)
-
-    chi2, p, dof, expected = chi_squared(doc_lemma, doc_total, corp_lemma, corp_total)
-    print(f"{doc_lemma} {doc_total} {corp_lemma} {corp_total}")
-    print(f"{chi2} , {p}, {dof}, {expected}")
-
-    return chi2, p, dof, expected
-
 #log likelihood preferred for natural language freq data (Dunning 1993, look into this)
-#compares document against the rest of the corpus
-def ll_singledoc(lemma, short_urn, data):
+#compares two lingustic features
+def calc_log_likelihood(var1, total1, var2, total2):
     #research: diff between results of this and chi2?
     #double check this calculation
 
-    doc_lemma, doc_total, corp_lemma, corp_total = get_totals(lemma, short_urn, data)
+    vars_total = var1 + var2
+    all_total = total1 + total2
 
-    lemmas_total = doc_lemma + corp_lemma
-    words_total = doc_total + corp_total
+    expected_total1 = total1 * vars_total / all_total
+    expected_total2 = total2 * vars_total / all_total
 
-    expected_doc = doc_total * lemmas_total / words_total
-    expected_corp = corp_total * lemmas_total / words_total
-
-    doc_non_lemma = doc_total - doc_lemma
-    corp_non_lemma = corp_total - corp_lemma
+    non_occurence1 = total1 - var1
+    non_occurence2 = total2 - var2
 
     G = 0
-    if doc_lemma > 0:
-        G += 2 * doc_lemma * np.log(doc_lemma / expected_doc)
-    if corp_lemma > 0:
-        G += 2 * corp_lemma * np.log(corp_lemma / expected_corp)
-    if doc_non_lemma > 0:
-        G += 2 * doc_non_lemma * np.log(doc_non_lemma / (doc_total-expected_doc))
-    if corp_non_lemma > 0:
-        G += 2 * corp_non_lemma * np.log(corp_non_lemma / (corp_total-expected_corp))
+    if var1 > 0:
+        G += 2 * var1 * np.log(var1 / expected_total1)
+    if var2 > 0:
+        G += 2 * var2 * np.log(var2 / expected_total2)
+    if non_occurence1 > 0:
+        G += 2 * non_occurence1 * np.log(non_occurence1 / (total1-expected_total1))
+    if non_occurence2 > 0:
+        G += 2 * non_occurence2 * np.log(non_occurence2 / (total2-expected_total2))
 
-    p1 = doc_lemma / doc_total if doc_total > 0 else 0
-    p2 = corp_lemma / corp_total if corp_total > 0 else 0
+    p1 = var1 / total1 if total1 > 0 else 0
+    p2 = var2 / total2 if total2 > 0 else 0
     log_ratio = np.log2(p1/p2) if p1 > 0 and p2 > 0 else np.nan
 
     #fac-check that this is okay:
@@ -86,18 +92,18 @@ def ll_singledoc(lemma, short_urn, data):
         "p value": p_val
     }
 
-def fischers_singledoc(lemma, short_urn, data):
+def calc_fischers():
     #fischers exact test (used for when counts < 5)
     return
 
-def ztest(lemma, short_urn, data):
+def calc_ztest():
     #maybe cut this one out
     return
 
-def calc_stats(lemma, short_urn, data_file):
+'''def calc_stats(lemma, short_urn, data_file):
     data = utils.open_data(data_file)
-    print(ll_singledoc(lemma, short_urn, data))
+    #print(ll_singledoc(lemma, short_urn, data))
 
-#calc_stats("ἀνήρ", "0012-001.xml", "testPickle")
+#calc_stats("ἀνήρ", "0012-001.xml", "testPickle")'''
 
 
