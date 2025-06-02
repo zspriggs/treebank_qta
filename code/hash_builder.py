@@ -67,9 +67,6 @@ def main():
     data_file = "testPickle"
     #generate_data("./xml", data_file)
     data = utils.open_data(data_file)
-
-    #lemma = "ἀνήρ"
-    #chi2_singledoc(lemma, "0012-001.xml", data_file)
-
+    
 main()
 

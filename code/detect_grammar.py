@@ -28,6 +28,7 @@ def collect_prep_objs(prep, words):
 
 #Detects if a specific word appears as an object of a given preposition
 def detect_prep_obj(prep, do, words):
+    
     return
 
 

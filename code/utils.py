@@ -6,3 +6,5 @@ def open_data(data_file):
     file.close()
 
     return tb_dict
+
+

@@ -6,7 +6,9 @@ import numpy as np
 
 #todo: implement addtl stat tests
 #       look into effect size measures
-
+#       refactor to be a class?
+#       refactor to have better names so less confusing
+#       make this file have less knowledge of details, should just be doing stat tests
 
 def contingency_table(lemma1, total1, lemma2, total2):
     return [
@@ -16,13 +18,14 @@ def contingency_table(lemma1, total1, lemma2, total2):
 
 def chi_squared(lemma1, total1, lemma2, total2):
     #double check this calculation
-    contingency_tbl(lemma1, total1, lemma2, total2)
+    table = contingency_table(lemma1, total1, lemma2, total2)
 
     #chi2 value, p value, degrees of freedom, expected frequency
-    chi2, p, dof, expected = chi2_contingency(contingency_tbl)
+    chi2, p, dof, expected = chi2_contingency(table)
 
     return chi2, p, dof, expected
 
+#factor this out
 def get_totals(lemma, short_urn, data):
     doc_lemma = data[short_urn][lemma]
     doc_total = data[short_urn]["TOTAL_WORDS"]
@@ -33,10 +36,11 @@ def get_totals(lemma, short_urn, data):
 
     return doc_lemma, doc_total, corp_lemma, corp_total
 
+#factor this out
 def chi2_singledoc(lemma, short_urn, data):
     doc_lemma, doc_total, corp_lemma, corp_total = get_totals(lemma, short_urn, data)
 
-    chi2, p, dof, expected = chi2(doc_lemma, doc_total, corp_lemma, corp_total)
+    chi2, p, dof, expected = chi_squared(doc_lemma, doc_total, corp_lemma, corp_total)
     print(f"{doc_lemma} {doc_total} {corp_lemma} {corp_total}")
     print(f"{chi2} , {p}, {dof}, {expected}")
 
@@ -94,6 +98,6 @@ def calc_stats(lemma, short_urn, data_file):
     data = utils.open_data(data_file)
     print(ll_singledoc(lemma, short_urn, data))
 
-calc_stats("ἀνήρ", "0012-001.xml", "testPickle")
+#calc_stats("ἀνήρ", "0012-001.xml", "testPickle")
 
 

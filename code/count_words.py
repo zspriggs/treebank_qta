@@ -3,27 +3,8 @@ import xml.etree.ElementTree as ET
 from scipy.stats import chi2_contingency
 import os
 
-
-# def count_all_words(file):
-#     tree = ET.parse(file)
-#     root = tree.getroot()
-
-#     total_words = 0
-#     for word in root.findall('.//word'):
-#         total_words += 1
-
-#     return total_words
-
-# def count_lemma(file, lemma):
-#     tree = ET.parse(file)
-#     root = tree.getroot()
-
-#     occurences = 0
-#     for word in root.findall('.//word'):
-#         if word.get('lemma') == lemma:
-#             occurences += 1
-
-#     return occurences
+#TODO: 
+#   Put needed logic in stat_calculator, then delete
 
 def get_lemma_totals(file, lemma):
     try:
