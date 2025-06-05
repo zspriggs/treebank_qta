@@ -57,6 +57,8 @@ def calc_chi_squared(var1, total1, var2, total2):
 #log likelihood preferred for natural language freq data (Dunning 1993, look into this)
 #compares two lingustic features
 def calc_log_likelihood(var1, total1, var2, total2):
+
+    #TODO:
     #research: diff between results of this and chi2?
     #double check this calculation
 

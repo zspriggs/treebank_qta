@@ -1,4 +1,3 @@
-#idea: take a certain word and generate all the relevant stats
 import utils
 import stat_calculator as calc
 
@@ -9,14 +8,29 @@ class word_analyzer:
         self.lemma = lemma
         self.data = utils.open_data(DATA_FILE)
 
-    def lemma_freq(self, x = 5):
-        sorted_urns = sorted(self.data.keys(), key=lambda k: self.data[k].get(self.lemma, 0), reverse=True)
-        return sorted_urns[1:6]
+    def get_lemma(self):
+        return self.lemma
 
-    def ll_doc(self, short_urn: str):
-        return calc.log_likelihood_lemma([short_urn], [], self.lemma, self.data)
+    def raw_lemma_freq(self, x = 5):
+        urn_counts = []
+        for urn, lemma_counts in self.data.items():
+            raw_freq = lemma_counts.get(self.lemma,0)
+            urn_counts.append((urn, raw_freq))
+
+        return sorted(urn_counts, key = lambda urn_tuple: urn_tuple[1], reverse=True)[1:x+1]
+        
+    def rel_lemma_freq(self, x = 5):
+        urn_counts = []
+        for urn, lemma_counts in self.data.items():
+            rel_freq = lemma_counts.get(self.lemma,0)/lemma_counts["TOTAL_WORDS"]
+            urn_counts.append((urn, rel_freq))
+
+        return sorted(urn_counts, key = lambda urn_tuple: urn_tuple[1], reverse=True)[1:x+1]
+
+    def ll(self, main_urns, comp_urns = []):
+        return calc.log_likelihood_lemma(main_urns, comp_urns, self.lemma, self.data)
     
-    def chi2_doc(self, short_urn: str):
-        return calc.chi_squared_lemma([short_urn], [], self.lemma, self.data)
+    def chi2(self, main_urns, comp_urns = []):
+        return calc.chi_squared_lemma(main_urns, comp_urns, self.lemma, self.data)
     
     #fetch appearances of lemma?

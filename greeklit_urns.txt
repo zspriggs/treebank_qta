@@ -1,0 +1,6224 @@
+Apollonius Rhodius
+urn:cts:greekLit:tlg0001
+ 
+Argonautica
+urn:cts:greekLit:tlg0001.tlg001
+Thucydides
+urn:cts:greekLit:tlg0003
+ 
+History of the Peloponnesian War
+urn:cts:greekLit:tlg0003.tlg001
+Diogenes Laertius
+urn:cts:greekLit:tlg0004
+ 
+Vitae philosophorum
+urn:cts:greekLit:tlg0004.tlg001
+Theocritus
+urn:cts:greekLit:tlg0005
+ 
+Εἰδύλλια
+urn:cts:greekLit:tlg0005.tlg001
+ 
+Ἐπιγράμματα
+urn:cts:greekLit:tlg0005.tlg002
+ 
+Syrinx
+urn:cts:greekLit:tlg0005.tlg003
+Euripides
+urn:cts:greekLit:tlg0006
+ 
+Cyclops
+urn:cts:greekLit:tlg0006.tlg001
+ 
+Alcestis
+urn:cts:greekLit:tlg0006.tlg002
+ 
+Medea
+urn:cts:greekLit:tlg0006.tlg003
+ 
+Heracleidae
+urn:cts:greekLit:tlg0006.tlg004
+ 
+Hippolytus
+urn:cts:greekLit:tlg0006.tlg005
+ 
+Andromache
+urn:cts:greekLit:tlg0006.tlg006
+ 
+Hecuba
+urn:cts:greekLit:tlg0006.tlg007
+ 
+The Suppliant Maidens
+urn:cts:greekLit:tlg0006.tlg008
+ 
+Heracles
+urn:cts:greekLit:tlg0006.tlg009
+ 
+Ion
+urn:cts:greekLit:tlg0006.tlg010
+ 
+The Trojan Women
+urn:cts:greekLit:tlg0006.tlg011
+ 
+Electra
+urn:cts:greekLit:tlg0006.tlg012
+ 
+Iphigenia in Tauris
+urn:cts:greekLit:tlg0006.tlg013
+ 
+Helen
+urn:cts:greekLit:tlg0006.tlg014
+ 
+The Phoenician Women
+urn:cts:greekLit:tlg0006.tlg015
+ 
+Orestes
+urn:cts:greekLit:tlg0006.tlg016
+ 
+Bacchae
+urn:cts:greekLit:tlg0006.tlg017
+ 
+Iphigenia in Aulis
+urn:cts:greekLit:tlg0006.tlg018
+ 
+Rhesus
+urn:cts:greekLit:tlg0006.tlg019
+ 
+Fragmenta
+urn:cts:greekLit:tlg0006.tlg020
+Plutarch
+urn:cts:greekLit:tlg0007
+ 
+Theseus
+urn:cts:greekLit:tlg0007.tlg001
+ 
+Romulus
+urn:cts:greekLit:tlg0007.tlg002
+ 
+Comparison of Theseus and Romulus
+urn:cts:greekLit:tlg0007.tlg003
+ 
+Lycurgus
+urn:cts:greekLit:tlg0007.tlg004
+ 
+Numa
+urn:cts:greekLit:tlg0007.tlg005
+ 
+Comparison of Lycurgus and Numa
+urn:cts:greekLit:tlg0007.tlg006
+ 
+Solon
+urn:cts:greekLit:tlg0007.tlg007
+ 
+Publicola
+urn:cts:greekLit:tlg0007.tlg008
+ 
+Comparison of Solon and Publicola
+urn:cts:greekLit:tlg0007.tlg009
+ 
+Themistocles
+urn:cts:greekLit:tlg0007.tlg010
+ 
+Camillus
+urn:cts:greekLit:tlg0007.tlg011
+ 
+Pericles
+urn:cts:greekLit:tlg0007.tlg012
+ 
+Fabius Maximus
+urn:cts:greekLit:tlg0007.tlg013
+ 
+Comparison of Pericles and Fabius Maximus
+urn:cts:greekLit:tlg0007.tlg014
+ 
+Alcibiades
+urn:cts:greekLit:tlg0007.tlg015
+ 
+Caius Marcius Coriolanus
+urn:cts:greekLit:tlg0007.tlg016
+ 
+Comparison of Alcibiades and Coriolanus
+urn:cts:greekLit:tlg0007.tlg017
+ 
+Timoleon
+urn:cts:greekLit:tlg0007.tlg018
+ 
+Aemilius Paulus
+urn:cts:greekLit:tlg0007.tlg019
+ 
+Comparison of Timoleon and Aemilius
+urn:cts:greekLit:tlg0007.tlg020
+ 
+Pelopidas
+urn:cts:greekLit:tlg0007.tlg021
+ 
+Marcellus
+urn:cts:greekLit:tlg0007.tlg022
+ 
+Comparison of Pelopidas and Marcellus
+urn:cts:greekLit:tlg0007.tlg023
+ 
+Aristides
+urn:cts:greekLit:tlg0007.tlg024
+ 
+Marcus Cato
+urn:cts:greekLit:tlg0007.tlg025
+ 
+Comparison of Aristides and Marcus Cato
+urn:cts:greekLit:tlg0007.tlg026
+ 
+Philopoemen
+urn:cts:greekLit:tlg0007.tlg027
+ 
+Titus Flamininus
+urn:cts:greekLit:tlg0007.tlg028
+ 
+Comparison of Philopoemen and Titus
+urn:cts:greekLit:tlg0007.tlg029
+ 
+Pyrrhus
+urn:cts:greekLit:tlg0007.tlg030
+ 
+Caius Marius
+urn:cts:greekLit:tlg0007.tlg031
+ 
+Lysander
+urn:cts:greekLit:tlg0007.tlg032
+ 
+Sulla
+urn:cts:greekLit:tlg0007.tlg033
+ 
+Comparison of Lysander and Sulla
+urn:cts:greekLit:tlg0007.tlg034
+ 
+Cimon
+urn:cts:greekLit:tlg0007.tlg035
+ 
+Lucullus
+urn:cts:greekLit:tlg0007.tlg036
+ 
+Comparison of Lucullus and Cimon
+urn:cts:greekLit:tlg0007.tlg037
+ 
+Nicias
+urn:cts:greekLit:tlg0007.tlg038
+ 
+Crassus
+urn:cts:greekLit:tlg0007.tlg039
+ 
+Comparison of Nicias and Crassus
+urn:cts:greekLit:tlg0007.tlg040
+ 
+Eumenes
+urn:cts:greekLit:tlg0007.tlg041
+ 
+Sertorius
+urn:cts:greekLit:tlg0007.tlg042
+ 
+Comparison of Sertorius and Eumenes
+urn:cts:greekLit:tlg0007.tlg043
+ 
+Agesilaus
+urn:cts:greekLit:tlg0007.tlg044
+ 
+Pompey
+urn:cts:greekLit:tlg0007.tlg045
+ 
+Comparison of Agesilaus and Pompey
+urn:cts:greekLit:tlg0007.tlg046
+ 
+Alexander
+urn:cts:greekLit:tlg0007.tlg047
+ 
+Caesar
+urn:cts:greekLit:tlg0007.tlg048
+ 
+Phocion
+urn:cts:greekLit:tlg0007.tlg049
+ 
+Cato the Younger
+urn:cts:greekLit:tlg0007.tlg050
+ 
+Agis and Cleomenes
+urn:cts:greekLit:tlg0007.tlg051
+ 
+Tiberius and Caius Gracchus
+urn:cts:greekLit:tlg0007.tlg052
+ 
+Comparison of Agis and Cleomenes and the Gracchi
+urn:cts:greekLit:tlg0007.tlg053
+ 
+Demosthenes
+urn:cts:greekLit:tlg0007.tlg054
+ 
+Cicero
+urn:cts:greekLit:tlg0007.tlg055
+ 
+Comparison of Demosthenes and Cicero
+urn:cts:greekLit:tlg0007.tlg056
+ 
+Demetrius
+urn:cts:greekLit:tlg0007.tlg057
+ 
+Antony
+urn:cts:greekLit:tlg0007.tlg058
+ 
+Comparison of Demetrius and Antony
+urn:cts:greekLit:tlg0007.tlg059
+ 
+Dion
+urn:cts:greekLit:tlg0007.tlg060
+ 
+Brutus
+urn:cts:greekLit:tlg0007.tlg061
+ 
+Comparison of Dion and Brutus
+urn:cts:greekLit:tlg0007.tlg062
+ 
+Aratus
+urn:cts:greekLit:tlg0007.tlg063
+ 
+Artaxerxes
+urn:cts:greekLit:tlg0007.tlg064
+ 
+Galba
+urn:cts:greekLit:tlg0007.tlg065
+ 
+Otho
+urn:cts:greekLit:tlg0007.tlg066
+ 
+De liberis educandis
+urn:cts:greekLit:tlg0007.tlg067
+ 
+Quomodo adolescens poetas audire debeat
+urn:cts:greekLit:tlg0007.tlg068
+ 
+De recta ratione audiendi
+urn:cts:greekLit:tlg0007.tlg069
+ 
+Quomodo adulator ab amico internoscatur
+urn:cts:greekLit:tlg0007.tlg070
+ 
+Quomodo quis suos in virtute sentiat profectus
+urn:cts:greekLit:tlg0007.tlg071
+ 
+De capienda ex inimicis utilitate
+urn:cts:greekLit:tlg0007.tlg072
+ 
+De amicorum multitudine
+urn:cts:greekLit:tlg0007.tlg073
+ 
+De fortuna
+urn:cts:greekLit:tlg0007.tlg074
+ 
+De virtute et vitio
+urn:cts:greekLit:tlg0007.tlg075
+ 
+Consolatio ad Apollonium
+urn:cts:greekLit:tlg0007.tlg076
+ 
+De tuenda sanitate praecepta
+urn:cts:greekLit:tlg0007.tlg077
+ 
+Conjugalia Praecepta
+urn:cts:greekLit:tlg0007.tlg078
+ 
+Septem sapientium convivium
+urn:cts:greekLit:tlg0007.tlg079
+ 
+De Superstitione
+urn:cts:greekLit:tlg0007.tlg080
+ 
+Regum et imperatorum apophthegmata
+urn:cts:greekLit:tlg0007.tlg081
+ 
+Apophthegmata Laconica
+urn:cts:greekLit:tlg0007.tlg082
+ 
+Instituta Laconia
+urn:cts:greekLit:tlg0007.tlg082a
+ 
+Lacaenarum Apophthegmata
+urn:cts:greekLit:tlg0007.tlg082b
+ 
+Mulierum virtutes
+urn:cts:greekLit:tlg0007.tlg083
+ 
+Quaestiones Romanae
+urn:cts:greekLit:tlg0007.tlg084a
+ 
+Quaestiones Graecae
+urn:cts:greekLit:tlg0007.tlg084b
+ 
+Parallela minora
+urn:cts:greekLit:tlg0007.tlg085
+ 
+De fortuna Romanorum
+urn:cts:greekLit:tlg0007.tlg086
+ 
+De Alexandri magni fortuna aut virtute
+urn:cts:greekLit:tlg0007.tlg087
+ 
+De gloria Atheniensium
+urn:cts:greekLit:tlg0007.tlg088
+ 
+De Iside et Osiride
+urn:cts:greekLit:tlg0007.tlg089
+ 
+De E apud Delphos
+urn:cts:greekLit:tlg0007.tlg090
+ 
+De Pythiae oraculis
+urn:cts:greekLit:tlg0007.tlg091
+ 
+De Defectu Oraculorum
+urn:cts:greekLit:tlg0007.tlg092
+ 
+An Virtus Doceri Possit
+urn:cts:greekLit:tlg0007.tlg093
+ 
+De Virtute Morali
+urn:cts:greekLit:tlg0007.tlg094
+ 
+De cohibenda ira
+urn:cts:greekLit:tlg0007.tlg095
+ 
+De Tranquillitate Animi
+urn:cts:greekLit:tlg0007.tlg096
+ 
+De fraterno amore
+urn:cts:greekLit:tlg0007.tlg097
+ 
+De Amore Prolis
+urn:cts:greekLit:tlg0007.tlg098
+ 
+An vitiositas ad infelicitatem sufficia
+urn:cts:greekLit:tlg0007.tlg099
+ 
+Animine an corporis affectiones sint peiores
+urn:cts:greekLit:tlg0007.tlg100
+ 
+De Garrulitate
+urn:cts:greekLit:tlg0007.tlg101
+ 
+De curiositate
+urn:cts:greekLit:tlg0007.tlg102
+ 
+De Cupiditate Divitiarum
+urn:cts:greekLit:tlg0007.tlg103
+ 
+De Vitioso Pudore
+urn:cts:greekLit:tlg0007.tlg104
+ 
+De Invidia et Odio
+urn:cts:greekLit:tlg0007.tlg105
+ 
+De Se Ipsum Citra Invidiam Laudando
+urn:cts:greekLit:tlg0007.tlg106
+ 
+De Sera Numinis Vindicta
+urn:cts:greekLit:tlg0007.tlg107
+ 
+De Fato
+urn:cts:greekLit:tlg0007.tlg108
+ 
+De Genio Socratis
+urn:cts:greekLit:tlg0007.tlg109
+ 
+De exilio
+urn:cts:greekLit:tlg0007.tlg110
+ 
+Consolatio Ad Uxorem
+urn:cts:greekLit:tlg0007.tlg111
+ 
+Quaestiones Convivales
+urn:cts:greekLit:tlg0007.tlg112
+ 
+Amatorius
+urn:cts:greekLit:tlg0007.tlg113
+ 
+Amatoriae Narrationes
+urn:cts:greekLit:tlg0007.tlg114
+ 
+Maxime Cum Principibus Viris Philosopho Esse Disserendum
+urn:cts:greekLit:tlg0007.tlg115
+ 
+Ad principem ineruditum
+urn:cts:greekLit:tlg0007.tlg116
+ 
+An seni respublica gerenda sit
+urn:cts:greekLit:tlg0007.tlg117
+ 
+Praecepta gerendae reipublicae
+urn:cts:greekLit:tlg0007.tlg118
+ 
+De unius in republica dominatione, populari statu, et paucorum imperio
+urn:cts:greekLit:tlg0007.tlg119
+ 
+De vitando aere alieno
+urn:cts:greekLit:tlg0007.tlg120
+ 
+Vitae decem oratorum
+urn:cts:greekLit:tlg0007.tlg121
+ 
+Comparationis Aristophanis et Menandri compendium
+urn:cts:greekLit:tlg0007.tlg122
+ 
+De Heroditi malignate
+urn:cts:greekLit:tlg0007.tlg123
+ 
+Quaestiones Naturales
+urn:cts:greekLit:tlg0007.tlg125
+ 
+De Facie Quae in orbe Lunae Apparet
+urn:cts:greekLit:tlg0007.tlg126
+ 
+De primo frigido
+urn:cts:greekLit:tlg0007.tlg127
+ 
+Aquane an ignis sit utilior
+urn:cts:greekLit:tlg0007.tlg128
+ 
+De sollertia animalium
+urn:cts:greekLit:tlg0007.tlg129
+ 
+Bruta animalia ratione uti
+urn:cts:greekLit:tlg0007.tlg130
+ 
+De esu carnium I
+urn:cts:greekLit:tlg0007.tlg131
+ 
+De esu carnium II
+urn:cts:greekLit:tlg0007.tlg132
+ 
+Platonicae quaestiones
+urn:cts:greekLit:tlg0007.tlg133
+ 
+De animae procreatione in Timaeo
+urn:cts:greekLit:tlg0007.tlg134
+ 
+Epitome libri de animae procreatione in Timaeo
+urn:cts:greekLit:tlg0007.tlg135
+ 
+De Stoicorum repugnantiis
+urn:cts:greekLit:tlg0007.tlg136
+ 
+Compendium argumenti Stoicos absurdiora poetis dicere
+urn:cts:greekLit:tlg0007.tlg137
+ 
+De communibus notitiis adversus Stoicos
+urn:cts:greekLit:tlg0007.tlg138
+ 
+Non Posse Suaviter Vivi Secundum Epicurum
+urn:cts:greekLit:tlg0007.tlg139
+ 
+Adversus Coloten
+urn:cts:greekLit:tlg0007.tlg140
+ 
+An Recte Dictum Sit Latenter Esse Vivendum
+urn:cts:greekLit:tlg0007.tlg141
+ 
+Παροιμίαι αἷς Ἀλεξανδρεῖς ἐχρῶντο
+urn:cts:greekLit:tlg0007.tlg146
+ 
+Ἐκλογὴ περὶ τῶν ἀδυνάτων
+urn:cts:greekLit:tlg0007.tlg147
+Athenaeus of Naucratis
+urn:cts:greekLit:tlg0008
+ 
+Deipnosophistae
+urn:cts:greekLit:tlg0008.tlg001
+Isocrates
+urn:cts:greekLit:tlg0010
+ 
+Against Euthynus
+urn:cts:greekLit:tlg0010.tlg001
+ 
+Against Callimachus
+urn:cts:greekLit:tlg0010.tlg002
+ 
+Against Lochites
+urn:cts:greekLit:tlg0010.tlg003
+ 
+Concerning the Team of Horses
+urn:cts:greekLit:tlg0010.tlg004
+ 
+Trapeziticus
+urn:cts:greekLit:tlg0010.tlg005
+ 
+Aegineticus
+urn:cts:greekLit:tlg0010.tlg006
+ 
+To Demonicus
+urn:cts:greekLit:tlg0010.tlg007
+ 
+Against the Sophists
+urn:cts:greekLit:tlg0010.tlg008
+ 
+Helen
+urn:cts:greekLit:tlg0010.tlg009
+ 
+Busiris
+urn:cts:greekLit:tlg0010.tlg010
+ 
+Panegyricus
+urn:cts:greekLit:tlg0010.tlg011
+ 
+Plataicus
+urn:cts:greekLit:tlg0010.tlg012
+ 
+To Nicocles
+urn:cts:greekLit:tlg0010.tlg013
+ 
+Nicocles or the Cyprians
+urn:cts:greekLit:tlg0010.tlg014
+ 
+Evagoras
+urn:cts:greekLit:tlg0010.tlg015
+ 
+Archidamus
+urn:cts:greekLit:tlg0010.tlg016
+ 
+On the Peace
+urn:cts:greekLit:tlg0010.tlg017
+ 
+Areopagiticus
+urn:cts:greekLit:tlg0010.tlg018
+ 
+Antidosis
+urn:cts:greekLit:tlg0010.tlg019
+ 
+To Philip
+urn:cts:greekLit:tlg0010.tlg020
+ 
+Panathenaicus
+urn:cts:greekLit:tlg0010.tlg021
+ 
+To Dionysius
+urn:cts:greekLit:tlg0010.tlg022
+ 
+To the Children of Jason
+urn:cts:greekLit:tlg0010.tlg023
+ 
+To Archidamus
+urn:cts:greekLit:tlg0010.tlg024
+ 
+To the Rulers of the Mytilenaeans
+urn:cts:greekLit:tlg0010.tlg025
+ 
+To Timotheus
+urn:cts:greekLit:tlg0010.tlg026
+ 
+To Philip, I
+urn:cts:greekLit:tlg0010.tlg027
+ 
+To Alexander
+urn:cts:greekLit:tlg0010.tlg028
+ 
+To Antipater
+urn:cts:greekLit:tlg0010.tlg029
+ 
+To Philip, II
+urn:cts:greekLit:tlg0010.tlg030
+Sophocles
+urn:cts:greekLit:tlg0011
+ 
+Trachiniae
+urn:cts:greekLit:tlg0011.tlg001
+ 
+Antigone
+urn:cts:greekLit:tlg0011.tlg002
+ 
+Ajax
+urn:cts:greekLit:tlg0011.tlg003
+ 
+Oedipus Tyrannus
+urn:cts:greekLit:tlg0011.tlg004
+ 
+Electra
+urn:cts:greekLit:tlg0011.tlg005
+ 
+Philoctetes
+urn:cts:greekLit:tlg0011.tlg006
+ 
+Oedipus at Colonus
+urn:cts:greekLit:tlg0011.tlg007
+ 
+Ichneutae
+urn:cts:greekLit:tlg0011.tlg008
+Homer
+urn:cts:greekLit:tlg0012
+ 
+Iliad
+urn:cts:greekLit:tlg0012.tlg001
+ 
+Odyssey
+urn:cts:greekLit:tlg0012.tlg002
+ 
+Epigrams
+urn:cts:greekLit:tlg0012.tlg003
+Homeric Hymns
+urn:cts:greekLit:tlg0013
+ 
+Hymn 1 to Dionysus
+urn:cts:greekLit:tlg0013.tlg001
+ 
+Hymn 2 to Demeter
+urn:cts:greekLit:tlg0013.tlg002
+ 
+Hymn 3 to Delian and Pythian Apollo
+urn:cts:greekLit:tlg0013.tlg003
+ 
+Hymn 4 to Hermes
+urn:cts:greekLit:tlg0013.tlg004
+ 
+Hymn 5 to Aphrodite
+urn:cts:greekLit:tlg0013.tlg005
+ 
+Hymn 6 to Aphrodite
+urn:cts:greekLit:tlg0013.tlg006
+ 
+Hymn 7 to Dionysus
+urn:cts:greekLit:tlg0013.tlg007
+ 
+Hymn 8 to Ares
+urn:cts:greekLit:tlg0013.tlg008
+ 
+Hymn 9 to Artemis
+urn:cts:greekLit:tlg0013.tlg009
+ 
+Hymn 10 to Aphrodite
+urn:cts:greekLit:tlg0013.tlg010
+ 
+Hymn 11 To Athena
+urn:cts:greekLit:tlg0013.tlg011
+ 
+Hymn 12 to Hera
+urn:cts:greekLit:tlg0013.tlg012
+ 
+Hymn 13 to Demeter
+urn:cts:greekLit:tlg0013.tlg013
+ 
+Hymn 14 to the Mother of the Gods
+urn:cts:greekLit:tlg0013.tlg014
+ 
+Hymn 15 To Heracles
+urn:cts:greekLit:tlg0013.tlg015
+ 
+Hymn 16 To Asclepius
+urn:cts:greekLit:tlg0013.tlg016
+ 
+Hymn 17 To the Dioscuri
+urn:cts:greekLit:tlg0013.tlg017
+ 
+Hymn 18 to Hermes
+urn:cts:greekLit:tlg0013.tlg018
+ 
+Hymn 19 to Pan
+urn:cts:greekLit:tlg0013.tlg019
+ 
+Hymn 20 To Hephaestus
+urn:cts:greekLit:tlg0013.tlg020
+ 
+Hymn 21 To Apollo
+urn:cts:greekLit:tlg0013.tlg021
+ 
+Hymn 22 To Poseidon
+urn:cts:greekLit:tlg0013.tlg022
+ 
+Hymn 23 to Zeus
+urn:cts:greekLit:tlg0013.tlg023
+ 
+Hymn 24 To Hestia
+urn:cts:greekLit:tlg0013.tlg024
+ 
+Hymn 25 To the Muses and Apollo
+urn:cts:greekLit:tlg0013.tlg025
+ 
+Hymn 26 To Dionysus
+urn:cts:greekLit:tlg0013.tlg026
+ 
+Hymn 27 to Artemis
+urn:cts:greekLit:tlg0013.tlg027
+ 
+Hymn 28 to Athena
+urn:cts:greekLit:tlg0013.tlg028
+ 
+Hymn 29 to Hestia
+urn:cts:greekLit:tlg0013.tlg029
+ 
+Hymn 30 to Earth
+urn:cts:greekLit:tlg0013.tlg030
+ 
+Hymn 31 to Helios
+urn:cts:greekLit:tlg0013.tlg031
+ 
+Hymn 32 To Selene
+urn:cts:greekLit:tlg0013.tlg032
+ 
+Hymn 33 To the Dioscuri
+urn:cts:greekLit:tlg0013.tlg033
+Demosthenes
+urn:cts:greekLit:tlg0014
+ 
+Olynthiac 1
+urn:cts:greekLit:tlg0014.tlg001
+ 
+Second Olynthiac
+urn:cts:greekLit:tlg0014.tlg002
+ 
+Olynthiac 3
+urn:cts:greekLit:tlg0014.tlg003
+ 
+Philippic 1
+urn:cts:greekLit:tlg0014.tlg004
+ 
+On the Peace
+urn:cts:greekLit:tlg0014.tlg005
+ 
+Second Philippic
+urn:cts:greekLit:tlg0014.tlg006
+ 
+On Halonnesus
+urn:cts:greekLit:tlg0014.tlg007
+ 
+On the Chersonese
+urn:cts:greekLit:tlg0014.tlg008
+ 
+Third Philippic
+urn:cts:greekLit:tlg0014.tlg009
+ 
+Philippic 4
+urn:cts:greekLit:tlg0014.tlg010
+ 
+Answer to Philip’s Letter
+urn:cts:greekLit:tlg0014.tlg011
+ 
+Philip’s Letter
+urn:cts:greekLit:tlg0014.tlg012
+ 
+On Organization
+urn:cts:greekLit:tlg0014.tlg013
+ 
+On the Navy-Boards
+urn:cts:greekLit:tlg0014.tlg014
+ 
+For the Liberty of the Rhodians
+urn:cts:greekLit:tlg0014.tlg015
+ 
+For the People of Megalopolis
+urn:cts:greekLit:tlg0014.tlg016
+ 
+On the Treaty with Alexander
+urn:cts:greekLit:tlg0014.tlg017
+ 
+On the Crown
+urn:cts:greekLit:tlg0014.tlg018
+ 
+On the False Embassy
+urn:cts:greekLit:tlg0014.tlg019
+ 
+Against Leptines
+urn:cts:greekLit:tlg0014.tlg020
+ 
+Against Meidias
+urn:cts:greekLit:tlg0014.tlg021
+ 
+Against Androtion
+urn:cts:greekLit:tlg0014.tlg022
+ 
+Against Aristocrates
+urn:cts:greekLit:tlg0014.tlg023
+ 
+Against Timocrates
+urn:cts:greekLit:tlg0014.tlg024
+ 
+Against Aristogeiton I
+urn:cts:greekLit:tlg0014.tlg025
+ 
+Against Aristogeiton II
+urn:cts:greekLit:tlg0014.tlg026
+ 
+Against Aphobus I
+urn:cts:greekLit:tlg0014.tlg027
+ 
+Against Aphobus II
+urn:cts:greekLit:tlg0014.tlg028
+ 
+Against Aphobus III
+urn:cts:greekLit:tlg0014.tlg029
+ 
+Against Onetor I
+urn:cts:greekLit:tlg0014.tlg030
+ 
+Against Onetor II
+urn:cts:greekLit:tlg0014.tlg031
+ 
+Against Zenothemis
+urn:cts:greekLit:tlg0014.tlg032
+ 
+Against Apaturius
+urn:cts:greekLit:tlg0014.tlg033
+ 
+Against Phormio
+urn:cts:greekLit:tlg0014.tlg034
+ 
+Against Lacritus
+urn:cts:greekLit:tlg0014.tlg035
+ 
+For Phormio
+urn:cts:greekLit:tlg0014.tlg036
+ 
+Against Pantaenetus
+urn:cts:greekLit:tlg0014.tlg037
+ 
+Against Nausimachus and Xenopeithes
+urn:cts:greekLit:tlg0014.tlg038
+ 
+Against Boeotus I
+urn:cts:greekLit:tlg0014.tlg039
+ 
+Against Boeotus II
+urn:cts:greekLit:tlg0014.tlg040
+ 
+Against Spudias
+urn:cts:greekLit:tlg0014.tlg041
+ 
+Against Phaenippus
+urn:cts:greekLit:tlg0014.tlg042
+ 
+Against Macartatus
+urn:cts:greekLit:tlg0014.tlg043
+ 
+Against Leochares
+urn:cts:greekLit:tlg0014.tlg044
+ 
+Against Stephanus I
+urn:cts:greekLit:tlg0014.tlg045
+ 
+Against Stephanus II
+urn:cts:greekLit:tlg0014.tlg046
+ 
+Against Evergus and Mnesibulus
+urn:cts:greekLit:tlg0014.tlg047
+ 
+Against Olympiodorus
+urn:cts:greekLit:tlg0014.tlg048
+ 
+Apollodorus Against Timotheus
+urn:cts:greekLit:tlg0014.tlg049
+ 
+Apollodorus Against Polycles
+urn:cts:greekLit:tlg0014.tlg050
+ 
+On the Trierarchic Crown
+urn:cts:greekLit:tlg0014.tlg051
+ 
+Apollodorus Against Callippus
+urn:cts:greekLit:tlg0014.tlg052
+ 
+Apollodorus Against Nicostratus
+urn:cts:greekLit:tlg0014.tlg053
+ 
+Against Conon
+urn:cts:greekLit:tlg0014.tlg054
+ 
+Against Callicles
+urn:cts:greekLit:tlg0014.tlg055
+ 
+Against Dionysodorus
+urn:cts:greekLit:tlg0014.tlg056
+ 
+Against Eubulides
+urn:cts:greekLit:tlg0014.tlg057
+ 
+Against Theocrines
+urn:cts:greekLit:tlg0014.tlg058
+ 
+Theomnestus and Apollodorus Against Neaera
+urn:cts:greekLit:tlg0014.tlg059
+ 
+The Funeral Speech
+urn:cts:greekLit:tlg0014.tlg060
+ 
+The Erotic Essay
+urn:cts:greekLit:tlg0014.tlg061
+ 
+Exordia
+urn:cts:greekLit:tlg0014.tlg062
+ 
+Letters
+urn:cts:greekLit:tlg0014.tlg063
+Herodian
+urn:cts:greekLit:tlg0015
+ 
+Ab excessu divi Marci
+urn:cts:greekLit:tlg0015.tlg001
+Herodotus
+urn:cts:greekLit:tlg0016
+ 
+Histories
+urn:cts:greekLit:tlg0016.tlg001
+Isaeus
+urn:cts:greekLit:tlg0017
+ 
+On The Estate of Cleonymus
+urn:cts:greekLit:tlg0017.tlg001
+ 
+On the Estate of Menecles
+urn:cts:greekLit:tlg0017.tlg002
+ 
+On The Estate Of Pyrrhus
+urn:cts:greekLit:tlg0017.tlg003
+ 
+On the Estate of Nicostratus
+urn:cts:greekLit:tlg0017.tlg004
+ 
+On the Estate of Dicaeogenes
+urn:cts:greekLit:tlg0017.tlg005
+ 
+On the Estate of Philoctemon
+urn:cts:greekLit:tlg0017.tlg006
+ 
+On The Estate of Apollodorus
+urn:cts:greekLit:tlg0017.tlg007
+ 
+On The Estate of Ciron
+urn:cts:greekLit:tlg0017.tlg008
+ 
+On the Estate of Astyphilus
+urn:cts:greekLit:tlg0017.tlg009
+ 
+On The Estate of Aristarchus
+urn:cts:greekLit:tlg0017.tlg010
+ 
+On the Estate of Hagnias
+urn:cts:greekLit:tlg0017.tlg011
+ 
+On Behalf of Euphiletus
+urn:cts:greekLit:tlg0017.tlg012
+Philo Judaeus
+urn:cts:greekLit:tlg0018
+ 
+De Opificio Mundi
+urn:cts:greekLit:tlg0018.tlg001
+ 
+Legum Allegoriarum Libri I-III
+urn:cts:greekLit:tlg0018.tlg002
+ 
+De Cherubim
+urn:cts:greekLit:tlg0018.tlg003
+ 
+De Sacrificiis Abelis Et Caini
+urn:cts:greekLit:tlg0018.tlg004
+ 
+Quod Deterius Potiori Insidiari Soleat
+urn:cts:greekLit:tlg0018.tlg005
+ 
+De Posteritate Caini
+urn:cts:greekLit:tlg0018.tlg006
+ 
+De Gigantibus
+urn:cts:greekLit:tlg0018.tlg007
+ 
+Quod Deus Sit Immutabilis
+urn:cts:greekLit:tlg0018.tlg008
+ 
+De Agricultura
+urn:cts:greekLit:tlg0018.tlg009
+ 
+De Plantatione
+urn:cts:greekLit:tlg0018.tlg010
+ 
+De Ebrietate
+urn:cts:greekLit:tlg0018.tlg011
+ 
+De Sobrietate
+urn:cts:greekLit:tlg0018.tlg012
+ 
+De Confusione Linguarum
+urn:cts:greekLit:tlg0018.tlg013
+ 
+De Migratione Abrahami
+urn:cts:greekLit:tlg0018.tlg014
+ 
+Quis Rerum Divinarum Heres Sit
+urn:cts:greekLit:tlg0018.tlg015
+ 
+De Congressu Eruditionis Gratia
+urn:cts:greekLit:tlg0018.tlg016
+ 
+De Fuga Et Inventione
+urn:cts:greekLit:tlg0018.tlg017
+ 
+De Mutatione Nominum
+urn:cts:greekLit:tlg0018.tlg018
+ 
+De Somniis (lib. i-ii)
+urn:cts:greekLit:tlg0018.tlg019
+ 
+De Abrahamo
+urn:cts:greekLit:tlg0018.tlg020
+ 
+De Josepho
+urn:cts:greekLit:tlg0018.tlg021
+ 
+De Vita Mosis (Lib. I-II)
+urn:cts:greekLit:tlg0018.tlg022
+ 
+De Decalogo
+urn:cts:greekLit:tlg0018.tlg023
+ 
+De Specialibus Legibus (lib. i‑iv)
+urn:cts:greekLit:tlg0018.tlg024
+ 
+De Virtutibus
+urn:cts:greekLit:tlg0018.tlg025
+ 
+De Praemiis Et Poenis Et De Exsecrationibus
+urn:cts:greekLit:tlg0018.tlg026
+ 
+Quod Omnis Probus Liber Sit
+urn:cts:greekLit:tlg0018.tlg027
+ 
+De Vita Contemplativa
+urn:cts:greekLit:tlg0018.tlg028
+ 
+De Aeternitate Mundi
+urn:cts:greekLit:tlg0018.tlg029
+ 
+In Flaccum
+urn:cts:greekLit:tlg0018.tlg030
+ 
+Legatio Ad Gaium
+urn:cts:greekLit:tlg0018.tlg031
+Aristophanes
+urn:cts:greekLit:tlg0019
+ 
+Acharnians
+urn:cts:greekLit:tlg0019.tlg001
+ 
+Knights
+urn:cts:greekLit:tlg0019.tlg002
+ 
+Clouds
+urn:cts:greekLit:tlg0019.tlg003
+ 
+Wasps
+urn:cts:greekLit:tlg0019.tlg004
+ 
+Peace
+urn:cts:greekLit:tlg0019.tlg005
+ 
+Birds
+urn:cts:greekLit:tlg0019.tlg006
+ 
+Lysistrata
+urn:cts:greekLit:tlg0019.tlg007
+ 
+Thesmophoriazusae
+urn:cts:greekLit:tlg0019.tlg008
+ 
+Frogs
+urn:cts:greekLit:tlg0019.tlg009
+ 
+Ecclesiazusae
+urn:cts:greekLit:tlg0019.tlg010
+ 
+Wealth
+urn:cts:greekLit:tlg0019.tlg011
+Hesiod
+urn:cts:greekLit:tlg0020
+ 
+Theogony
+urn:cts:greekLit:tlg0020.tlg001
+ 
+Works and Days
+urn:cts:greekLit:tlg0020.tlg002
+ 
+Shield of Heracles
+urn:cts:greekLit:tlg0020.tlg003
+Nicander of Colophon
+urn:cts:greekLit:tlg0022
+ 
+Theriaca
+urn:cts:greekLit:tlg0022.tlg001
+ 
+Alexipharmaca
+urn:cts:greekLit:tlg0022.tlg002
+Oppian
+urn:cts:greekLit:tlg0023
+ 
+Halieutica
+urn:cts:greekLit:tlg0023.tlg001
+Oppian of Apamea
+urn:cts:greekLit:tlg0024
+ 
+Cynegetica
+urn:cts:greekLit:tlg0024.tlg001
+Aeschines
+urn:cts:greekLit:tlg0026
+ 
+Against Timarchus
+urn:cts:greekLit:tlg0026.tlg001
+ 
+On the Embassy
+urn:cts:greekLit:tlg0026.tlg002
+ 
+Against Ctesiphon
+urn:cts:greekLit:tlg0026.tlg003
+ 
+Epistolae
+urn:cts:greekLit:tlg0026.tlg004
+Andocides
+urn:cts:greekLit:tlg0027
+ 
+On the Mysteries
+urn:cts:greekLit:tlg0027.tlg001
+ 
+On His Return
+urn:cts:greekLit:tlg0027.tlg002
+ 
+On the Peace with Sparta
+urn:cts:greekLit:tlg0027.tlg003
+ 
+Against Alcibiades
+urn:cts:greekLit:tlg0027.tlg004
+Antiphon
+urn:cts:greekLit:tlg0028
+ 
+Against the Stepmother for Poisoning
+urn:cts:greekLit:tlg0028.tlg001
+ 
+The First Tetralogy
+urn:cts:greekLit:tlg0028.tlg002
+ 
+The Second Tetralogy
+urn:cts:greekLit:tlg0028.tlg003
+ 
+The Third Tetralogy
+urn:cts:greekLit:tlg0028.tlg004
+ 
+On the murder of Herodes
+urn:cts:greekLit:tlg0028.tlg005
+ 
+On the Choreutes
+urn:cts:greekLit:tlg0028.tlg006
+Dinarchus
+urn:cts:greekLit:tlg0029
+ 
+Against Demosthenes
+urn:cts:greekLit:tlg0029.tlg004
+ 
+Against Aristogiton
+urn:cts:greekLit:tlg0029.tlg005
+ 
+Against Philocles
+urn:cts:greekLit:tlg0029.tlg006
+Hyperides
+urn:cts:greekLit:tlg0030
+ 
+In Defence of Lycophron
+urn:cts:greekLit:tlg0030.tlg001
+ 
+Against Philippides
+urn:cts:greekLit:tlg0030.tlg002
+ 
+Against Athenogenes
+urn:cts:greekLit:tlg0030.tlg003
+ 
+In Defence of Euxenippus
+urn:cts:greekLit:tlg0030.tlg004
+ 
+Against Demosthenes
+urn:cts:greekLit:tlg0030.tlg005
+ 
+Funeral Oration
+urn:cts:greekLit:tlg0030.tlg006
+New Testament
+urn:cts:greekLit:tlg0031
+ 
+Gospel of Matthew
+urn:cts:greekLit:tlg0031.tlg001
+ 
+Gospel of Mark
+urn:cts:greekLit:tlg0031.tlg002
+ 
+Gospel of Luke
+urn:cts:greekLit:tlg0031.tlg003
+ 
+John
+urn:cts:greekLit:tlg0031.tlg004
+ 
+Acts
+urn:cts:greekLit:tlg0031.tlg005
+ 
+Letter to the Romans
+urn:cts:greekLit:tlg0031.tlg006
+ 
+First Corinthians
+urn:cts:greekLit:tlg0031.tlg007
+ 
+2 Corinthians
+urn:cts:greekLit:tlg0031.tlg008
+ 
+Epistle to the Galatians
+urn:cts:greekLit:tlg0031.tlg009
+ 
+Epistle to the Ephesians
+urn:cts:greekLit:tlg0031.tlg010
+ 
+Letter to the Philippians
+urn:cts:greekLit:tlg0031.tlg011
+ 
+Letter to the Colossians
+urn:cts:greekLit:tlg0031.tlg012
+ 
+First Letter to the Thessalonians
+urn:cts:greekLit:tlg0031.tlg013
+ 
+Second Epistle to the Thessalonians
+urn:cts:greekLit:tlg0031.tlg014
+ 
+First Timothy
+urn:cts:greekLit:tlg0031.tlg015
+ 
+2 Timothy
+urn:cts:greekLit:tlg0031.tlg016
+ 
+Letter to Titus
+urn:cts:greekLit:tlg0031.tlg017
+ 
+Epistle to Philemon
+urn:cts:greekLit:tlg0031.tlg018
+ 
+Letter to the Hebrews
+urn:cts:greekLit:tlg0031.tlg019
+ 
+Book of James
+urn:cts:greekLit:tlg0031.tlg020
+ 
+First Peter
+urn:cts:greekLit:tlg0031.tlg021
+ 
+Second Epistle of Peter
+urn:cts:greekLit:tlg0031.tlg022
+ 
+First Letter of John
+urn:cts:greekLit:tlg0031.tlg023
+ 
+Second Epistle of John
+urn:cts:greekLit:tlg0031.tlg024
+ 
+Third Epistle of John
+urn:cts:greekLit:tlg0031.tlg025
+ 
+Epistle of Jude
+urn:cts:greekLit:tlg0031.tlg026
+ 
+Book of Revelation
+urn:cts:greekLit:tlg0031.tlg027
+Xenophon
+urn:cts:greekLit:tlg0032
+ 
+Hellenica
+urn:cts:greekLit:tlg0032.tlg001
+ 
+Memorabilia
+urn:cts:greekLit:tlg0032.tlg002
+ 
+Economics
+urn:cts:greekLit:tlg0032.tlg003
+ 
+Symposium
+urn:cts:greekLit:tlg0032.tlg004
+ 
+Apology
+urn:cts:greekLit:tlg0032.tlg005
+ 
+Anabasis
+urn:cts:greekLit:tlg0032.tlg006
+ 
+Cyropaedia
+urn:cts:greekLit:tlg0032.tlg007
+ 
+Hiero
+urn:cts:greekLit:tlg0032.tlg008
+ 
+Agesilaus
+urn:cts:greekLit:tlg0032.tlg009
+ 
+Constitution of the Lacedaimonians
+urn:cts:greekLit:tlg0032.tlg010
+ 
+Ways and Means
+urn:cts:greekLit:tlg0032.tlg011
+ 
+On the Cavalry Commander
+urn:cts:greekLit:tlg0032.tlg012
+ 
+On the Art of Horsemanship
+urn:cts:greekLit:tlg0032.tlg013
+ 
+On Hunting
+urn:cts:greekLit:tlg0032.tlg014
+Pindar
+urn:cts:greekLit:tlg0033
+ 
+Olympian
+urn:cts:greekLit:tlg0033.tlg001
+ 
+Pythian
+urn:cts:greekLit:tlg0033.tlg002
+ 
+Nemean
+urn:cts:greekLit:tlg0033.tlg003
+ 
+Isthmean
+urn:cts:greekLit:tlg0033.tlg004
+Lycurgus
+urn:cts:greekLit:tlg0034
+ 
+Against Leocrates
+urn:cts:greekLit:tlg0034.tlg001
+Moschus
+urn:cts:greekLit:tlg0035
+ 
+Eros Drapeta
+urn:cts:greekLit:tlg0035.tlg001
+ 
+Europa
+urn:cts:greekLit:tlg0035.tlg002
+ 
+Epitaphius Bios
+urn:cts:greekLit:tlg0035.tlg003
+ 
+Megara
+urn:cts:greekLit:tlg0035.tlg004
+ 
+Fragmenta
+urn:cts:greekLit:tlg0035.tlg005
+Bion of Phlossa
+urn:cts:greekLit:tlg0036
+ 
+Epitaphius Adonis
+urn:cts:greekLit:tlg0036.tlg001
+ 
+Epithalamium Achillis et Deidameiae
+urn:cts:greekLit:tlg0036.tlg002
+ 
+Fragmenta
+urn:cts:greekLit:tlg0036.tlg003
+Anacharsis
+urn:cts:greekLit:tlg0037
+ 
+Epistulae
+urn:cts:greekLit:tlg0037.tlg001
+Mithridatis Epistula
+urn:cts:greekLit:tlg0039
+ 
+Epistula
+urn:cts:greekLit:tlg0039.tlg001
+Chionis Epistulae
+urn:cts:greekLit:tlg0041
+ 
+Epistulae
+urn:cts:greekLit:tlg0041.tlg001
+Antiochus Epistolographus
+urn:cts:greekLit:tlg0044
+ 
+Epistulae
+urn:cts:greekLit:tlg0044.tlg001
+Artaxerxis Epistulae
+urn:cts:greekLit:tlg0045
+ 
+Epistulae
+urn:cts:greekLit:tlg0045.tlg001
+Niciae Epistula
+urn:cts:greekLit:tlg0046
+ 
+Epistula
+urn:cts:greekLit:tlg0046.tlg001
+Philip II, King of Macedonia
+urn:cts:greekLit:tlg0048
+ 
+Epistulae
+urn:cts:greekLit:tlg0048.tlg001
+Phalaridis Epistulae
+urn:cts:greekLit:tlg0053
+ 
+Epistulae
+urn:cts:greekLit:tlg0053.tlg001
+Themistocles
+urn:cts:greekLit:tlg0055
+ 
+Epistulae
+urn:cts:greekLit:tlg0055.tlg001
+Galen
+urn:cts:greekLit:tlg0057
+ 
+Adhortatio ad artes addiscendas
+urn:cts:greekLit:tlg0057.tlg001
+ 
+De optima doctrina
+urn:cts:greekLit:tlg0057.tlg002
+ 
+Quod optimus medicus sit quoque philosophus
+urn:cts:greekLit:tlg0057.tlg003
+ 
+De sectis ad eos qui introducuntur
+urn:cts:greekLit:tlg0057.tlg004
+ 
+De constitutione artis medicae ad Patrophilum
+urn:cts:greekLit:tlg0057.tlg006
+ 
+Ars Medica
+urn:cts:greekLit:tlg0057.tlg007
+ 
+De elementis ex Hippocrate
+urn:cts:greekLit:tlg0057.tlg008
+ 
+De temperamentis
+urn:cts:greekLit:tlg0057.tlg009
+ 
+De naturalibus facultatibus
+urn:cts:greekLit:tlg0057.tlg010
+ 
+De anatomicis administrationibus
+urn:cts:greekLit:tlg0057.tlg011
+ 
+De ossibus ad tirones
+urn:cts:greekLit:tlg0057.tlg012
+ 
+De venarum arteriarumque dissectione
+urn:cts:greekLit:tlg0057.tlg013
+ 
+De nervorum dissectione
+urn:cts:greekLit:tlg0057.tlg014
+ 
+De instrumento odoratus
+urn:cts:greekLit:tlg0057.tlg015
+ 
+De uteri dissectione
+urn:cts:greekLit:tlg0057.tlg016
+ 
+De usu partium corporis humani I-XI
+urn:cts:greekLit:tlg0057.tlg017
+ 
+De motu musculorum
+urn:cts:greekLit:tlg0057.tlg018
+ 
+De Victu Attenuante
+urn:cts:greekLit:tlg0057.tlg019
+ 
+De utilitate respirationis
+urn:cts:greekLit:tlg0057.tlg020
+ 
+De semine
+urn:cts:greekLit:tlg0057.tlg021
+ 
+De foetuum formatione
+urn:cts:greekLit:tlg0057.tlg022
+ 
+An in arteriis sanguis contineatur
+urn:cts:greekLit:tlg0057.tlg023
+ 
+De optima corporis nostri constitutione
+urn:cts:greekLit:tlg0057.tlg024
+ 
+De bono habitu
+urn:cts:greekLit:tlg0057.tlg025
+ 
+Quod animi mores corporis temperamenta sequantur
+urn:cts:greekLit:tlg0057.tlg027
+ 
+De propriorum animi cuiuslibet affectuum dignotione et curatione
+urn:cts:greekLit:tlg0057.tlg028
+ 
+De animi cuiuslibet peccatorum dignotione et curatione
+urn:cts:greekLit:tlg0057.tlg029
+ 
+De atra bile
+urn:cts:greekLit:tlg0057.tlg030
+ 
+De usu pulsuum
+urn:cts:greekLit:tlg0057.tlg031
+ 
+De placitis Hippocratis et Platonis
+urn:cts:greekLit:tlg0057.tlg032
+ 
+Thrasybulus sive utrum medicinae sit an gymnasticae hygieine
+urn:cts:greekLit:tlg0057.tlg033
+ 
+De parvae pilae exercitio
+urn:cts:greekLit:tlg0057.tlg034
+ 
+De venereis
+urn:cts:greekLit:tlg0057.tlg035
+ 
+De sanitate tuenda
+urn:cts:greekLit:tlg0057.tlg036
+ 
+De alimentorum facultatibus
+urn:cts:greekLit:tlg0057.tlg037
+ 
+De rebus boni malique suci
+urn:cts:greekLit:tlg0057.tlg038
+ 
+De ptisana
+urn:cts:greekLit:tlg0057.tlg039
+ 
+De dignotione ex insomniis
+urn:cts:greekLit:tlg0057.tlg040
+ 
+De morborum differentiis
+urn:cts:greekLit:tlg0057.tlg041
+ 
+De causis morborum
+urn:cts:greekLit:tlg0057.tlg042
+ 
+De symptomatum differentiis
+urn:cts:greekLit:tlg0057.tlg043
+ 
+De symptomatum causis
+urn:cts:greekLit:tlg0057.tlg044
+ 
+De differentiis febrium
+urn:cts:greekLit:tlg0057.tlg045
+ 
+De morborum temporibus
+urn:cts:greekLit:tlg0057.tlg046
+ 
+De totius morbi temporibus
+urn:cts:greekLit:tlg0057.tlg047
+ 
+De typis
+urn:cts:greekLit:tlg0057.tlg048
+ 
+Adversus eos qui de typis scripserunt vel de circuitibus
+urn:cts:greekLit:tlg0057.tlg049
+ 
+De plenitudine
+urn:cts:greekLit:tlg0057.tlg050
+ 
+De tremore, palpitatione, convulsione et rigore
+urn:cts:greekLit:tlg0057.tlg051
+ 
+De comate secundum Hippocratem
+urn:cts:greekLit:tlg0057.tlg052
+ 
+De marcore
+urn:cts:greekLit:tlg0057.tlg053
+ 
+De tumoribus praeter naturam
+urn:cts:greekLit:tlg0057.tlg054
+ 
+De inaequali intemperie
+urn:cts:greekLit:tlg0057.tlg055
+ 
+De difficultate respirationis
+urn:cts:greekLit:tlg0057.tlg056
+ 
+De locis affectis
+urn:cts:greekLit:tlg0057.tlg057
+ 
+De pulsibus ad tirones
+urn:cts:greekLit:tlg0057.tlg058
+ 
+De differentiis pulsuum
+urn:cts:greekLit:tlg0057.tlg059
+ 
+De dignoscendis pulsibus
+urn:cts:greekLit:tlg0057.tlg060
+ 
+De causis pulsuum
+urn:cts:greekLit:tlg0057.tlg061
+ 
+De praesagitione ex pulsibus
+urn:cts:greekLit:tlg0057.tlg062
+ 
+Synopsis librorum suorum de pulsibus
+urn:cts:greekLit:tlg0057.tlg063
+ 
+De crisibus
+urn:cts:greekLit:tlg0057.tlg064
+ 
+De diebus decretoriis
+urn:cts:greekLit:tlg0057.tlg065
+ 
+De methodo medendi
+urn:cts:greekLit:tlg0057.tlg066
+ 
+Ad Glauconem de methodo medendi
+urn:cts:greekLit:tlg0057.tlg067
+ 
+De venae sectione adversus Erasistratum
+urn:cts:greekLit:tlg0057.tlg068
+ 
+De venae sectione adversus Erasistrateos Romae degentes
+urn:cts:greekLit:tlg0057.tlg069
+ 
+De curandi ratione per venae sectionem
+urn:cts:greekLit:tlg0057.tlg070
+ 
+De hirudinibus, revulsione, cucurbitula, incisione et scarificatione
+urn:cts:greekLit:tlg0057.tlg071
+ 
+De purgantium medicamentorum facultate
+urn:cts:greekLit:tlg0057.tlg072
+ 
+Quos quibus catharticis medicamentis et quando purgare oporteat
+urn:cts:greekLit:tlg0057.tlg073
+ 
+Pro puero epileptico consilium
+urn:cts:greekLit:tlg0057.tlg074
+ 
+De simplicium medicamentorum temperamentis ac facultatibus I-VI
+urn:cts:greekLit:tlg0057.tlg075
+ 
+De compositione medicamentorum secundum locos libri X
+urn:cts:greekLit:tlg0057.tlg076
+ 
+De compositione medicamentorum per genera
+urn:cts:greekLit:tlg0057.tlg077
+ 
+De antidotis
+urn:cts:greekLit:tlg0057.tlg078
+ 
+De theriaca ad Pisonem
+urn:cts:greekLit:tlg0057.tlg079
+ 
+Institutio logica
+urn:cts:greekLit:tlg0057.tlg081
+ 
+De sophismatis seu captionibus penes dictionem
+urn:cts:greekLit:tlg0057.tlg082
+ 
+De praenotione ad Epigenem
+urn:cts:greekLit:tlg0057.tlg083
+ 
+De substantia facultatum naturalium fragmentum
+urn:cts:greekLit:tlg0057.tlg084
+ 
+In Hippocratis De natura hominis
+urn:cts:greekLit:tlg0057.tlg085
+ 
+In Hippocratis vel Polybi Opus de Salubri Victus Ratione Privatorum Commentarius
+urn:cts:greekLit:tlg0057.tlg086
+ 
+In Hippocratis De victu acutorum
+urn:cts:greekLit:tlg0057.tlg087
+ 
+In Hippocratis Epidemiarum I
+urn:cts:greekLit:tlg0057.tlg089
+ 
+In Hippocratis Aphorismos Commentarii VII
+urn:cts:greekLit:tlg0057.tlg092
+ 
+Adversus Lycum
+urn:cts:greekLit:tlg0057.tlg093
+ 
+Adversus ea quae Juliano in Hippocratis Aphorismos enuntiata sunt
+urn:cts:greekLit:tlg0057.tlg094
+ 
+In Hippocratis De articulis
+urn:cts:greekLit:tlg0057.tlg095
+ 
+De Humero iis Modis Prolapso quos Hippocrates non Vidit
+urn:cts:greekLit:tlg0057.tlg096
+ 
+In Hippocratis Prognosticum
+urn:cts:greekLit:tlg0057.tlg099
+ 
+In Hippocratis De fracturis
+urn:cts:greekLit:tlg0057.tlg100
+ 
+In Hippocratis De officina medici
+urn:cts:greekLit:tlg0057.tlg101
+ 
+De musculorum dissectione ad tirones
+urn:cts:greekLit:tlg0057.tlg102
+ 
+De consuetudinibus
+urn:cts:greekLit:tlg0057.tlg103
+ 
+De experientia medica
+urn:cts:greekLit:tlg0057.tlg107
+ 
+De causis respirationis
+urn:cts:greekLit:tlg0057.tlg114
+Aeneas Tacticus
+urn:cts:greekLit:tlg0058
+ 
+Poliorcetica
+urn:cts:greekLit:tlg0058.tlg001
+Plato
+urn:cts:greekLit:tlg0059
+ 
+Euthyphro
+urn:cts:greekLit:tlg0059.tlg001
+ 
+Apology
+urn:cts:greekLit:tlg0059.tlg002
+ 
+Crito
+urn:cts:greekLit:tlg0059.tlg003
+ 
+Phaedo
+urn:cts:greekLit:tlg0059.tlg004
+ 
+Cratylus
+urn:cts:greekLit:tlg0059.tlg005
+ 
+Theaetetus
+urn:cts:greekLit:tlg0059.tlg006
+ 
+Sophist
+urn:cts:greekLit:tlg0059.tlg007
+ 
+Statesman
+urn:cts:greekLit:tlg0059.tlg008
+ 
+Parmenides
+urn:cts:greekLit:tlg0059.tlg009
+ 
+Philebus
+urn:cts:greekLit:tlg0059.tlg010
+ 
+Symposium
+urn:cts:greekLit:tlg0059.tlg011
+ 
+Phaedrus
+urn:cts:greekLit:tlg0059.tlg012
+ 
+Alcibiades 1
+urn:cts:greekLit:tlg0059.tlg013
+ 
+Alcibiades 2
+urn:cts:greekLit:tlg0059.tlg014
+ 
+Hipparchus
+urn:cts:greekLit:tlg0059.tlg015
+ 
+Lovers
+urn:cts:greekLit:tlg0059.tlg016
+ 
+Theages
+urn:cts:greekLit:tlg0059.tlg017
+ 
+Charmides
+urn:cts:greekLit:tlg0059.tlg018
+ 
+Laches
+urn:cts:greekLit:tlg0059.tlg019
+ 
+Lysis
+urn:cts:greekLit:tlg0059.tlg020
+ 
+Euthydemus
+urn:cts:greekLit:tlg0059.tlg021
+ 
+Protagoras
+urn:cts:greekLit:tlg0059.tlg022
+ 
+Gorgias
+urn:cts:greekLit:tlg0059.tlg023
+ 
+Meno
+urn:cts:greekLit:tlg0059.tlg024
+ 
+Greater Hippias
+urn:cts:greekLit:tlg0059.tlg025
+ 
+Hippias Minor
+urn:cts:greekLit:tlg0059.tlg026
+ 
+Ion
+urn:cts:greekLit:tlg0059.tlg027
+ 
+Menexenus
+urn:cts:greekLit:tlg0059.tlg028
+ 
+Cleitophon
+urn:cts:greekLit:tlg0059.tlg029
+ 
+Republic
+urn:cts:greekLit:tlg0059.tlg030
+ 
+Timaeus
+urn:cts:greekLit:tlg0059.tlg031
+ 
+Critias
+urn:cts:greekLit:tlg0059.tlg032
+ 
+Minos
+urn:cts:greekLit:tlg0059.tlg033
+ 
+Laws
+urn:cts:greekLit:tlg0059.tlg034
+ 
+Epinomis
+urn:cts:greekLit:tlg0059.tlg035
+ 
+Letters
+urn:cts:greekLit:tlg0059.tlg036
+ 
+Definitiones
+urn:cts:greekLit:tlg0059.tlg037
+Diodorus Siculus
+urn:cts:greekLit:tlg0060
+ 
+Historical Library
+urn:cts:greekLit:tlg0060.tlg001
+Pseudo-Lucian
+urn:cts:greekLit:tlg0061
+ 
+Asinus
+urn:cts:greekLit:tlg0061.tlg001
+ 
+Amores
+urn:cts:greekLit:tlg0061.tlg002
+ 
+Demosthenis encomium
+urn:cts:greekLit:tlg0061.tlg003
+ 
+Halcyon
+urn:cts:greekLit:tlg0061.tlg004
+ 
+Ocypus
+urn:cts:greekLit:tlg0061.tlg005
+ 
+Cynicus
+urn:cts:greekLit:tlg0061.tlg006
+ 
+Philopatris
+urn:cts:greekLit:tlg0061.tlg007
+ 
+Charidemus
+urn:cts:greekLit:tlg0061.tlg008
+Lucian of Samosata
+urn:cts:greekLit:tlg0062
+ 
+Phalaris
+urn:cts:greekLit:tlg0062.tlg001
+ 
+Hippias
+urn:cts:greekLit:tlg0062.tlg002
+ 
+Bacchus
+urn:cts:greekLit:tlg0062.tlg003
+ 
+Hercules
+urn:cts:greekLit:tlg0062.tlg004
+ 
+Electrum
+urn:cts:greekLit:tlg0062.tlg005
+ 
+Muscae Encomium
+urn:cts:greekLit:tlg0062.tlg006
+ 
+Nigrinus
+urn:cts:greekLit:tlg0062.tlg007
+ 
+Demonax
+urn:cts:greekLit:tlg0062.tlg008
+ 
+De Domo
+urn:cts:greekLit:tlg0062.tlg009
+ 
+Patriae encomium
+urn:cts:greekLit:tlg0062.tlg010
+ 
+Macrobii
+urn:cts:greekLit:tlg0062.tlg011
+ 
+Verae historiae
+urn:cts:greekLit:tlg0062.tlg012
+ 
+Calumniae non temere credundum
+urn:cts:greekLit:tlg0062.tlg013
+ 
+Judicium vocalium
+urn:cts:greekLit:tlg0062.tlg014
+ 
+Symposium
+urn:cts:greekLit:tlg0062.tlg015
+ 
+Cataplus
+urn:cts:greekLit:tlg0062.tlg016
+ 
+Juppiter Confutatus
+urn:cts:greekLit:tlg0062.tlg017
+ 
+Juppiter Tragoedus
+urn:cts:greekLit:tlg0062.tlg018
+ 
+Gallus
+urn:cts:greekLit:tlg0062.tlg019
+ 
+Prometheus
+urn:cts:greekLit:tlg0062.tlg020
+ 
+Icaromenippus
+urn:cts:greekLit:tlg0062.tlg021
+ 
+Timon
+urn:cts:greekLit:tlg0062.tlg022
+ 
+Contemplantes
+urn:cts:greekLit:tlg0062.tlg023
+ 
+Vitarum auctio
+urn:cts:greekLit:tlg0062.tlg024
+ 
+Piscator
+urn:cts:greekLit:tlg0062.tlg025
+ 
+Bis accusatus sive tribunalia
+urn:cts:greekLit:tlg0062.tlg026
+ 
+De Sacrificiis
+urn:cts:greekLit:tlg0062.tlg027
+ 
+Adversus indoctum et libros multos ementem
+urn:cts:greekLit:tlg0062.tlg028
+ 
+Somnium sive vita Luciani
+urn:cts:greekLit:tlg0062.tlg029
+ 
+De parasito sive artem esse parasiticam
+urn:cts:greekLit:tlg0062.tlg030
+ 
+Philopseudes sive incredulus
+urn:cts:greekLit:tlg0062.tlg031
+ 
+Dearum judicium
+urn:cts:greekLit:tlg0062.tlg032
+ 
+De mercede
+urn:cts:greekLit:tlg0062.tlg033
+ 
+Anacharsis
+urn:cts:greekLit:tlg0062.tlg034
+ 
+Necyomantia
+urn:cts:greekLit:tlg0062.tlg035
+ 
+De luctu
+urn:cts:greekLit:tlg0062.tlg036
+ 
+Rhetorum praeceptor
+urn:cts:greekLit:tlg0062.tlg037
+ 
+Alexander
+urn:cts:greekLit:tlg0062.tlg038
+ 
+Imagines
+urn:cts:greekLit:tlg0062.tlg039
+ 
+Pro imaginibus
+urn:cts:greekLit:tlg0062.tlg040
+ 
+De Syria dea
+urn:cts:greekLit:tlg0062.tlg041
+ 
+De Morte Peregrini
+urn:cts:greekLit:tlg0062.tlg042
+ 
+Fugitivi
+urn:cts:greekLit:tlg0062.tlg043
+ 
+Toxaris vel amicitia
+urn:cts:greekLit:tlg0062.tlg044
+ 
+De saltatione
+urn:cts:greekLit:tlg0062.tlg045
+ 
+Lexiphanes
+urn:cts:greekLit:tlg0062.tlg046
+ 
+Eunuchus
+urn:cts:greekLit:tlg0062.tlg047
+ 
+De astrologia
+urn:cts:greekLit:tlg0062.tlg048
+ 
+Pseudologista
+urn:cts:greekLit:tlg0062.tlg049
+ 
+Deorum concilium
+urn:cts:greekLit:tlg0062.tlg050
+ 
+Tyrannicida
+urn:cts:greekLit:tlg0062.tlg051
+ 
+Abdicatus
+urn:cts:greekLit:tlg0062.tlg052
+ 
+Quomodo historia conscribenda sit
+urn:cts:greekLit:tlg0062.tlg053
+ 
+Dipsades
+urn:cts:greekLit:tlg0062.tlg054
+ 
+Saturnalia
+urn:cts:greekLit:tlg0062.tlg055
+ 
+Herodotus
+urn:cts:greekLit:tlg0062.tlg056
+ 
+Zeuxis
+urn:cts:greekLit:tlg0062.tlg057
+ 
+Pro lapsu inter salutandum
+urn:cts:greekLit:tlg0062.tlg058
+ 
+Apologia
+urn:cts:greekLit:tlg0062.tlg059
+ 
+Harmonides
+urn:cts:greekLit:tlg0062.tlg060
+ 
+Hesiod
+urn:cts:greekLit:tlg0062.tlg061
+ 
+Scytha
+urn:cts:greekLit:tlg0062.tlg062
+ 
+Hermotimus
+urn:cts:greekLit:tlg0062.tlg063
+ 
+Prometheus es in verbis
+urn:cts:greekLit:tlg0062.tlg064
+ 
+Navigium
+urn:cts:greekLit:tlg0062.tlg065
+ 
+Dialogi mortuorum
+urn:cts:greekLit:tlg0062.tlg066
+ 
+Dialogi Marini
+urn:cts:greekLit:tlg0062.tlg067
+ 
+Dialogi deorum
+urn:cts:greekLit:tlg0062.tlg068
+ 
+Dialogi meretricii
+urn:cts:greekLit:tlg0062.tlg069
+ 
+Soleocista
+urn:cts:greekLit:tlg0062.tlg070
+ 
+Podagra
+urn:cts:greekLit:tlg0062.tlg071
+Hanno
+urn:cts:greekLit:tlg0064
+ 
+Periplus Hannonis
+urn:cts:greekLit:tlg0064.tlg001
+Scylax of Caryanda
+urn:cts:greekLit:tlg0065
+ 
+Periplus Scylacis
+urn:cts:greekLit:tlg0065.tlg001
+Heraclides, Criticus
+urn:cts:greekLit:tlg0066
+ 
+Descriptio Graeciae
+urn:cts:greekLit:tlg0066.tlg001
+Agatharchides
+urn:cts:greekLit:tlg0067
+ 
+De Rubro Mari
+urn:cts:greekLit:tlg0067.tlg001
+Pseudo-Scymnus
+urn:cts:greekLit:tlg0068
+ 
+Ad Nicomedem regem, vv. 1-980
+urn:cts:greekLit:tlg0068.tlg001
+Dionysius, Calliphontis
+urn:cts:greekLit:tlg0069
+ 
+Descriptio Graeciae
+urn:cts:greekLit:tlg0069.tlg001
+Isidore, of Charax
+urn:cts:greekLit:tlg0070
+ 
+Mansiones Parthicae
+urn:cts:greekLit:tlg0070.tlg001
+Pseudo-Arrianus
+urn:cts:greekLit:tlg0071
+ 
+Anonymi (Arriani, ut fertur) periplus maris Erythraei
+urn:cts:greekLit:tlg0071.tlg001
+Arrian
+urn:cts:greekLit:tlg0074
+ 
+Ἀλεξάνδρου Ἀνάβασις
+urn:cts:greekLit:tlg0074.tlg001
+ 
+Indica
+urn:cts:greekLit:tlg0074.tlg002
+ 
+Cynegeticus
+urn:cts:greekLit:tlg0074.tlg003
+ 
+Periplus Ponti Euxini
+urn:cts:greekLit:tlg0074.tlg004
+ 
+Tactica
+urn:cts:greekLit:tlg0074.tlg005
+ 
+Acies Contra Alanos
+urn:cts:greekLit:tlg0074.tlg006
+ 
+Epistula ad Lucium Gellium
+urn:cts:greekLit:tlg0074.tlg008
+Pseudo-Arrianus
+urn:cts:greekLit:tlg0075
+ 
+Anonymi (Arriani, ut fertur) periplus ponti Euxini
+urn:cts:greekLit:tlg0075.tlg001
+Stadiasmus Magni Maris
+urn:cts:greekLit:tlg0077
+ 
+Stadiasmus Magni Maris
+urn:cts:greekLit:tlg0077.tlg001
+Dionysius of Halicarnassus
+urn:cts:greekLit:tlg0081
+ 
+Antiquitates Romanae
+urn:cts:greekLit:tlg0081.tlg001
+ 
+De antiquis oratoribus
+urn:cts:greekLit:tlg0081.tlg002
+ 
+De Lysia
+urn:cts:greekLit:tlg0081.tlg003
+ 
+De Isocrate
+urn:cts:greekLit:tlg0081.tlg004
+ 
+De Isaeo
+urn:cts:greekLit:tlg0081.tlg005
+ 
+De Demosthene
+urn:cts:greekLit:tlg0081.tlg006
+ 
+Libri secundi de antiquis oratoribus reliquiae
+urn:cts:greekLit:tlg0081.tlg007
+ 
+Ad Ammaeum
+urn:cts:greekLit:tlg0081.tlg008
+ 
+De Dinarcho
+urn:cts:greekLit:tlg0081.tlg009
+ 
+De Thucydide
+urn:cts:greekLit:tlg0081.tlg010
+ 
+De Thucydidis idiomatibus
+urn:cts:greekLit:tlg0081.tlg011
+ 
+De Compositione Verborum
+urn:cts:greekLit:tlg0081.tlg012
+ 
+De compositione verborum (epitome)
+urn:cts:greekLit:tlg0081.tlg013
+ 
+De imitatione (fragmenta)
+urn:cts:greekLit:tlg0081.tlg014
+ 
+Epistula ad Pompeium Geminum
+urn:cts:greekLit:tlg0081.tlg015
+ 
+Ars Rhetorica
+urn:cts:greekLit:tlg0081.tlg016
+Apollonius Dyscolus
+urn:cts:greekLit:tlg0082
+ 
+De pronominibus
+urn:cts:greekLit:tlg0082.tlg001
+ 
+De adverbiis
+urn:cts:greekLit:tlg0082.tlg002
+ 
+De Conjuctionibus
+urn:cts:greekLit:tlg0082.tlg003
+ 
+De constructione
+urn:cts:greekLit:tlg0082.tlg004
+Dionysius of Byzantium
+urn:cts:greekLit:tlg0083
+ 
+De Bospori Navigatione
+urn:cts:greekLit:tlg0083.tlg003
+Dionysius Periegetes
+urn:cts:greekLit:tlg0084
+ 
+Orbis Descriptio
+urn:cts:greekLit:tlg0084.tlg001
+Aeschylus
+urn:cts:greekLit:tlg0085
+ 
+Supplices
+urn:cts:greekLit:tlg0085.tlg001
+ 
+Persians
+urn:cts:greekLit:tlg0085.tlg002
+ 
+Prometheus Bound
+urn:cts:greekLit:tlg0085.tlg003
+ 
+Seven Against Thebes
+urn:cts:greekLit:tlg0085.tlg004
+ 
+Agamemnon
+urn:cts:greekLit:tlg0085.tlg005
+ 
+Libation Bearers
+urn:cts:greekLit:tlg0085.tlg006
+ 
+Eumenides
+urn:cts:greekLit:tlg0085.tlg007
+Aristotle
+urn:cts:greekLit:tlg0086
+ 
+Analytica priora
+urn:cts:greekLit:tlg0086.tlg001
+ 
+De anima
+urn:cts:greekLit:tlg0086.tlg002
+ 
+Constitution of the Athenians
+urn:cts:greekLit:tlg0086.tlg003
+ 
+De audibilibus
+urn:cts:greekLit:tlg0086.tlg004
+ 
+De caelo
+urn:cts:greekLit:tlg0086.tlg005
+ 
+Categoriae
+urn:cts:greekLit:tlg0086.tlg006
+ 
+De coloribus
+urn:cts:greekLit:tlg0086.tlg007
+ 
+De divinatione per somnum
+urn:cts:greekLit:tlg0086.tlg008
+ 
+Eudemian Ethics
+urn:cts:greekLit:tlg0086.tlg009
+ 
+Nicomachean Ethics
+urn:cts:greekLit:tlg0086.tlg010
+ 
+Epistulae
+urn:cts:greekLit:tlg0086.tlg011
+ 
+De Generatione Animalium
+urn:cts:greekLit:tlg0086.tlg012
+ 
+De generatione et corruptione
+urn:cts:greekLit:tlg0086.tlg013
+ 
+Historia animalium
+urn:cts:greekLit:tlg0086.tlg014
+ 
+De animalium incessu
+urn:cts:greekLit:tlg0086.tlg015
+ 
+De insomniis
+urn:cts:greekLit:tlg0086.tlg016
+ 
+De interpretatione
+urn:cts:greekLit:tlg0086.tlg017
+ 
+De iuventute et senectute, De vita et morte
+urn:cts:greekLit:tlg0086.tlg018
+ 
+De lineis insecabilibus
+urn:cts:greekLit:tlg0086.tlg019
+ 
+De longitudine et brevitate vitae
+urn:cts:greekLit:tlg0086.tlg020
+ 
+De animalium motione
+urn:cts:greekLit:tlg0086.tlg021
+ 
+Magna Moralia
+urn:cts:greekLit:tlg0086.tlg022
+ 
+Mechanica
+urn:cts:greekLit:tlg0086.tlg023
+ 
+De memoria et reminiscentia
+urn:cts:greekLit:tlg0086.tlg024
+ 
+Metaphysics
+urn:cts:greekLit:tlg0086.tlg025
+ 
+Meteorologica
+urn:cts:greekLit:tlg0086.tlg026
+ 
+Mirabilium auscultationes
+urn:cts:greekLit:tlg0086.tlg027
+ 
+Economics
+urn:cts:greekLit:tlg0086.tlg029
+ 
+De partibus animalium
+urn:cts:greekLit:tlg0086.tlg030
+ 
+Physica
+urn:cts:greekLit:tlg0086.tlg031
+ 
+Physiognomonica
+urn:cts:greekLit:tlg0086.tlg032
+ 
+Poetics
+urn:cts:greekLit:tlg0086.tlg034
+ 
+Politics
+urn:cts:greekLit:tlg0086.tlg035
+ 
+Problemata
+urn:cts:greekLit:tlg0086.tlg036
+ 
+De respiratione
+urn:cts:greekLit:tlg0086.tlg037
+ 
+Rhetoric
+urn:cts:greekLit:tlg0086.tlg038
+ 
+De plantis
+urn:cts:greekLit:tlg0086.tlg039
+ 
+De sophisticis elenchis
+urn:cts:greekLit:tlg0086.tlg040
+ 
+De sensu et sensibilibus
+urn:cts:greekLit:tlg0086.tlg041
+ 
+De somno et vigilia
+urn:cts:greekLit:tlg0086.tlg042
+ 
+De spiritu
+urn:cts:greekLit:tlg0086.tlg043
+ 
+Topica
+urn:cts:greekLit:tlg0086.tlg044
+ 
+On Virtues and Vices
+urn:cts:greekLit:tlg0086.tlg045
+ 
+De ventorum situ et nominibus
+urn:cts:greekLit:tlg0086.tlg046
+ 
+De Xenophane, de Zenone, de Gorgia
+urn:cts:greekLit:tlg0086.tlg047
+ 
+Divisiones Aristoteleae
+urn:cts:greekLit:tlg0086.tlg048
+ 
+De anima (codicis E fragmenta recensionis a vulgata diversae)
+urn:cts:greekLit:tlg0086.tlg052
+ 
+Physica (textus alter)
+urn:cts:greekLit:tlg0086.tlg054
+Aelius Herodianus
+urn:cts:greekLit:tlg0087
+ 
+De prosodia catholica
+urn:cts:greekLit:tlg0087.tlg001
+ 
+On Enclitics
+urn:cts:greekLit:tlg0087.tlg002
+ 
+Περὶ διχρόνων
+urn:cts:greekLit:tlg0087.tlg004
+ 
+Περὶ πνευμάτων
+urn:cts:greekLit:tlg0087.tlg005
+ 
+Περὶ Ἀττικῆς προσῳδίας
+urn:cts:greekLit:tlg0087.tlg006
+ 
+Περὶ Ἰλιακῆς προσῳδίας
+urn:cts:greekLit:tlg0087.tlg007
+ 
+Περὶ Ὀδυσσειακῆς προσῳδίας
+urn:cts:greekLit:tlg0087.tlg008
+ 
+Περὶ παθῶν
+urn:cts:greekLit:tlg0087.tlg009
+ 
+Ἐκ τῶν Ἡρωδιανοῦ ὑπομνημάτων τῶν περὶ παθῶν Διδύμου
+urn:cts:greekLit:tlg0087.tlg009a
+ 
+Περὶ συντάξεως τῶν στοιχείων
+urn:cts:greekLit:tlg0087.tlg010
+ 
+Περὶ ὀρθογραφίας
+urn:cts:greekLit:tlg0087.tlg011
+ 
+Περὶ ὀνομάτων
+urn:cts:greekLit:tlg0087.tlg012
+ 
+Περὶ κλίσεως ὀνομάτων
+urn:cts:greekLit:tlg0087.tlg013
+ 
+Εἰς τὸ περὶ γενῶν Ἀπολλωνίου ὑπόμνημα
+urn:cts:greekLit:tlg0087.tlg014
+ 
+Μονόβιβλον περὶ τοῦ ὕδωρ
+urn:cts:greekLit:tlg0087.tlg015
+ 
+Περὶ τοῦ ζώς
+urn:cts:greekLit:tlg0087.tlg016
+ 
+Περὶ συζυγιῶν
+urn:cts:greekLit:tlg0087.tlg017
+ 
+Μονόβιβλον περὶ τοῦ μὴ πάντα τὰ ῥήματα κλίνεσθαι εἰς πάντας τοὺς χρόνους
+urn:cts:greekLit:tlg0087.tlg018
+ 
+Περὶ μετοχῶν
+urn:cts:greekLit:tlg0087.tlg019
+ 
+Μονόβιβλον περὶ τοῦ ἦν
+urn:cts:greekLit:tlg0087.tlg020
+ 
+Περὶ ῥημάτων
+urn:cts:greekLit:tlg0087.tlg021
+ 
+Περὶ τῶν εἰς μι
+urn:cts:greekLit:tlg0087.tlg022
+ 
+Περὶ ἀντωνυμιῶν
+urn:cts:greekLit:tlg0087.tlg023
+ 
+Περὶ ἐπιρρημάτων
+urn:cts:greekLit:tlg0087.tlg024
+ 
+Περὶ σχημάτων
+urn:cts:greekLit:tlg0087.tlg025
+ 
+Περὶ παρωνύμων
+urn:cts:greekLit:tlg0087.tlg026
+ 
+Περὶ ῥηματικῶν ὀνομάτων
+urn:cts:greekLit:tlg0087.tlg027
+ 
+Περὶ μονοσυλλάβων
+urn:cts:greekLit:tlg0087.tlg028
+ 
+Περὶ γάμου καὶ συμβιώσεως
+urn:cts:greekLit:tlg0087.tlg029
+ 
+Συμπόσιον
+urn:cts:greekLit:tlg0087.tlg030
+ 
+Προτάσεις
+urn:cts:greekLit:tlg0087.tlg031
+ 
+Εἰς τὴν Ἀπολλωνίου εἰσαγωγήν
+urn:cts:greekLit:tlg0087.tlg032
+ 
+Περὶ μονήρους λέξεως
+urn:cts:greekLit:tlg0087.tlg033
+ 
+De Figuris
+urn:cts:greekLit:tlg0087.tlg035
+Aristoxenus
+urn:cts:greekLit:tlg0088
+ 
+Ἁρμονικὰ στοιχεῖα
+urn:cts:greekLit:tlg0088.tlg001
+Agathemerus
+urn:cts:greekLit:tlg0090
+ 
+Geographiae informatio
+urn:cts:greekLit:tlg0090.tlg001
+Anonymi Geographiae Expositio Compendiaria
+urn:cts:greekLit:tlg0092
+ 
+Geographiae expositio compendiaria
+urn:cts:greekLit:tlg0092.tlg001
+Theophrastus
+urn:cts:greekLit:tlg0093
+ 
+De odoribus
+urn:cts:greekLit:tlg0093.ogl001
+ 
+De signis tempestatum
+urn:cts:greekLit:tlg0093.ogl002
+ 
+Enquiry into Plants
+urn:cts:greekLit:tlg0093.tlg001
+ 
+On the Causes of Plants
+urn:cts:greekLit:tlg0093.tlg002
+ 
+De sensu et sensibilibus
+urn:cts:greekLit:tlg0093.tlg003
+ 
+De lapidibus
+urn:cts:greekLit:tlg0093.tlg004
+ 
+On Fire
+urn:cts:greekLit:tlg0093.tlg005
+ 
+Metaphysics
+urn:cts:greekLit:tlg0093.tlg006
+ 
+Characters
+urn:cts:greekLit:tlg0093.tlg009
+ 
+De Odoribus
+urn:cts:greekLit:tlg0093.tlg010x01
+ 
+De Ventis
+urn:cts:greekLit:tlg0093.tlg010x02
+ 
+De Signis Tempestatum
+urn:cts:greekLit:tlg0093.tlg010x03
+ 
+De Lassitudine
+urn:cts:greekLit:tlg0093.tlg010x04
+ 
+De Vertigine
+urn:cts:greekLit:tlg0093.tlg010x05
+ 
+De Sudore
+urn:cts:greekLit:tlg0093.tlg010x06
+ 
+De Animi Defectione
+urn:cts:greekLit:tlg0093.tlg010x07
+ 
+De Nervorum Resolutione
+urn:cts:greekLit:tlg0093.tlg010x08
+ 
+Fragmenta varia
+urn:cts:greekLit:tlg0093.tlg010x09
+Pseudo-Plutarch
+urn:cts:greekLit:tlg0094
+ 
+De Fluviis
+urn:cts:greekLit:tlg0094.tlg001
+ 
+De musica
+urn:cts:greekLit:tlg0094.tlg002
+ 
+Placita Philosophorum
+urn:cts:greekLit:tlg0094.tlg003
+Aesop
+urn:cts:greekLit:tlg0096
+ 
+Fabulae
+urn:cts:greekLit:tlg0096.tlg002
+Diogenianus of Heraclea
+urn:cts:greekLit:tlg0097
+ 
+Paroemiae (epitome operis sub nomine Diogeniani) (e cod. Mazarinco)
+urn:cts:greekLit:tlg0097.tlg001
+Zenobius Sophista
+urn:cts:greekLit:tlg0098
+ 
+Epitome collectionum Lucilli Tarrhaei et Didymi
+urn:cts:greekLit:tlg0098.tlg001
+Strabo
+urn:cts:greekLit:tlg0099
+ 
+Geography
+urn:cts:greekLit:tlg0099.tlg001
+ 
+Geographiae Chrestomathia
+urn:cts:greekLit:tlg0099.tlg004
+Bacchylides
+urn:cts:greekLit:tlg0199
+ 
+Epinicians
+urn:cts:greekLit:tlg0199.tlg001
+ 
+Dithyrambs
+urn:cts:greekLit:tlg0199.tlg002
+Hipponax
+urn:cts:greekLit:tlg0233
+ 
+Fragmentum (128)
+urn:cts:greekLit:tlg0233.tlg001
+Aristides, Aelius
+urn:cts:greekLit:tlg0284
+ 
+Orationes 1
+urn:cts:greekLit:tlg0284.tlg001
+ 
+Orationes 2
+urn:cts:greekLit:tlg0284.tlg002
+ 
+Orationes 3
+urn:cts:greekLit:tlg0284.tlg003
+ 
+Orationes 4
+urn:cts:greekLit:tlg0284.tlg004
+ 
+Orationes 5
+urn:cts:greekLit:tlg0284.tlg005
+ 
+Orationes 6
+urn:cts:greekLit:tlg0284.tlg006
+ 
+Orationes 7
+urn:cts:greekLit:tlg0284.tlg007
+ 
+Orationes 8
+urn:cts:greekLit:tlg0284.tlg008
+ 
+Orationes 9
+urn:cts:greekLit:tlg0284.tlg009
+ 
+Orationes 10
+urn:cts:greekLit:tlg0284.tlg010
+ 
+Orationes 11
+urn:cts:greekLit:tlg0284.tlg011
+ 
+Orationes 12
+urn:cts:greekLit:tlg0284.tlg012
+ 
+Orationes 13
+urn:cts:greekLit:tlg0284.tlg013
+ 
+Orationes 14
+urn:cts:greekLit:tlg0284.tlg014
+ 
+Orationes 15
+urn:cts:greekLit:tlg0284.tlg015
+ 
+Orationes 16
+urn:cts:greekLit:tlg0284.tlg016
+ 
+Orationes 17
+urn:cts:greekLit:tlg0284.tlg017
+ 
+Orationes 18
+urn:cts:greekLit:tlg0284.tlg018
+ 
+Orationes 19
+urn:cts:greekLit:tlg0284.tlg019
+ 
+Orationes 20
+urn:cts:greekLit:tlg0284.tlg020
+ 
+Orationes 21
+urn:cts:greekLit:tlg0284.tlg021
+ 
+Orationes 22
+urn:cts:greekLit:tlg0284.tlg022
+ 
+Orationes 23
+urn:cts:greekLit:tlg0284.tlg023
+ 
+Orationes 24
+urn:cts:greekLit:tlg0284.tlg024
+ 
+Orationes 25
+urn:cts:greekLit:tlg0284.tlg025
+ 
+Orationes 26
+urn:cts:greekLit:tlg0284.tlg026
+ 
+Orationes 27
+urn:cts:greekLit:tlg0284.tlg027
+ 
+Orationes 28
+urn:cts:greekLit:tlg0284.tlg028
+ 
+Orationes 29
+urn:cts:greekLit:tlg0284.tlg029
+ 
+Orationes 30
+urn:cts:greekLit:tlg0284.tlg030
+ 
+Orationes 31
+urn:cts:greekLit:tlg0284.tlg031
+ 
+Orationes 32
+urn:cts:greekLit:tlg0284.tlg032
+ 
+Orationes 33
+urn:cts:greekLit:tlg0284.tlg033
+ 
+Orationes 34
+urn:cts:greekLit:tlg0284.tlg034
+ 
+Orationes 35
+urn:cts:greekLit:tlg0284.tlg035
+ 
+Orationes 36
+urn:cts:greekLit:tlg0284.tlg036
+ 
+Orationes 37
+urn:cts:greekLit:tlg0284.tlg037
+ 
+Orationes 38
+urn:cts:greekLit:tlg0284.tlg038
+ 
+Orationes 39
+urn:cts:greekLit:tlg0284.tlg039
+ 
+Orationes 40
+urn:cts:greekLit:tlg0284.tlg040
+ 
+Orationes 41
+urn:cts:greekLit:tlg0284.tlg041
+ 
+Orationes 42
+urn:cts:greekLit:tlg0284.tlg042
+ 
+Orationes 43
+urn:cts:greekLit:tlg0284.tlg043
+ 
+Orationes 44
+urn:cts:greekLit:tlg0284.tlg044
+ 
+Orationes 45
+urn:cts:greekLit:tlg0284.tlg045
+ 
+Orationes 46
+urn:cts:greekLit:tlg0284.tlg046
+ 
+Orationes 47
+urn:cts:greekLit:tlg0284.tlg047
+ 
+Orationes 48
+urn:cts:greekLit:tlg0284.tlg048
+ 
+Orationes 49
+urn:cts:greekLit:tlg0284.tlg049
+ 
+Orationes 50
+urn:cts:greekLit:tlg0284.tlg050
+ 
+Orationes 51
+urn:cts:greekLit:tlg0284.tlg051
+ 
+Orationes 52
+urn:cts:greekLit:tlg0284.tlg052
+ 
+Orationes 53
+urn:cts:greekLit:tlg0284.tlg053
+ 
+Orationes 54
+urn:cts:greekLit:tlg0284.tlg054
+ 
+Orationes 55
+urn:cts:greekLit:tlg0284.tlg055
+ 
+Ars Rhetorica
+urn:cts:greekLit:tlg0284.tlg056
+Acta Joannis
+urn:cts:greekLit:tlg0317
+ 
+Acta Joannis
+urn:cts:greekLit:tlg0317.tlg001
+ 
+Acta Joannis (recensio)
+urn:cts:greekLit:tlg0317.tlg002
+Critias
+urn:cts:greekLit:tlg0319
+ 
+Fragmenta
+urn:cts:greekLit:tlg0319.tlg004
+Lycophron
+urn:cts:greekLit:tlg0341
+ 
+Alexandra
+urn:cts:greekLit:tlg0341.tlg002
+Didymus Alexandrinus
+urn:cts:greekLit:tlg0357
+ 
+Mensurae marmorum ac lignorum
+urn:cts:greekLit:tlg0357.tlg001
+Nicomachus of Gerasa
+urn:cts:greekLit:tlg0358
+ 
+Introductio arithmetica
+urn:cts:greekLit:tlg0358.tlg001
+ 
+Harmonicum enchiridion
+urn:cts:greekLit:tlg0358.tlg002
+ 
+Excerpta
+urn:cts:greekLit:tlg0358.tlg004
+ 
+Problemata arithmetica
+urn:cts:greekLit:tlg0358.tlg005
+Cleonides
+urn:cts:greekLit:tlg0361
+ 
+Introductio Harmonica
+urn:cts:greekLit:tlg0361.tlg001
+Carmina Delphis Inventa
+urn:cts:greekLit:tlg0362
+ 
+Carmina Delphis Inventa
+urn:cts:greekLit:tlg0362.tlg001
+Claudius Ptolemaeus
+urn:cts:greekLit:tlg0363
+ 
+Syntaxis mathematica
+urn:cts:greekLit:tlg0363.tlg001
+ 
+Tetrabiblos
+urn:cts:greekLit:tlg0363.tlg007
+ 
+Musica
+urn:cts:greekLit:tlg0363.tlg011
+Cassius Dio Cocceianus
+urn:cts:greekLit:tlg0385
+ 
+Historia Romana
+urn:cts:greekLit:tlg0385.tlg001
+Myia
+urn:cts:greekLit:tlg0509
+ 
+Epistula ad Phyllidem
+urn:cts:greekLit:tlg0509.tlg001
+Epicharmus
+urn:cts:greekLit:tlg0521
+ 
+Fragmenta
+urn:cts:greekLit:tlg0521.tlg008
+Pausanias
+urn:cts:greekLit:tlg0525
+ 
+Description of Greece
+urn:cts:greekLit:tlg0525.tlg001
+Flavius Josephus
+urn:cts:greekLit:tlg0526
+ 
+Jewish Antiquities
+urn:cts:greekLit:tlg0526.tlg001
+ 
+Life of Josephus
+urn:cts:greekLit:tlg0526.tlg002
+ 
+Against Apion
+urn:cts:greekLit:tlg0526.tlg003
+ 
+The Jewish War
+urn:cts:greekLit:tlg0526.tlg004
+Old Testament
+urn:cts:greekLit:tlg0527
+ 
+Genesis
+urn:cts:greekLit:tlg0527.tlg001
+ 
+Exodus
+urn:cts:greekLit:tlg0527.tlg002
+ 
+Leviticus
+urn:cts:greekLit:tlg0527.tlg003
+ 
+Numbers
+urn:cts:greekLit:tlg0527.tlg004
+ 
+Deuteronomy
+urn:cts:greekLit:tlg0527.tlg005
+ 
+Joshua
+urn:cts:greekLit:tlg0527.tlg006
+ 
+Judges
+urn:cts:greekLit:tlg0527.tlg008
+ 
+Ruth
+urn:cts:greekLit:tlg0527.tlg010
+ 
+I Samuel
+urn:cts:greekLit:tlg0527.tlg011
+ 
+II Samuel
+urn:cts:greekLit:tlg0527.tlg012
+ 
+I Kings
+urn:cts:greekLit:tlg0527.tlg013
+ 
+II Kings
+urn:cts:greekLit:tlg0527.tlg014
+ 
+I Chronicles
+urn:cts:greekLit:tlg0527.tlg015
+ 
+II Chronicles
+urn:cts:greekLit:tlg0527.tlg016
+ 
+Esdras i (liber apocryphus)
+urn:cts:greekLit:tlg0527.tlg017
+ 
+2 Ezra
+urn:cts:greekLit:tlg0527.tlg018
+ 
+Esther
+urn:cts:greekLit:tlg0527.tlg019
+ 
+Judith
+urn:cts:greekLit:tlg0527.tlg020
+ 
+Tobias (Cod. Vaticanus + Cod. Alexandrinus)
+urn:cts:greekLit:tlg0527.tlg021
+ 
+Machabaeorum i
+urn:cts:greekLit:tlg0527.tlg023
+ 
+Machabaeorum ii
+urn:cts:greekLit:tlg0527.tlg024
+ 
+Machabaeorum iii
+urn:cts:greekLit:tlg0527.tlg025
+ 
+Machabaeorum iv
+urn:cts:greekLit:tlg0527.tlg026
+ 
+Psalms
+urn:cts:greekLit:tlg0527.tlg027
+ 
+Odae
+urn:cts:greekLit:tlg0527.tlg028
+ 
+Proverbs
+urn:cts:greekLit:tlg0527.tlg029
+ 
+Ecclesiastes
+urn:cts:greekLit:tlg0527.tlg030
+ 
+Canticle
+urn:cts:greekLit:tlg0527.tlg031
+ 
+Job
+urn:cts:greekLit:tlg0527.tlg032
+ 
+Sapientia Salomonis
+urn:cts:greekLit:tlg0527.tlg033
+ 
+Ecclesiasticus sive Siracides (Sapientia Jesu filii Sirach)
+urn:cts:greekLit:tlg0527.tlg034
+ 
+Psalmi Salomonis
+urn:cts:greekLit:tlg0527.tlg035
+ 
+Hosea
+urn:cts:greekLit:tlg0527.tlg036
+ 
+Amos
+urn:cts:greekLit:tlg0527.tlg037
+ 
+Micah
+urn:cts:greekLit:tlg0527.tlg038
+ 
+Joel
+urn:cts:greekLit:tlg0527.tlg039
+ 
+Obadiah
+urn:cts:greekLit:tlg0527.tlg040
+ 
+Jonah
+urn:cts:greekLit:tlg0527.tlg041
+ 
+Nahum
+urn:cts:greekLit:tlg0527.tlg042
+ 
+Habakkuk
+urn:cts:greekLit:tlg0527.tlg043
+ 
+Zephaniah
+urn:cts:greekLit:tlg0527.tlg044
+ 
+Haggai
+urn:cts:greekLit:tlg0527.tlg045
+ 
+Zechariah
+urn:cts:greekLit:tlg0527.tlg046
+ 
+Malachi
+urn:cts:greekLit:tlg0527.tlg047
+ 
+Isaiah
+urn:cts:greekLit:tlg0527.tlg048
+ 
+Jeremiah
+urn:cts:greekLit:tlg0527.tlg049
+ 
+Baruch
+urn:cts:greekLit:tlg0527.tlg050
+ 
+Lamentations
+urn:cts:greekLit:tlg0527.tlg051
+ 
+Epistula Jeremiae
+urn:cts:greekLit:tlg0527.tlg052
+ 
+Ezekiel
+urn:cts:greekLit:tlg0527.tlg053
+ 
+Susanna (translatio Graeca)
+urn:cts:greekLit:tlg0527.tlg054
+ 
+Susanna (Theodotionis versio)
+urn:cts:greekLit:tlg0527.tlg055
+ 
+Daniel
+urn:cts:greekLit:tlg0527.tlg056
+ 
+Daniel (Theodotionis versio)
+urn:cts:greekLit:tlg0527.tlg057
+ 
+Bel et Draco (translatio Graeca)
+urn:cts:greekLit:tlg0527.tlg058
+ 
+Bel et Draco (Theodotionis versio)
+urn:cts:greekLit:tlg0527.tlg059
+Arius Didymus
+urn:cts:greekLit:tlg0529
+ 
+Liber de philosophorum sectis (epitome ap. Stobaeum)
+urn:cts:greekLit:tlg0529.tlg002
+Pseudo-Galen
+urn:cts:greekLit:tlg0530
+ 
+De fasciis
+urn:cts:greekLit:tlg0530.tlg005
+ 
+Ad Gaurum quomodo animetur fetus
+urn:cts:greekLit:tlg0530.tlg006
+ 
+Introductio seu medicus
+urn:cts:greekLit:tlg0530.tlg012
+ 
+De remediis parabilibus
+urn:cts:greekLit:tlg0530.tlg029
+ 
+De theriaca ad Pamphilianum
+urn:cts:greekLit:tlg0530.tlg032
+ 
+De optima secta ad Thrasybulum
+urn:cts:greekLit:tlg0530.tlg043
+Achilles Tatius
+urn:cts:greekLit:tlg0532
+ 
+Leucippe and Clitophon
+urn:cts:greekLit:tlg0532.tlg001
+Callimachus
+urn:cts:greekLit:tlg0533
+ 
+Epigrams
+urn:cts:greekLit:tlg0533.tlg003
+ 
+Epigrams and Fragments
+urn:cts:greekLit:tlg0533.tlg004
+ 
+Aetia
+urn:cts:greekLit:tlg0533.tlg006
+ 
+Iambi
+urn:cts:greekLit:tlg0533.tlg007
+ 
+Hecala
+urn:cts:greekLit:tlg0533.tlg009
+ 
+Hymn to Zeus
+urn:cts:greekLit:tlg0533.tlg015
+ 
+Hymn to Apollo
+urn:cts:greekLit:tlg0533.tlg016
+ 
+Hymn to Artemis
+urn:cts:greekLit:tlg0533.tlg017
+ 
+Hymn to Delos
+urn:cts:greekLit:tlg0533.tlg018
+ 
+Hymn to Athena
+urn:cts:greekLit:tlg0533.tlg019
+ 
+Hymn to Demeter
+urn:cts:greekLit:tlg0533.tlg020
+Demades
+urn:cts:greekLit:tlg0535
+ 
+On the Twelve Years
+urn:cts:greekLit:tlg0535.tlg001
+Epicurus
+urn:cts:greekLit:tlg0537
+ 
+Epistula ad Herodotum
+urn:cts:greekLit:tlg0537.tlg010
+ 
+Epistula ad Pythoclem
+urn:cts:greekLit:tlg0537.tlg011
+ 
+Epistula ad Menoeceum
+urn:cts:greekLit:tlg0537.tlg012
+ 
+Ratae Sententiae
+urn:cts:greekLit:tlg0537.tlg013
+ 
+Gnomologium Vaticanum Epicureum
+urn:cts:greekLit:tlg0537.tlg014
+Lysias
+urn:cts:greekLit:tlg0540
+ 
+On the Murder of Eratosthenes
+urn:cts:greekLit:tlg0540.tlg001
+ 
+Funeral Oration
+urn:cts:greekLit:tlg0540.tlg002
+ 
+Against Simon
+urn:cts:greekLit:tlg0540.tlg003
+ 
+On A Wound By Premeditation
+urn:cts:greekLit:tlg0540.tlg004
+ 
+For Callias
+urn:cts:greekLit:tlg0540.tlg005
+ 
+Against Andocides
+urn:cts:greekLit:tlg0540.tlg006
+ 
+On the Olive Stump
+urn:cts:greekLit:tlg0540.tlg007
+ 
+Accusation of Calumny
+urn:cts:greekLit:tlg0540.tlg008
+ 
+For The Soldier
+urn:cts:greekLit:tlg0540.tlg009
+ 
+Against Theomnestus 1
+urn:cts:greekLit:tlg0540.tlg010
+ 
+Against Theomnestus 2
+urn:cts:greekLit:tlg0540.tlg011
+ 
+Against Eratosthenes
+urn:cts:greekLit:tlg0540.tlg012
+ 
+Against Agoratus: In Pursuance of a Writ
+urn:cts:greekLit:tlg0540.tlg013
+ 
+Against Alcibiades: For Deserting the Ranks
+urn:cts:greekLit:tlg0540.tlg014
+ 
+Against Alcibiades: For Refusal of Military Service
+urn:cts:greekLit:tlg0540.tlg015
+ 
+In Defense of Mantitheus
+urn:cts:greekLit:tlg0540.tlg016
+ 
+On The Property Of Eraton
+urn:cts:greekLit:tlg0540.tlg017
+ 
+On the Confiscation of the Property Of The Brother Of Nicias
+urn:cts:greekLit:tlg0540.tlg018
+ 
+On the Property of Aristophanes: Against the Treasury
+urn:cts:greekLit:tlg0540.tlg019
+ 
+For Polystratus
+urn:cts:greekLit:tlg0540.tlg020
+ 
+Defense Against A Charge Of Taking Bribes
+urn:cts:greekLit:tlg0540.tlg021
+ 
+Against The Corn-Dealers
+urn:cts:greekLit:tlg0540.tlg022
+ 
+Against Pancleon
+urn:cts:greekLit:tlg0540.tlg023
+ 
+On The Refusal Of A Pension to the Invalid
+urn:cts:greekLit:tlg0540.tlg024
+ 
+Defense Against a Charge of Subverting the Democracy
+urn:cts:greekLit:tlg0540.tlg025
+ 
+On the Scrutiny of Evandros
+urn:cts:greekLit:tlg0540.tlg026
+ 
+Against Epicrates and his Fellow-envoys: Supplementary
+urn:cts:greekLit:tlg0540.tlg027
+ 
+Against Ergocles: Supplementary
+urn:cts:greekLit:tlg0540.tlg028
+ 
+Against Philocrates
+urn:cts:greekLit:tlg0540.tlg029
+ 
+Against Nicomachus
+urn:cts:greekLit:tlg0540.tlg030
+ 
+Against Philon
+urn:cts:greekLit:tlg0540.tlg031
+ 
+Against Diogeiton
+urn:cts:greekLit:tlg0540.tlg032
+ 
+Olympic Oration
+urn:cts:greekLit:tlg0540.tlg033
+ 
+Against The Subversion of the Ancestral Constitution of Athens
+urn:cts:greekLit:tlg0540.tlg034
+Menander
+urn:cts:greekLit:tlg0541
+ 
+Sententiae (corresponds to version Men Ar I) (Greek)
+urn:cts:greekLit:tlg0541.tlg042
+Julius Pollux
+urn:cts:greekLit:tlg0542
+ 
+Onomasticon
+urn:cts:greekLit:tlg0542.tlg001
+Polybius
+urn:cts:greekLit:tlg0543
+ 
+Histories
+urn:cts:greekLit:tlg0543.tlg001
+Sextus Empiricus
+urn:cts:greekLit:tlg0544
+ 
+Pyrrhoniae Hypotyposes
+urn:cts:greekLit:tlg0544.tlg001
+ 
+Adversus Mathematicos
+urn:cts:greekLit:tlg0544.tlg002
+Aelian
+urn:cts:greekLit:tlg0545
+ 
+De Natura Animalium
+urn:cts:greekLit:tlg0545.tlg001
+ 
+Varia Historia
+urn:cts:greekLit:tlg0545.tlg002
+ 
+Epistulae Rusticae
+urn:cts:greekLit:tlg0545.tlg003
+ 
+Fragmenta
+urn:cts:greekLit:tlg0545.tlg004
+Apollodorus
+urn:cts:greekLit:tlg0548
+ 
+Library
+urn:cts:greekLit:tlg0548.tlg001
+ 
+Epitome
+urn:cts:greekLit:tlg0548.tlg002
+Apollonius of Perga
+urn:cts:greekLit:tlg0550
+ 
+Conica
+urn:cts:greekLit:tlg0550.tlg001
+Appianus of Alexandria
+urn:cts:greekLit:tlg0551
+ 
+Proemium
+urn:cts:greekLit:tlg0551.tlg001
+ 
+Kings
+urn:cts:greekLit:tlg0551.tlg002
+ 
+Italy
+urn:cts:greekLit:tlg0551.tlg003
+ 
+Samnite History
+urn:cts:greekLit:tlg0551.tlg004
+ 
+Gallic History
+urn:cts:greekLit:tlg0551.tlg005
+ 
+Sicily and the Other Islands
+urn:cts:greekLit:tlg0551.tlg006
+ 
+Wars in Spain
+urn:cts:greekLit:tlg0551.tlg007
+ 
+Hannibalic War
+urn:cts:greekLit:tlg0551.tlg008
+ 
+Punic Wars
+urn:cts:greekLit:tlg0551.tlg009
+ 
+Numidian Affairs
+urn:cts:greekLit:tlg0551.tlg010
+ 
+Macedonian Affairs
+urn:cts:greekLit:tlg0551.tlg011
+ 
+Illyrian Wars
+urn:cts:greekLit:tlg0551.tlg012
+ 
+Syrian Wars
+urn:cts:greekLit:tlg0551.tlg013
+ 
+Mithridatic Wars
+urn:cts:greekLit:tlg0551.tlg014
+ 
+Civil Wars
+urn:cts:greekLit:tlg0551.tlg017
+Archimedes
+urn:cts:greekLit:tlg0552
+ 
+De sphaera et cylindro
+urn:cts:greekLit:tlg0552.tlg001
+ 
+Dimensio circuli
+urn:cts:greekLit:tlg0552.tlg002
+ 
+De conoidibus et sphaeroidibus
+urn:cts:greekLit:tlg0552.tlg003
+ 
+De lineis spiralibus
+urn:cts:greekLit:tlg0552.tlg004
+ 
+De planorum aequilibriis
+urn:cts:greekLit:tlg0552.tlg005
+ 
+Arenarius
+urn:cts:greekLit:tlg0552.tlg006
+ 
+Quadratura parabolae
+urn:cts:greekLit:tlg0552.tlg007
+ 
+De corporibus fluitantibus
+urn:cts:greekLit:tlg0552.tlg008
+ 
+Stomachion
+urn:cts:greekLit:tlg0552.tlg009
+ 
+Ad Eratosthenem methodus
+urn:cts:greekLit:tlg0552.tlg010
+ 
+Liber assumptorum
+urn:cts:greekLit:tlg0552.tlg011
+ 
+Problema bovinum
+urn:cts:greekLit:tlg0552.tlg012
+ 
+Fragmenta
+urn:cts:greekLit:tlg0552.tlg013
+Artemidorus
+urn:cts:greekLit:tlg0553
+ 
+Ονειροκριτικά
+urn:cts:greekLit:tlg0553.tlg001
+Chariton of Aphrodisias
+urn:cts:greekLit:tlg0554
+ 
+De Chaerea et Callirhoe
+urn:cts:greekLit:tlg0554.tlg001
+Clement of Alexandria
+urn:cts:greekLit:tlg0555
+ 
+Protrepticus
+urn:cts:greekLit:tlg0555.tlg001
+ 
+Paedagogus
+urn:cts:greekLit:tlg0555.tlg002
+ 
+Stromata
+urn:cts:greekLit:tlg0555.tlg004
+ 
+Eclogae propheticae
+urn:cts:greekLit:tlg0555.tlg005
+ 
+Quis Dis Salvetur
+urn:cts:greekLit:tlg0555.tlg006
+ 
+Excerpta ex Theodoto
+urn:cts:greekLit:tlg0555.tlg007
+ 
+Exhortation to Endurance or To the Newly Baptized (Fragment 44)
+urn:cts:greekLit:tlg0555.tlg008
+Asclepiodotus
+urn:cts:greekLit:tlg0556
+ 
+Tactica
+urn:cts:greekLit:tlg0556.tlg001
+Epictetus
+urn:cts:greekLit:tlg0557
+ 
+Discourses
+urn:cts:greekLit:tlg0557.tlg001
+ 
+The Handbook
+urn:cts:greekLit:tlg0557.tlg002
+ 
+Fragments
+urn:cts:greekLit:tlg0557.tlg003
+ 
+Fragments
+urn:cts:greekLit:tlg0557.tlg003a
+ 
+Gnomology (Books 1-2)
+urn:cts:greekLit:tlg0557.tlg004
+ 
+Gnomology (Books 3-4)
+urn:cts:greekLit:tlg0557.tlg005
+Hero of Alexandria
+urn:cts:greekLit:tlg0559
+ 
+Pneumatica
+urn:cts:greekLit:tlg0559.tlg001
+ 
+De automatis
+urn:cts:greekLit:tlg0559.tlg002
+ 
+Mechanicorum fragmenta
+urn:cts:greekLit:tlg0559.tlg004
+ 
+Catoptrica
+urn:cts:greekLit:tlg0559.tlg005
+ 
+Metrica
+urn:cts:greekLit:tlg0559.tlg006
+ 
+Dioptra
+urn:cts:greekLit:tlg0559.tlg007
+ 
+Stereometrica
+urn:cts:greekLit:tlg0559.tlg010
+ 
+De mensuris
+urn:cts:greekLit:tlg0559.tlg011
+ 
+Belopoeica
+urn:cts:greekLit:tlg0559.tlg012
+ 
+Fragmenta Heroniana
+urn:cts:greekLit:tlg0559.tlg014
+ 
+Geodaesia [Sp.]
+urn:cts:greekLit:tlg0559.tlg015
+ 
+Liber geeponicus [Sp.]
+urn:cts:greekLit:tlg0559.tlg016
+Longinus
+urn:cts:greekLit:tlg0560
+ 
+On the Sublime
+urn:cts:greekLit:tlg0560.tlg001
+Longus
+urn:cts:greekLit:tlg0561
+ 
+Daphnis and Chloe
+urn:cts:greekLit:tlg0561.tlg001
+Marcus Aurelius
+urn:cts:greekLit:tlg0562
+ 
+Ad Se Ipsum
+urn:cts:greekLit:tlg0562.tlg001
+Maximus of Tyre
+urn:cts:greekLit:tlg0563
+ 
+Dialexeis
+urn:cts:greekLit:tlg0563.tlg001
+Rufus of Ephesus
+urn:cts:greekLit:tlg0564
+ 
+De renum et vesicae affectionibus
+urn:cts:greekLit:tlg0564.tlg001
+Soranus
+urn:cts:greekLit:tlg0565
+ 
+Gynaeciorum Libri IV
+urn:cts:greekLit:tlg0565.tlg001
+ 
+De signis Fracturarum
+urn:cts:greekLit:tlg0565.tlg002
+ 
+De Fasciis
+urn:cts:greekLit:tlg0565.tlg003
+ 
+Vita Hippocratis
+urn:cts:greekLit:tlg0565.tlg004
+Gaius Romanus
+urn:cts:greekLit:tlg0572
+ 
+Fragmenta
+urn:cts:greekLit:tlg0572.tlg001
+Moschion Gnomologus
+urn:cts:greekLit:tlg0575
+ 
+Sententiae
+urn:cts:greekLit:tlg0575.tlg001
+ 
+Hypothecae
+urn:cts:greekLit:tlg0575.tlg002
+Orphica
+urn:cts:greekLit:tlg0579
+ 
+Fragmenta
+urn:cts:greekLit:tlg0579.tlg010
+Paradoxographus Florentinus
+urn:cts:greekLit:tlg0580
+ 
+Mirabilia de aquis
+urn:cts:greekLit:tlg0580.tlg001
+Antisthenes
+urn:cts:greekLit:tlg0591
+ 
+Ajax
+urn:cts:greekLit:tlg0591.1st1K001
+ 
+Odysseus
+urn:cts:greekLit:tlg0591.1st1K002
+Hermogenes
+urn:cts:greekLit:tlg0592
+ 
+Progymnasmata [Dub.]
+urn:cts:greekLit:tlg0592.tlg001
+ 
+Περὶ στάσεων
+urn:cts:greekLit:tlg0592.tlg002
+ 
+Περὶ εὑρέσεως [Sp.]
+urn:cts:greekLit:tlg0592.tlg003
+ 
+Περὶ ἰδεῶν λόγου
+urn:cts:greekLit:tlg0592.tlg004
+ 
+Περὶ μεθόδου δεινότητος [Sp.]
+urn:cts:greekLit:tlg0592.tlg005
+Gorgias of Leontini
+urn:cts:greekLit:tlg0593
+ 
+Encomium of Helen
+urn:cts:greekLit:tlg0593.1st1K001
+ 
+Defense of Palamedes
+urn:cts:greekLit:tlg0593.1st1K002
+Alexander Numenius
+urn:cts:greekLit:tlg0594
+ 
+De Figuris
+urn:cts:greekLit:tlg0594.tlg002
+Rufus Soph.
+urn:cts:greekLit:tlg0606
+ 
+Ars rhetorica
+urn:cts:greekLit:tlg0606.tlg001
+Aelius Theon
+urn:cts:greekLit:tlg0607
+ 
+Προγυμνάσματα
+urn:cts:greekLit:tlg0607.tlg001
+Tryphon I Grammaticus
+urn:cts:greekLit:tlg0609
+ 
+De tropis
+urn:cts:greekLit:tlg0609.tlg001
+Alcidamas
+urn:cts:greekLit:tlg0610
+ 
+Peri Sophiston
+urn:cts:greekLit:tlg0610.perseus002
+ 
+Odysseus
+urn:cts:greekLit:tlg0610.tlg001
+Dio Chrysostom
+urn:cts:greekLit:tlg0612
+ 
+Orationes
+urn:cts:greekLit:tlg0612.tlg001
+Demetrius of Phaleron
+urn:cts:greekLit:tlg0613
+ 
+Libro de Elocutione
+urn:cts:greekLit:tlg0613.tlg001
+Babrius
+urn:cts:greekLit:tlg0614
+ 
+Fabulae Aesopeae
+urn:cts:greekLit:tlg0614.tlg001
+Aspasius
+urn:cts:greekLit:tlg0615
+ 
+In Ethica Nichomachea Commentaria
+urn:cts:greekLit:tlg0615.tlg001
+Polyaenus Macedo
+urn:cts:greekLit:tlg0616
+ 
+Strategemata
+urn:cts:greekLit:tlg0616.tlg001
+ 
+Excerpta Polyaeni
+urn:cts:greekLit:tlg0616.tlg002
+Antigoni Epistula
+urn:cts:greekLit:tlg0618
+ 
+Epistula
+urn:cts:greekLit:tlg0618.tlg001
+Archytas of Tarentum
+urn:cts:greekLit:tlg0620
+ 
+Fragmenta
+urn:cts:greekLit:tlg0620.tlg002
+Cratetis Epistulae
+urn:cts:greekLit:tlg0623
+ 
+Epistulae
+urn:cts:greekLit:tlg0623.tlg001
+Heraclitus of Ephesus
+urn:cts:greekLit:tlg0626
+ 
+Fragmenta
+urn:cts:greekLit:tlg0626.tlg002
+Hippocrates
+urn:cts:greekLit:tlg0627
+ 
+De prisca medicina
+urn:cts:greekLit:tlg0627.tlg001
+ 
+De aere, aquis, locis
+urn:cts:greekLit:tlg0627.tlg002
+ 
+Prognosticon
+urn:cts:greekLit:tlg0627.tlg003
+ 
+De diaeta in morbis acutis
+urn:cts:greekLit:tlg0627.tlg004
+ 
+De diaeta acutorum (spurium)
+urn:cts:greekLit:tlg0627.tlg005
+ 
+De morbis popularibus
+urn:cts:greekLit:tlg0627.tlg006
+ 
+De capitis vulneribus
+urn:cts:greekLit:tlg0627.tlg007
+ 
+De officina medici
+urn:cts:greekLit:tlg0627.tlg008
+ 
+De fracturis
+urn:cts:greekLit:tlg0627.tlg009
+ 
+De articulis
+urn:cts:greekLit:tlg0627.tlg010
+ 
+Vectiarius
+urn:cts:greekLit:tlg0627.tlg011
+ 
+Aphorismi
+urn:cts:greekLit:tlg0627.tlg012
+ 
+Jusjurandum
+urn:cts:greekLit:tlg0627.tlg013
+ 
+Lex
+urn:cts:greekLit:tlg0627.tlg014
+ 
+De humoribus
+urn:cts:greekLit:tlg0627.tlg015
+ 
+Prorrheticon I
+urn:cts:greekLit:tlg0627.tlg016
+ 
+Coa praesagia
+urn:cts:greekLit:tlg0627.tlg017
+ 
+De arte
+urn:cts:greekLit:tlg0627.tlg018
+ 
+De natura hominis
+urn:cts:greekLit:tlg0627.tlg019
+ 
+De salubri diaeta
+urn:cts:greekLit:tlg0627.tlg020
+ 
+De flatibus
+urn:cts:greekLit:tlg0627.tlg021
+ 
+De liquidorum usu
+urn:cts:greekLit:tlg0627.tlg022
+ 
+De morbis i-iii
+urn:cts:greekLit:tlg0627.tlg023
+ 
+De genitura
+urn:cts:greekLit:tlg0627.tlg024a
+ 
+De natura pueri
+urn:cts:greekLit:tlg0627.tlg024b
+ 
+De affectionibus
+urn:cts:greekLit:tlg0627.tlg025
+ 
+De locis in homine
+urn:cts:greekLit:tlg0627.tlg026
+ 
+De morbo sacro
+urn:cts:greekLit:tlg0627.tlg027
+ 
+De ulceribus
+urn:cts:greekLit:tlg0627.tlg028
+ 
+De haemorrhoidibus
+urn:cts:greekLit:tlg0627.tlg029
+ 
+De fistulis
+urn:cts:greekLit:tlg0627.tlg030
+ 
+De diaeta
+urn:cts:greekLit:tlg0627.tlg031
+ 
+De affectionibus interioribus
+urn:cts:greekLit:tlg0627.tlg032
+ 
+De natura muliebri
+urn:cts:greekLit:tlg0627.tlg033
+ 
+De octimestri partu
+urn:cts:greekLit:tlg0627.tlg035
+ 
+De muliebribus
+urn:cts:greekLit:tlg0627.tlg036
+ 
+De virginum morbis
+urn:cts:greekLit:tlg0627.tlg037
+ 
+De superfoetatione
+urn:cts:greekLit:tlg0627.tlg038
+ 
+De exsectione foetus
+urn:cts:greekLit:tlg0627.tlg039
+ 
+De anatomia
+urn:cts:greekLit:tlg0627.tlg040
+ 
+De dentitione
+urn:cts:greekLit:tlg0627.tlg041
+ 
+De glandulis
+urn:cts:greekLit:tlg0627.tlg042
+ 
+De carnibus
+urn:cts:greekLit:tlg0627.tlg043
+ 
+De corde
+urn:cts:greekLit:tlg0627.tlg045
+ 
+De alimento
+urn:cts:greekLit:tlg0627.tlg046
+ 
+De visu
+urn:cts:greekLit:tlg0627.tlg047
+ 
+De natura ossium
+urn:cts:greekLit:tlg0627.tlg048
+ 
+De medico
+urn:cts:greekLit:tlg0627.tlg049
+ 
+De habitu decenti
+urn:cts:greekLit:tlg0627.tlg050
+ 
+Praeceptiones
+urn:cts:greekLit:tlg0627.tlg051
+ 
+De crisibus
+urn:cts:greekLit:tlg0627.tlg052
+ 
+De diebus criticis
+urn:cts:greekLit:tlg0627.tlg053
+ 
+Epistulae, Decretum, Orationes
+urn:cts:greekLit:tlg0627.tlg055
+Musonius Rufus
+urn:cts:greekLit:tlg0628
+ 
+Dissertationum a Lucio digestarum reliquiae
+urn:cts:greekLit:tlg0628.tlg001
+ 
+Minor Fragments
+urn:cts:greekLit:tlg0628.tlg002
+ 
+Spurious Letters
+urn:cts:greekLit:tlg0628.tlg003
+Periander
+urn:cts:greekLit:tlg0629
+ 
+Epistulae
+urn:cts:greekLit:tlg0629.tlg001
+Pythagoras
+urn:cts:greekLit:tlg0632
+ 
+Epistulae
+urn:cts:greekLit:tlg0632.tlg002
+Lysis
+urn:cts:greekLit:tlg0633
+ 
+Epistula ad Hipparchum
+urn:cts:greekLit:tlg0633.tlg001
+Xenocrates of Chalcedon
+urn:cts:greekLit:tlg0634
+ 
+Fragmenta
+urn:cts:greekLit:tlg0634.tlg001
+Socrates Epistulae
+urn:cts:greekLit:tlg0636
+ 
+Epistulae
+urn:cts:greekLit:tlg0636.tlg001
+Socraticorum Epistulae
+urn:cts:greekLit:tlg0637
+ 
+Epistulae
+urn:cts:greekLit:tlg0637.tlg001
+Philostratus the Athenian
+urn:cts:greekLit:tlg0638
+ 
+Life of Apollonius of Tyana
+urn:cts:greekLit:tlg0638.tlg001
+ 
+Lives of the Sophists
+urn:cts:greekLit:tlg0638.tlg003
+ 
+Heroicus
+urn:cts:greekLit:tlg0638.tlg004
+ 
+Nero
+urn:cts:greekLit:tlg0638.tlg005
+ 
+Epistulae et dialexeis
+urn:cts:greekLit:tlg0638.tlg006
+ 
+De Gymnastica
+urn:cts:greekLit:tlg0638.tlg007
+Menecrates Medicus
+urn:cts:greekLit:tlg0639
+ 
+Epistula
+urn:cts:greekLit:tlg0639.tlg001
+Alciphron
+urn:cts:greekLit:tlg0640
+ 
+Epistulae
+urn:cts:greekLit:tlg0640.tlg001
+Xenophon of Ephesus
+urn:cts:greekLit:tlg0641
+ 
+Ephesiaca
+urn:cts:greekLit:tlg0641.tlg001
+Anonymus Londinensis
+urn:cts:greekLit:tlg0643
+ 
+Preface to Anonymi Londinensis ex Aristotelis iatricis Menoniis et aliis medicis eclogae
+urn:cts:greekLit:tlg0643.opp001
+ 
+Epimetrum to Anonymi Londinensis ex Aristotelis iatricis Menoniis et aliis medicis eclogae
+urn:cts:greekLit:tlg0643.opp002
+ 
+Iatrica Fragmenta Reliqua
+urn:cts:greekLit:tlg0643.opp003
+ 
+Iatrica
+urn:cts:greekLit:tlg0643.tlg001
+ 
+Anonymus Londinensis Fragmenta
+urn:cts:greekLit:tlg0643.tlg002
+Aristophanes of Byzantium
+urn:cts:greekLit:tlg0644
+ 
+Historiae Animalium Epitome
+urn:cts:greekLit:tlg0644.tlg001
+Justin Martyr
+urn:cts:greekLit:tlg0645
+ 
+Apologia I
+urn:cts:greekLit:tlg0645.tlg001
+ 
+Apologia secunda
+urn:cts:greekLit:tlg0645.tlg002
+ 
+Dialogue with Trypho
+urn:cts:greekLit:tlg0645.tlg003
+Pseudo-Justinus Martyr
+urn:cts:greekLit:tlg0646
+ 
+The Epistle to Diogentus
+urn:cts:greekLit:tlg0646.tlg004
+Tryphiodorus
+urn:cts:greekLit:tlg0647
+ 
+The Taking of Ilios
+urn:cts:greekLit:tlg0647.tlg001
+Onasander
+urn:cts:greekLit:tlg0648
+ 
+Strategicus
+urn:cts:greekLit:tlg0648.tlg001
+Lesbonax (Rhetorician)
+urn:cts:greekLit:tlg0649
+ 
+Protrepticus A
+urn:cts:greekLit:tlg0649.tlg002
+ 
+Protrepticus B
+urn:cts:greekLit:tlg0649.tlg003
+Philostratus Minor
+urn:cts:greekLit:tlg0652
+ 
+Imagines
+urn:cts:greekLit:tlg0652.tlg001
+Aratus Solensis
+urn:cts:greekLit:tlg0653
+ 
+Phaenomena
+urn:cts:greekLit:tlg0653.tlg001
+Parthenius of Nicaea
+urn:cts:greekLit:tlg0655
+ 
+Narrationes Amatoriae
+urn:cts:greekLit:tlg0655.tlg001
+Dioscurides Pedianus
+urn:cts:greekLit:tlg0656
+ 
+De materia medica
+urn:cts:greekLit:tlg0656.tlg001
+ 
+Euporista vel De simplicibus medicinis
+urn:cts:greekLit:tlg0656.tlg002
+Crateuas
+urn:cts:greekLit:tlg0657
+ 
+Fragmenta
+urn:cts:greekLit:tlg0657.tlg001
+Heliodorus of Emesa
+urn:cts:greekLit:tlg0658
+ 
+Aethiopica
+urn:cts:greekLit:tlg0658.tlg001
+Adrianus of Tyre
+urn:cts:greekLit:tlg0666
+ 
+Declamatio
+urn:cts:greekLit:tlg0666.tlg001
+Philumenus
+urn:cts:greekLit:tlg0671
+ 
+De venenatis animalibus eorumque remediis
+urn:cts:greekLit:tlg0671.tlg001
+Aglaias, Byzantius
+urn:cts:greekLit:tlg0676
+ 
+Remedy against Incipient Cataracts
+urn:cts:greekLit:tlg0676.tlg001
+Albinus
+urn:cts:greekLit:tlg0693
+ 
+Handbook of Platonism
+urn:cts:greekLit:tlg0693.tlg001
+ 
+Introduction to Plato's Dialogues
+urn:cts:greekLit:tlg0693.tlg002
+Ammonius Grammaticus
+urn:cts:greekLit:tlg0708
+ 
+περὶ ὁμοίων καὶ διαφόρων λέξεων
+urn:cts:greekLit:tlg0708.tlg001
+Aretaeus of Cappadocia
+urn:cts:greekLit:tlg0719
+ 
+De causis et signis acutorum morborum libri duo
+urn:cts:greekLit:tlg0719.tlg001
+ 
+De causis et signis diuturnorum morborum libri duo
+urn:cts:greekLit:tlg0719.tlg002
+ 
+De curatione acutorum morborum libri duo
+urn:cts:greekLit:tlg0719.tlg003
+ 
+De curatione diuturnorum morborum libri duo
+urn:cts:greekLit:tlg0719.tlg004
+Adamantius Judaeus
+urn:cts:greekLit:tlg0731
+ 
+Physiognomonica
+urn:cts:greekLit:tlg0731.tlg001
+ 
+Physiognomonica (epitome Matritensis)
+urn:cts:greekLit:tlg0731.tlg003
+Alexander of Aphrodisias
+urn:cts:greekLit:tlg0732
+ 
+De mixtione
+urn:cts:greekLit:tlg0732.tlg001
+ 
+De febribus [Sp.]
+urn:cts:greekLit:tlg0732.tlg003
+ 
+In Aristotelis Metaphysica Commentaria
+urn:cts:greekLit:tlg0732.tlg004
+ 
+In Aristotelis Analyticorum Priorum Librum I Commentarium
+urn:cts:greekLit:tlg0732.tlg005
+ 
+In Aristotelis Topicorum Libros Octo Commentaria
+urn:cts:greekLit:tlg0732.tlg006
+ 
+In Librum De Sensu Commentarium
+urn:cts:greekLit:tlg0732.tlg007
+ 
+In Aristotelis Meteorologicorum Libros Commentaria
+urn:cts:greekLit:tlg0732.tlg008
+ 
+De anima
+urn:cts:greekLit:tlg0732.tlg010
+ 
+De anima libri mantissa
+urn:cts:greekLit:tlg0732.tlg011
+ 
+Quaestiones
+urn:cts:greekLit:tlg0732.tlg012
+ 
+Ἠθικὰ προβλήματα [Sp.]
+urn:cts:greekLit:tlg0732.tlg013
+ 
+De fato
+urn:cts:greekLit:tlg0732.tlg014
+ 
+In Aristotelis Sophisticos Elenchos Commentarius [Sp.]
+urn:cts:greekLit:tlg0732.tlgX01
+Cassius Iatrosophista
+urn:cts:greekLit:tlg0733
+ 
+Quaestiones medicae et problemata physica
+urn:cts:greekLit:tlg0733.tlg001
+Pseudo-Hippocrates
+urn:cts:greekLit:tlg0751
+ 
+Ἑρμηνεία περὶ ἐνεργῶν λίθων
+urn:cts:greekLit:tlg0751.tlg005
+ 
+De septimestri partu
+urn:cts:greekLit:tlg0751.tlg034
+Pseudo-Dioscorides
+urn:cts:greekLit:tlg1118
+ 
+De lapidibus
+urn:cts:greekLit:tlg1118.tlg003
+Anubion, Poeta Astrologus
+urn:cts:greekLit:tlg1126
+ 
+Fragmenta
+urn:cts:greekLit:tlg1126.tlg003
+Anonymi de Barbarismo et Soloecismo
+urn:cts:greekLit:tlg1129
+ 
+De barbarismo et soloecismo
+urn:cts:greekLit:tlg1129.tlg001
+Anonymus Ad Avircium Marcellum contra Cataphrygas
+urn:cts:greekLit:tlg1131
+ 
+Ad Avircium Marcellum contra Cataphrygas
+urn:cts:greekLit:tlg1131.tlg001
+Anonymous Iamblichi
+urn:cts:greekLit:tlg1134
+ 
+Fragmenta
+urn:cts:greekLit:tlg1134.tlg001
+Antipater Tarsensis
+urn:cts:greekLit:tlg1146
+ 
+Testimonia et Fragmenta
+urn:cts:greekLit:tlg1146.tlg001
+Antiphon of Athens
+urn:cts:greekLit:tlg1147
+ 
+Fragmenta
+urn:cts:greekLit:tlg1147.tlg003
+Aristarchus of Samos
+urn:cts:greekLit:tlg1181
+ 
+De magnitudinibus et distantiis solis et lunae
+urn:cts:greekLit:tlg1181.tlg001
+Aristocles of Messene
+urn:cts:greekLit:tlg1188
+ 
+Fragmenta
+urn:cts:greekLit:tlg1188.tlg002
+Ariston of Chios
+urn:cts:greekLit:tlg1193
+ 
+Testimonia et Fragmenta
+urn:cts:greekLit:tlg1193.tlg001
+Aristonicus of Alexandria
+urn:cts:greekLit:tlg1194
+ 
+De signis Odysseae
+urn:cts:greekLit:tlg1194.tlg001
+Athenagoras
+urn:cts:greekLit:tlg1205
+ 
+Legatio sive Supplicatio pro Christianis
+urn:cts:greekLit:tlg1205.tlg001
+ 
+De Resurrectione
+urn:cts:greekLit:tlg1205.tlg002
+Autolycus
+urn:cts:greekLit:tlg1210
+ 
+De Sphaera Quae Movetur
+urn:cts:greekLit:tlg1210.tlg001
+ 
+De Ortibus et Occasibus
+urn:cts:greekLit:tlg1210.tlg002
+Barnabae epistula
+urn:cts:greekLit:tlg1216
+ 
+The Epistle of Barnabas
+urn:cts:greekLit:tlg1216.tlg001
+Batrachomyomachia
+urn:cts:greekLit:tlg1220
+ 
+Batrachomyomachia
+urn:cts:greekLit:tlg1220.tlg001
+Cebes
+urn:cts:greekLit:tlg1247
+ 
+Cebetis tabula
+urn:cts:greekLit:tlg1247.tlg001
+Certamen Homeri et Hesiodi
+urn:cts:greekLit:tlg1252
+ 
+Certamen Homeri et Hesiodi
+urn:cts:greekLit:tlg1252.tlg002
+Chrysippus
+urn:cts:greekLit:tlg1264
+ 
+Fragmenta Logica et Physica
+urn:cts:greekLit:tlg1264.tlg001
+ 
+Fragmenta Moralia
+urn:cts:greekLit:tlg1264.tlg002
+ 
+Fragmenta quae ad explicationem carminum Homericorum pertinent
+urn:cts:greekLit:tlg1264.tlg003
+ 
+Fragmenta ad singulos libros relata
+urn:cts:greekLit:tlg1264.tlg004
+Cleanthes
+urn:cts:greekLit:tlg1269
+ 
+Testimonia et Fragmenta
+urn:cts:greekLit:tlg1269.tlg002
+Clemens Romanus (Clement of Rome)
+urn:cts:greekLit:tlg1271
+ 
+The First Epistle of Clement to the Corinthians
+urn:cts:greekLit:tlg1271.tlg001
+ 
+The Second Epistle of Clement to the Corinthians
+urn:cts:greekLit:tlg1271.tlg002
+ 
+Epistula Petri ad Jacobum [Sp.]
+urn:cts:greekLit:tlg1271.tlg003
+ 
+Contestatio [Sp.]
+urn:cts:greekLit:tlg1271.tlg004
+ 
+Epistula Clementis ad Jacobum [Sp.]
+urn:cts:greekLit:tlg1271.tlg005
+ 
+Homiliae [Sp.]
+urn:cts:greekLit:tlg1271.tlg006
+ 
+Epistulae de virginitate [Sp.]
+urn:cts:greekLit:tlg1271.tlg010
+ 
+Pseudo‑Clementina (epitome altera auctore Symeone Metaphrasta) [Sp.]
+urn:cts:greekLit:tlg1271.tlg011
+ 
+Pseudo‑Clementina (epitome de gestis Petri praemetaphrastica) [Sp.]
+urn:cts:greekLit:tlg1271.tlg012
+Cleomedes
+urn:cts:greekLit:tlg1272
+ 
+De motu circulari corporum caelestium
+urn:cts:greekLit:tlg1272.tlg001
+Hermetica
+urn:cts:greekLit:tlg1286
+ 
+Poimandres
+urn:cts:greekLit:tlg1286.tlg001
+ 
+Dialogus (sine titulo)
+urn:cts:greekLit:tlg1286.tlg002
+ 
+Hieros logos
+urn:cts:greekLit:tlg1286.tlg003
+ 
+Πρὸς Τάτ ὁ κρατήρ ἡ μονάς
+urn:cts:greekLit:tlg1286.tlg004
+ 
+Πρὸς Τὰτ υἱόν ὅτι ἀφανὴς θεὸς φανερώτατός ἐστιν
+urn:cts:greekLit:tlg1286.tlg005
+ 
+Ὅτι ἐν μόνῳ τῷ θεῷ τὸ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ
+urn:cts:greekLit:tlg1286.tlg006
+ 
+Ὅτι μέγιστον κακὸν ἐν ἀνθρώποις ἡ περὶ τοῦ θεοῦ ἀγνωσία
+urn:cts:greekLit:tlg1286.tlg007
+ 
+Ὅτι οὐδὲν τῶν ὄντων ἀπόλλυται, ἀλλὰ τὰς μεταβολὰς ἀπωλείας καὶ θανάτους πλανώμενοι λέγουσιν
+urn:cts:greekLit:tlg1286.tlg008
+ 
+Περὶ νοήσεως καὶ αἰσθήσεως. [ὅτι ἐν μόνῳ τῷ θεῷ τὸ καλὸν καὶ ἀγαθόν ἐστιν, ἀλλαχόθι δὲ οὐδαμοῦ]
+urn:cts:greekLit:tlg1286.tlg009
+ 
+Κλείς
+urn:cts:greekLit:tlg1286.tlg010
+ 
+Νοῦ πρὸς Ἑρμῆν
+urn:cts:greekLit:tlg1286.tlg011
+ 
+Περὶ νοῦ κοινοῦ πρὸς Τάτ
+urn:cts:greekLit:tlg1286.tlg012
+ 
+Πρὸς τὸν υἱὸν Τὰτ ἐν ὄρει λόγος ἀπόκρυφος περὶ παλιγγενεσίας καὶ σιγῆς ἐπαγγελίας
+urn:cts:greekLit:tlg1286.tlg013
+ 
+Ἀσκληπιῷ εὖ φρονεῖν
+urn:cts:greekLit:tlg1286.tlg014
+ 
+Ὅροι Ἀσκληπιοῦ πρὸς Ἄμμωνα βασιλέα
+urn:cts:greekLit:tlg1286.tlg016
+ 
+Dialogus (sine titulo)
+urn:cts:greekLit:tlg1286.tlg017
+ 
+Περὶ τῆς ὑπὸ τοῦ πάθους τοῦ σώματος ἐμποδιζομένης ψυχῆς
+urn:cts:greekLit:tlg1286.tlg018
+ 
+Asclepius (verba Graeca solum)
+urn:cts:greekLit:tlg1286.tlg019
+ 
+Fragmenta
+urn:cts:greekLit:tlg1286.tlg020
+Crantor
+urn:cts:greekLit:tlg1287
+ 
+Fragmenta
+urn:cts:greekLit:tlg1287.tlg001
+Democritus
+urn:cts:greekLit:tlg1304
+ 
+Fragmenta
+urn:cts:greekLit:tlg1304.tlg002
+Dialexeis
+urn:cts:greekLit:tlg1309
+ 
+Fragmenta
+urn:cts:greekLit:tlg1309.tlg001
+Anonymous
+urn:cts:greekLit:tlg1311
+ 
+Didache
+urn:cts:greekLit:tlg1311.tlg001
+Diogenes of Apollonia
+urn:cts:greekLit:tlg1319
+ 
+Fragmenta
+urn:cts:greekLit:tlg1319.tlg002
+Diogenes Babylonius
+urn:cts:greekLit:tlg1320
+ 
+Testimonia et Fragmenta
+urn:cts:greekLit:tlg1320.tlg001
+Diogenes Sinopensis Epistulae
+urn:cts:greekLit:tlg1325
+ 
+Epistulae
+urn:cts:greekLit:tlg1325.tlg001
+Dionysius Corinthius
+urn:cts:greekLit:tlg1329
+ 
+Fragmenta
+urn:cts:greekLit:tlg1329.tlg001
+Dorotheus of Sidon
+urn:cts:greekLit:tlg1337
+ 
+Fragmenta alia antiqua
+urn:cts:greekLit:tlg1337.tlg003
+Epimenides
+urn:cts:greekLit:tlg1347
+ 
+Fragmenta
+urn:cts:greekLit:tlg1347.tlg004
+Euripides Epistulae
+urn:cts:greekLit:tlg1367
+ 
+Epistulae
+urn:cts:greekLit:tlg1367.tlg001
+Geminus
+urn:cts:greekLit:tlg1383
+ 
+Elementa astronomia
+urn:cts:greekLit:tlg1383.tlg001
+Harpocration
+urn:cts:greekLit:tlg1389
+ 
+Lexicon in decem oratores Atticos
+urn:cts:greekLit:tlg1389.tlg001
+Hecataeus of Abderita
+urn:cts:greekLit:tlg1390
+ 
+Fragmenta
+urn:cts:greekLit:tlg1390.tlg004
+Hephaestion
+urn:cts:greekLit:tlg1402
+ 
+Enchridion de Metris
+urn:cts:greekLit:tlg1402.tlg001
+ 
+Introduction to Meter
+urn:cts:greekLit:tlg1402.tlg002
+ 
+On Poems
+urn:cts:greekLit:tlg1402.tlg003
+ 
+De Signis
+urn:cts:greekLit:tlg1402.tlg004
+ 
+Fragments
+urn:cts:greekLit:tlg1402.tlg005
+Heraclides Ponticus
+urn:cts:greekLit:tlg1409
+ 
+Epitoma to Res Publica Atheniensium
+urn:cts:greekLit:tlg1409.opp003
+Heraclitus Paradoxographus
+urn:cts:greekLit:tlg1413
+ 
+On Unbelievable Stories
+urn:cts:greekLit:tlg1413.tlg001
+Heraclitus
+urn:cts:greekLit:tlg1414
+ 
+Allegoriae (= Quaestiones Homericae)
+urn:cts:greekLit:tlg1414.tlg001
+Philo of Byblos
+urn:cts:greekLit:tlg1416
+ 
+De diversis verborum significationibus (= Περὶ διαφόρους σημασίας κατ’ ἀλφάβητον) (epitome operis Herennii Philonis)
+urn:cts:greekLit:tlg1416.tlg007
+Hermas
+urn:cts:greekLit:tlg1419
+ 
+The Shepherd of Hermas
+urn:cts:greekLit:tlg1419.tlg001
+Hipparchus
+urn:cts:greekLit:tlg1431
+ 
+In Arati et Eudoxi phaenomena commentariorum libri iii
+urn:cts:greekLit:tlg1431.tlg003
+Hippias of Elis
+urn:cts:greekLit:tlg1434
+ 
+Fragmenta
+urn:cts:greekLit:tlg1434.tlg004
+Iamblichus (Scr. Erot.)
+urn:cts:greekLit:tlg1441
+ 
+Babyloniaca
+urn:cts:greekLit:tlg1441.tlg001
+Ignatius of Antioch
+urn:cts:greekLit:tlg1443
+ 
+Epistles
+urn:cts:greekLit:tlg1443.tlg001
+ 
+Epistulae interpolatae et epistulae suppositiciae (recensio longior) [Sp.]
+urn:cts:greekLit:tlg1443.tlg002
+Irenaeus, Saint, Bishop of Lyon
+urn:cts:greekLit:tlg1447
+ 
+Libros quinque adversus haereses
+urn:cts:greekLit:tlg1447.tlg001
+ 
+Fragmenta Synodicae Epistulae.
+urn:cts:greekLit:tlg1447.tlg009
+Liber Enoch
+urn:cts:greekLit:tlg1463
+ 
+Apocalypsis Enochi
+urn:cts:greekLit:tlg1463.tlg001
+Cyranides
+urn:cts:greekLit:tlg1482
+ 
+Cyranides
+urn:cts:greekLit:tlg1482.tlg001
+Martyrium Polycarpi
+urn:cts:greekLit:tlg1484
+ 
+The Martyrdom of Polycarp
+urn:cts:greekLit:tlg1484.tlg001
+Matron of Pitana
+urn:cts:greekLit:tlg1486
+ 
+Convivium Atticum
+urn:cts:greekLit:tlg1486.tlg001
+ 
+Fragmenta
+urn:cts:greekLit:tlg1486.tlg002
+Maximus, Astrologus
+urn:cts:greekLit:tlg1487
+ 
+Carminum de actionum auspiciis reliquiae
+urn:cts:greekLit:tlg1487.tlg001
+ 
+Carminum de actionum auspiciis reliquiae (epitome)
+urn:cts:greekLit:tlg1487.tlg002
+Numenius of Apamea
+urn:cts:greekLit:tlg1542
+ 
+Fragmenta
+urn:cts:greekLit:tlg1542.tlg001
+Oenomaus of Gadara
+urn:cts:greekLit:tlg1548
+ 
+Fragmenta
+urn:cts:greekLit:tlg1548.tlg001
+Oracula Sibyllina
+urn:cts:greekLit:tlg1551
+ 
+Oracula
+urn:cts:greekLit:tlg1551.tlg001
+ 
+Fragmenta
+urn:cts:greekLit:tlg1551.tlg002
+Palaiphatos
+urn:cts:greekLit:tlg1553
+ 
+De Incredibilibus
+urn:cts:greekLit:tlg1553.tlg001
+Parmenides
+urn:cts:greekLit:tlg1562
+ 
+Fragmenta
+urn:cts:greekLit:tlg1562.tlg002
+Philodemus
+urn:cts:greekLit:tlg1595
+ 
+De Musica Librorum Quae Exstant
+urn:cts:greekLit:tlg1595.tlg221
+ 
+Volumina Rhetorica
+urn:cts:greekLit:tlg1595.tlg370
+Philolaus of Croton
+urn:cts:greekLit:tlg1596
+ 
+Fragmenta
+urn:cts:greekLit:tlg1596.tlg002
+Philostratus Sophista
+urn:cts:greekLit:tlg1600
+ 
+Imagines
+urn:cts:greekLit:tlg1600.tlg001
+Philoxenus of Alexandria
+urn:cts:greekLit:tlg1602
+ 
+Fragmenta
+urn:cts:greekLit:tlg1602.tlg001
+Marcus Antonius Polemon
+urn:cts:greekLit:tlg1617
+ 
+Declamationes
+urn:cts:greekLit:tlg1617.tlg001
+Polycarp
+urn:cts:greekLit:tlg1622
+ 
+Epistula ad Philippenses
+urn:cts:greekLit:tlg1622.tlg001
+Polycrates Ephesius
+urn:cts:greekLit:tlg1626
+ 
+Fragmentum Synodicae Epistulae
+urn:cts:greekLit:tlg1626.tlg001
+Prodicus
+urn:cts:greekLit:tlg1634
+ 
+Fragmenta
+urn:cts:greekLit:tlg1634.tlg002
+Seniores Alexandrini
+urn:cts:greekLit:tlg1664
+ 
+Fragmenta
+urn:cts:greekLit:tlg1664.tlg001
+Seniores Apud Irenaeum
+urn:cts:greekLit:tlg1665
+ 
+Reliquiae plurium anonymorum
+urn:cts:greekLit:tlg1665.tlg001
+Serapion Astrologus
+urn:cts:greekLit:tlg1669
+ 
+Fragmenta
+urn:cts:greekLit:tlg1669.tlg004
+Solonis Epistulae
+urn:cts:greekLit:tlg1681
+ 
+Epistulae
+urn:cts:greekLit:tlg1681.tlg001
+Speusippus
+urn:cts:greekLit:tlg1692
+ 
+Fragmenta
+urn:cts:greekLit:tlg1692.tlg005
+Teles Megarenesis
+urn:cts:greekLit:tlg1699
+ 
+Περὶ τοῦ δοκεῖν καὶ τοῦ εἶναι
+urn:cts:greekLit:tlg1699.tlg001
+ 
+Περὶ αὐταρκείας
+urn:cts:greekLit:tlg1699.tlg002
+ 
+Περὶ φυγῆς
+urn:cts:greekLit:tlg1699.tlg003
+ 
+Περὶ συγκρίσεως πενίας καὶ πλούτου
+urn:cts:greekLit:tlg1699.tlg004
+ 
+Περὶ συγκρίσεως πενίας καὶ πλούτου
+urn:cts:greekLit:tlg1699.tlg005
+ 
+Περὶ τοῦ μὴ εἶναι τέλος ἡδονήν
+urn:cts:greekLit:tlg1699.tlg006
+ 
+Περὶ περιστάσεων
+urn:cts:greekLit:tlg1699.tlg007
+ 
+Περὶ ἀπαθείας
+urn:cts:greekLit:tlg1699.tlg008
+Testamentum Abrahae
+urn:cts:greekLit:tlg1701
+ 
+Testamentum Abrahae (recensio A)
+urn:cts:greekLit:tlg1701.tlg001
+ 
+Testamentum Abrahae (recensio B)
+urn:cts:greekLit:tlg1701.tlg002
+Thales
+urn:cts:greekLit:tlg1705
+ 
+Epistulae
+urn:cts:greekLit:tlg1705.tlg001
+Theodosius of Bithynia
+urn:cts:greekLit:tlg1719
+ 
+Sphaerica
+urn:cts:greekLit:tlg1719.tlg001
+Theon Smyrnaeus
+urn:cts:greekLit:tlg1724
+ 
+De utilitate mathematicae
+urn:cts:greekLit:tlg1724.tlg001
+Theophilus
+urn:cts:greekLit:tlg1725
+ 
+Ad Autolycum
+urn:cts:greekLit:tlg1725.tlg001
+Vitae Hesiodi Particula
+urn:cts:greekLit:tlg1749
+ 
+Vitae Hesiodi Particula
+urn:cts:greekLit:tlg1749.tlg001
+Vitae Prophetarum
+urn:cts:greekLit:tlg1750
+ 
+De prophetarum vita et obitu (Dorothei recensio)
+urn:cts:greekLit:tlg1750.tlg001
+ 
+De prophetarum vita et obitu (recensio anonyma)
+urn:cts:greekLit:tlg1750.tlg002
+ 
+De prophetarum vita et obitu (recensio scholiis Hesychii aliorumque patrum in prophetas adjecta)
+urn:cts:greekLit:tlg1750.tlg003
+ 
+Index apostolorum discipulorumque Domini
+urn:cts:greekLit:tlg1750.tlg004
+Tryphon II Grammaticus
+urn:cts:greekLit:tlg1763
+ 
+De tropis (olim sub auctore Gregorio Corintho)
+urn:cts:greekLit:tlg1763.tlg001
+Vettius Valens
+urn:cts:greekLit:tlg1764
+ 
+Anthologiarum libri
+urn:cts:greekLit:tlg1764.tlg001
+Vitae Aesopi
+urn:cts:greekLit:tlg1765
+ 
+Vita Aesopi Pl vel Accursiana (sub auctore Maximo Planude) (recensio 1)
+urn:cts:greekLit:tlg1765.tlg003
+ 
+Vita Aesopi (fort. auctore Aphthonio)
+urn:cts:greekLit:tlg1765.tlg004
+ 
+Βιβλίον μυθικὸν τοῦ Αἰσώπου
+urn:cts:greekLit:tlg1765.tlg005
+Tatianus
+urn:cts:greekLit:tlg1766
+ 
+Oratio ad Graecos
+urn:cts:greekLit:tlg1766.tlg001
+Euclid
+urn:cts:greekLit:tlg1799
+ 
+Elementa
+urn:cts:greekLit:tlg1799.tlg001
+ 
+Data
+urn:cts:greekLit:tlg1799.tlg007
+ 
+Data (demonstrationes alterae)
+urn:cts:greekLit:tlg1799.tlg008
+ 
+Optica
+urn:cts:greekLit:tlg1799.tlg009
+ 
+Opticorum recensio Theonis
+urn:cts:greekLit:tlg1799.tlg010
+ 
+Catoptrica (recensio Theonis?)
+urn:cts:greekLit:tlg1799.tlg011
+ 
+Phaenomena
+urn:cts:greekLit:tlg1799.tlg012
+ 
+Phaenomena (recensio b)
+urn:cts:greekLit:tlg1799.tlg013
+ 
+Phaenomena (demonstrationes alterae recensionis b)
+urn:cts:greekLit:tlg1799.tlg014
+ 
+Sectio canonis [Sp.]
+urn:cts:greekLit:tlg1799.tlg015
+ 
+Fragmenta
+urn:cts:greekLit:tlg1799.tlg016
+ 
+Epigramma
+urn:cts:greekLit:tlg1799.tlg017
+Parodica Anonyma
+urn:cts:greekLit:tlg1801
+ 
+Incertorum fragmenta
+urn:cts:greekLit:tlg1801.tlg001
+Versus heroici
+urn:cts:greekLit:tlg1802
+ 
+Versus heroici
+urn:cts:greekLit:tlg1802.tlg001
+Bruti Epistulae
+urn:cts:greekLit:tlg1803
+ 
+Epistulae
+urn:cts:greekLit:tlg1803.tlg001
+Vitae Homeri
+urn:cts:greekLit:tlg1805
+ 
+Vitae Herodotea
+urn:cts:greekLit:tlg1805.tlg001
+ 
+Plutarchi vita
+urn:cts:greekLit:tlg1805.tlg002
+ 
+Vita Proculea (e Chrestomathia)
+urn:cts:greekLit:tlg1805.tlg003
+ 
+Vita quarta
+urn:cts:greekLit:tlg1805.tlg004
+ 
+Vita quinta
+urn:cts:greekLit:tlg1805.tlg005
+ 
+Vita quinta
+urn:cts:greekLit:tlg1805.tlg006
+ 
+Vita septima
+urn:cts:greekLit:tlg1805.tlg007
+ 
+Tzetzae vita
+urn:cts:greekLit:tlg1805.tlg008
+ 
+Eustathii vita
+urn:cts:greekLit:tlg1805.tlg009
+ 
+Sudae vita
+urn:cts:greekLit:tlg1805.tlg010
+Plotinus
+urn:cts:greekLit:tlg2000
+ 
+Enneades
+urn:cts:greekLit:tlg2000.tlg001
+Themistius
+urn:cts:greekLit:tlg2001
+ 
+Analyticorum Posteriorum Paraphrasis
+urn:cts:greekLit:tlg2001.tlg038
+ 
+In Aristotelis Physica Paraphrasis
+urn:cts:greekLit:tlg2001.tlg039
+ 
+In Aristotelis Libros De Anima Paraphrasis
+urn:cts:greekLit:tlg2001.tlg040
+ 
+(Sophoniae) In Parva Naturalia Commentarium
+urn:cts:greekLit:tlg2001.tlg041
+ 
+Quae Fertur In Aristotelis Analyticorum Priorum Librum I
+urn:cts:greekLit:tlg2001.tlg042
+ 
+In Libros Aristotelis De Caelo Paraphrasis
+urn:cts:greekLit:tlg2001.tlg043
+ 
+In Aristotelis Metaphysicorum
+urn:cts:greekLit:tlg2001.tlg044
+Julian, Emperor of Rome
+urn:cts:greekLit:tlg2003
+ 
+Panegyric in Honor of the Emperor Constantinus
+urn:cts:greekLit:tlg2003.tlg001
+ 
+Panegyric on the Empress Eusebia
+urn:cts:greekLit:tlg2003.tlg002
+ 
+The Heroic Deeds of the Emperor Constantius, or on Kingship
+urn:cts:greekLit:tlg2003.tlg003
+ 
+A Consolation to Himself Upon the Departure of the Excellent Sallust
+urn:cts:greekLit:tlg2003.tlg004
+ 
+Letter to the Senate and the People of Athens
+urn:cts:greekLit:tlg2003.tlg005
+ 
+Letter to Themistius the Philosopher
+urn:cts:greekLit:tlg2003.tlg006
+ 
+To the Cynic Heracleios
+urn:cts:greekLit:tlg2003.tlg007
+ 
+Hymn to the Mother of the Gods
+urn:cts:greekLit:tlg2003.tlg008
+ 
+To the Uneducated Cynics
+urn:cts:greekLit:tlg2003.tlg009
+ 
+The Caesars
+urn:cts:greekLit:tlg2003.tlg010
+ 
+Hymn to King Helios Dedicated to Sallust
+urn:cts:greekLit:tlg2003.tlg011
+ 
+Misopogon
+urn:cts:greekLit:tlg2003.tlg012
+ 
+Epistolae
+urn:cts:greekLit:tlg2003.tlg013
+ 
+Κατὰ Γαλιλαίων
+urn:cts:greekLit:tlg2003.tlg017
+Martyrium Perpetuae et Felcitatis
+urn:cts:greekLit:tlg2016
+ 
+The Passion of Perpetua and Felicitas
+urn:cts:greekLit:tlg2016.tlg001
+Eusebius of Caesarea
+urn:cts:greekLit:tlg2018
+ 
+Praeparatio Evangelica
+urn:cts:greekLit:tlg2018.tlg001
+ 
+Ecclesiastical History
+urn:cts:greekLit:tlg2018.tlg002
+ 
+De Martyribus Palaestinae (Recensio Brevior)
+urn:cts:greekLit:tlg2018.tlg003
+ 
+Demonstratio Evangelica
+urn:cts:greekLit:tlg2018.tlg005
+ 
+Contra Marcellum
+urn:cts:greekLit:tlg2018.tlg007
+ 
+Epistula ad Flacillum
+urn:cts:greekLit:tlg2018.tlg008
+ 
+De Ecclesiastica Theologia
+urn:cts:greekLit:tlg2018.tlg009
+ 
+De Theophania (Fragmenta)
+urn:cts:greekLit:tlg2018.tlg010
+ 
+Onomasticon
+urn:cts:greekLit:tlg2018.tlg011
+ 
+Vita Constantini
+urn:cts:greekLit:tlg2018.tlg020
+ 
+Constantini imperatoris oratio ad coetum sanctorum
+urn:cts:greekLit:tlg2018.tlg021
+ 
+De Laudibus Constantini
+urn:cts:greekLit:tlg2018.tlg022
+ 
+Generalis elementaria introductio (= Eclogae propheticae)
+urn:cts:greekLit:tlg2018.tlg023
+Epiphanius
+urn:cts:greekLit:tlg2021
+ 
+Ancoratus
+urn:cts:greekLit:tlg2021.tlg001
+ 
+Panarion (Adversus Haereses)
+urn:cts:greekLit:tlg2021.tlg002
+ 
+Anacephalaeosis [Sp.]
+urn:cts:greekLit:tlg2021.tlg003
+Gregory of Nazianzus
+urn:cts:greekLit:tlg2022
+ 
+Christus Patiens [Dub.] (Fort. Auctore Constantino Manasse)
+urn:cts:greekLit:tlg2022.tlg003
+ 
+Adversus Eunomianos (Orat. 27)
+urn:cts:greekLit:tlg2022.tlg007
+ 
+De Theologia (Orat. 28)
+urn:cts:greekLit:tlg2022.tlg008
+ 
+De Filio (Orat. 29)
+urn:cts:greekLit:tlg2022.tlg009
+ 
+De Filio (Orat. 30)
+urn:cts:greekLit:tlg2022.tlg010
+ 
+De Spiritu Sancto (Orat. 31)
+urn:cts:greekLit:tlg2022.tlg011
+ 
+Carmina moralia
+urn:cts:greekLit:tlg2022.tlg060
+Iamblichus
+urn:cts:greekLit:tlg2023
+ 
+De Vita Pythagorica
+urn:cts:greekLit:tlg2023.tlg001
+ 
+Protrepticus
+urn:cts:greekLit:tlg2023.tlg002
+ 
+De communi mathematica scientia
+urn:cts:greekLit:tlg2023.tlg003
+ 
+In Nicomachi Arithmeticam Introductionem
+urn:cts:greekLit:tlg2023.tlg004
+ 
+De Mysteriis
+urn:cts:greekLit:tlg2023.tlg006
+Valerius Apsines
+urn:cts:greekLit:tlg2027
+ 
+Ars rhetorica
+urn:cts:greekLit:tlg2027.tlg001
+ 
+Περὶ τῶν ἐσχηματισμένων προβλημάτων
+urn:cts:greekLit:tlg2027.tlg002
+Anonymi summaria ratio geographiae in sphaera intelligendae
+urn:cts:greekLit:tlg2029
+ 
+Anonymi summaria ratio geographiae in sphaera intelligendae
+urn:cts:greekLit:tlg2029.tlg001
+Pappus Alexandrinus
+urn:cts:greekLit:tlg2032
+ 
+Synagoge
+urn:cts:greekLit:tlg2032.tlg001
+Porphyrius
+urn:cts:greekLit:tlg2034
+ 
+Vita Pythagorae
+urn:cts:greekLit:tlg2034.tlg002
+ 
+De abstinentia
+urn:cts:greekLit:tlg2034.tlg003
+ 
+Ad Marcellam
+urn:cts:greekLit:tlg2034.tlg005
+ 
+Isagoge Sive Quinque Voces
+urn:cts:greekLit:tlg2034.tlg006
+ 
+In Aristotelis Categorias Expositio Per Interrogationem Et Responsionem
+urn:cts:greekLit:tlg2034.tlg007
+ 
+Quaestionum Homericanum ad Iliadem pertinentium reliquiae
+urn:cts:greekLit:tlg2034.tlg014
+ 
+Zetemata codicis Vaticani
+urn:cts:greekLit:tlg2034.tlg015
+ 
+Historia philosophiae (fragmenta)
+urn:cts:greekLit:tlg2034.tlg027
+Athanasius of Alexandria
+urn:cts:greekLit:tlg2035
+ 
+De Incarnatione Verbi
+urn:cts:greekLit:tlg2035.tlg002
+ 
+De decretis Nicaenae synodi
+urn:cts:greekLit:tlg2035.tlg003
+ 
+Oratio quarta contra Arianos [Sp.]
+urn:cts:greekLit:tlg2035.tlg117
+ 
+Oratio I contra Arianos
+urn:cts:greekLit:tlg2035.tlg130
+ 
+Oratio II contra Arianos
+urn:cts:greekLit:tlg2035.tlg131
+ 
+Oratio III contra Arianos
+urn:cts:greekLit:tlg2035.tlg132
+Dexippus
+urn:cts:greekLit:tlg2036
+ 
+In Aristotelis Categorias Commentarium
+urn:cts:greekLit:tlg2036.tlg001
+Acta Thomae
+urn:cts:greekLit:tlg2038
+ 
+Acta Thomae
+urn:cts:greekLit:tlg2038.tlg001
+Diophantus Alexandrinus
+urn:cts:greekLit:tlg2039
+ 
+Fragmentum [Sp.] (e cod. Paris. suppl. gr. 387, fol. 181r)
+urn:cts:greekLit:tlg2039.tlg003
+ 
+Fragmentum [Sp.] (e cod. Paris. 453)
+urn:cts:greekLit:tlg2039.tlg004
+ 
+Fragmentum [Sp.] (e cod. Paris. gr. 2448)
+urn:cts:greekLit:tlg2039.tlg005
+Basil, Saint, Bishop of Caesarea
+urn:cts:greekLit:tlg2040
+ 
+De legendis gentilium libris
+urn:cts:greekLit:tlg2040.tlg002
+ 
+Epistulae
+urn:cts:greekLit:tlg2040.tlg004
+Marcellus of Ankara
+urn:cts:greekLit:tlg2041
+ 
+Fragmenta
+urn:cts:greekLit:tlg2041.tlg001
+Origen
+urn:cts:greekLit:tlg2042
+ 
+Contra Celsum
+urn:cts:greekLit:tlg2042.tlg001
+ 
+Commentarii In Evangelium Joannis
+urn:cts:greekLit:tlg2042.tlg005
+ 
+Fragmenta In Evangelium Joannis (In Catenis)
+urn:cts:greekLit:tlg2042.tlg006
+ 
+Exhortatio ad martyrium
+urn:cts:greekLit:tlg2042.tlg007
+ 
+De oratione
+urn:cts:greekLit:tlg2042.tlg008
+ 
+In Jeremiam (Homiliae 1-11)
+urn:cts:greekLit:tlg2042.tlg009
+ 
+Fragmenta In Jeremiam (In Catenis)
+urn:cts:greekLit:tlg2042.tlg010
+ 
+Fragmenta In Lamentationes (In Catenis de Prophetis)
+urn:cts:greekLit:tlg2042.tlg011
+ 
+Fragmentum In Lamentationes (In Catenis de Octateucho)
+urn:cts:greekLit:tlg2042.tlg012
+ 
+De Engastrimytho (Homilia In I Reg. [I Sam.] 28.3-25)
+urn:cts:greekLit:tlg2042.tlg013
+ 
+Fragmenta in Librum Primum Regnorum (In Catenis de Samuelis et Regnorum)
+urn:cts:greekLit:tlg2042.tlg014
+ 
+Fragmentum In Librum Primum Regnorum (In Catenis de Cantico Canticorum)
+urn:cts:greekLit:tlg2042.tlg015
+ 
+Homiliae In Lucam
+urn:cts:greekLit:tlg2042.tlg016
+ 
+Fragmenta In Lucam (In Catenis)
+urn:cts:greekLit:tlg2042.tlg017
+ 
+Philocalia
+urn:cts:greekLit:tlg2042.tlg019
+ 
+In Jeremiam (Homiliae 12-20)
+urn:cts:greekLit:tlg2042.tlg021
+ 
+Commentariorum Series In Evangelium Matthaei (Mt. 22.34-27.63)
+urn:cts:greekLit:tlg2042.tlg028
+ 
+Commentarium In Evangelium Matthaei (Lib. 10-11)
+urn:cts:greekLit:tlg2042.tlg029
+ 
+Commentarium In Evangelium Matthaei (Lib. 12-17)
+urn:cts:greekLit:tlg2042.tlg030
+ 
+Fragmenta in Psalmos 1-150 [Dub.]
+urn:cts:greekLit:tlg2042.tlg044
+ 
+Epistula ad Africanum
+urn:cts:greekLit:tlg2042.tlg045
+ 
+Selecta in Genesim
+urn:cts:greekLit:tlg2042.tlg048
+ 
+Selecta in Exodum
+urn:cts:greekLit:tlg2042.tlg050
+ 
+Selecta in Leviticum
+urn:cts:greekLit:tlg2042.tlg051
+ 
+Selecta in Numeros
+urn:cts:greekLit:tlg2042.tlg052
+ 
+Selecta in Deuteronomium
+urn:cts:greekLit:tlg2042.tlg053
+ 
+Selecta in Jesum Nave
+urn:cts:greekLit:tlg2042.tlg054
+ 
+Selecta in Judices
+urn:cts:greekLit:tlg2042.tlg055
+ 
+Selecta in Job
+urn:cts:greekLit:tlg2042.tlg057
+ 
+Selecta in Psalmos [Dub.]
+urn:cts:greekLit:tlg2042.tlg058
+ 
+Fragmenta ex commentariis in Ezechielem
+urn:cts:greekLit:tlg2042.tlg061
+ 
+Adnotationes in Genesim
+urn:cts:greekLit:tlg2042.tlg066
+ 
+Adnotationes in Exodum
+urn:cts:greekLit:tlg2042.tlg067
+ 
+Adnotationes in Leviticum (fragmenta e catenis)
+urn:cts:greekLit:tlg2042.tlg068
+ 
+Adnotationes in Numeros
+urn:cts:greekLit:tlg2042.tlg069
+ 
+Adnotationes in Deuteronomium (fragmenta e catenis)
+urn:cts:greekLit:tlg2042.tlg070
+ 
+Adnotationes in Jesu filium Nave (fragmenta e catenis)
+urn:cts:greekLit:tlg2042.tlg071
+ 
+Adnotationes in Judices
+urn:cts:greekLit:tlg2042.tlg072
+ 
+Homiliae in Job (fragmenta in catenis, typus II)
+urn:cts:greekLit:tlg2042.tlg073
+ 
+Excerpta in Psalmos [Dub.]
+urn:cts:greekLit:tlg2042.tlg074
+ 
+Expositio in Proverbia (fragmenta e catenis)
+urn:cts:greekLit:tlg2042.tlg075
+ 
+Scholia in Canticum canticorum
+urn:cts:greekLit:tlg2042.tlg076
+ 
+Scholia in Matthaeum
+urn:cts:greekLit:tlg2042.tlg077
+ 
+Scholia in Lucam (fragmenta e cod. Venet. 28)
+urn:cts:greekLit:tlg2042.tlg078
+ 
+Commentarii in evangelium Joannis (lib. 19, 20, 28, 32)
+urn:cts:greekLit:tlg2042.tlg079
+ 
+Fragmenta In Jeremiam (E Philocalia)
+urn:cts:greekLit:tlg2042.tlg084
+ 
+Homiliae in Job (fragmenta in catenis, typus I+II) (e codd. Vat.)
+urn:cts:greekLit:tlg2042.tlg086
+Nonnus of Panopolis
+urn:cts:greekLit:tlg2045
+ 
+Dionysiaca
+urn:cts:greekLit:tlg2045.tlg001
+Quintus Smyrnaeus
+urn:cts:greekLit:tlg2046
+ 
+Fall of Troy
+urn:cts:greekLit:tlg2046.tlg001
+Sozomenus
+urn:cts:greekLit:tlg2048
+ 
+Historia Ecclesiastica
+urn:cts:greekLit:tlg2048.tlg001
+Sallustius
+urn:cts:greekLit:tlg2049
+ 
+De Deis et Mundo
+urn:cts:greekLit:tlg2049.tlg001
+Eunapius
+urn:cts:greekLit:tlg2050
+ 
+Vitae Sophistarum
+urn:cts:greekLit:tlg2050.tlg001
+Socrates Scholasticus
+urn:cts:greekLit:tlg2057
+ 
+Ecclesiastical history
+urn:cts:greekLit:tlg2057.tlg002
+Philostorgius
+urn:cts:greekLit:tlg2058
+ 
+Historia ecclesiastica (fragmenta ap. Photium)
+urn:cts:greekLit:tlg2058.tlg001
+Hippolytus
+urn:cts:greekLit:tlg2115
+ 
+Refutatio Omnium Haeresium (= Philosophumena)
+urn:cts:greekLit:tlg2115.tlg060
+Alypius
+urn:cts:greekLit:tlg2135
+ 
+Isagoge musica
+urn:cts:greekLit:tlg2135.tlg001
+Bacchius Geron
+urn:cts:greekLit:tlg2136
+ 
+Isagoge artis musicae
+urn:cts:greekLit:tlg2136.tlg001
+Gaudentius
+urn:cts:greekLit:tlg2137
+ 
+Harmonica introductio
+urn:cts:greekLit:tlg2137.tlg001
+Canticum Euripidis
+urn:cts:greekLit:tlg2138
+ 
+Ex Orestis Stasimo I
+urn:cts:greekLit:tlg2138.tlg001
+Epitaphium Sicili
+urn:cts:greekLit:tlg2139
+ 
+Sicili Epitaphium
+urn:cts:greekLit:tlg2139.tlg001
+Iamblichus Alchemista
+urn:cts:greekLit:tlg2140
+ 
+Fragmentum alchemica
+urn:cts:greekLit:tlg2140.tlg001
+Cassius Longinus
+urn:cts:greekLit:tlg2178
+ 
+Ars rhetorica
+urn:cts:greekLit:tlg2178.tlg001
+ 
+Excerpta
+urn:cts:greekLit:tlg2178.tlg002
+ 
+Fragmenta
+urn:cts:greekLit:tlg2178.tlg004
+Callinicus
+urn:cts:greekLit:tlg2189
+ 
+Fragmenta
+urn:cts:greekLit:tlg2189.tlg003
+Libanius
+urn:cts:greekLit:tlg2200
+ 
+Epistulae
+urn:cts:greekLit:tlg2200.tlg001
+ 
+Oratio 1
+urn:cts:greekLit:tlg2200.tlg00401
+ 
+Oratio 2
+urn:cts:greekLit:tlg2200.tlg00402
+ 
+Oratio 3
+urn:cts:greekLit:tlg2200.tlg00403
+ 
+Oratio 4
+urn:cts:greekLit:tlg2200.tlg00404
+ 
+Oratio 5
+urn:cts:greekLit:tlg2200.tlg00405
+ 
+Oratio 6
+urn:cts:greekLit:tlg2200.tlg00406
+ 
+Oratio 7
+urn:cts:greekLit:tlg2200.tlg00407
+ 
+Oratio 8
+urn:cts:greekLit:tlg2200.tlg00408
+ 
+Oratio 9
+urn:cts:greekLit:tlg2200.tlg00409
+ 
+Oratio 10
+urn:cts:greekLit:tlg2200.tlg00410
+ 
+Oratio 11
+urn:cts:greekLit:tlg2200.tlg00411
+ 
+Oratio 26
+urn:cts:greekLit:tlg2200.tlg00426
+ 
+Oratio 27
+urn:cts:greekLit:tlg2200.tlg00427
+ 
+Oratio 28
+urn:cts:greekLit:tlg2200.tlg00428
+ 
+Oratio 29
+urn:cts:greekLit:tlg2200.tlg00429
+ 
+Oratio 30
+urn:cts:greekLit:tlg2200.tlg00430
+ 
+Oratio 31
+urn:cts:greekLit:tlg2200.tlg00431
+ 
+Oratio 32
+urn:cts:greekLit:tlg2200.tlg00432
+ 
+Oratio 33
+urn:cts:greekLit:tlg2200.tlg00433
+ 
+Oratio 34
+urn:cts:greekLit:tlg2200.tlg00434
+ 
+Oratio 35
+urn:cts:greekLit:tlg2200.tlg00435
+ 
+Oratio 36
+urn:cts:greekLit:tlg2200.tlg00436
+ 
+Oratio 37
+urn:cts:greekLit:tlg2200.tlg00437
+ 
+Oratio 38
+urn:cts:greekLit:tlg2200.tlg00438
+ 
+Oratio 39
+urn:cts:greekLit:tlg2200.tlg00439
+ 
+Oratio 40
+urn:cts:greekLit:tlg2200.tlg00440
+ 
+Oratio 41
+urn:cts:greekLit:tlg2200.tlg00441
+ 
+Oratio 42
+urn:cts:greekLit:tlg2200.tlg00442
+ 
+Oratio 43
+urn:cts:greekLit:tlg2200.tlg00443
+ 
+Oratio 44
+urn:cts:greekLit:tlg2200.tlg00444
+ 
+Oratio 45
+urn:cts:greekLit:tlg2200.tlg00445
+ 
+Oratio 46
+urn:cts:greekLit:tlg2200.tlg00446
+ 
+Oratio 47
+urn:cts:greekLit:tlg2200.tlg00447
+ 
+Oratio 48
+urn:cts:greekLit:tlg2200.tlg00448
+ 
+Oratio 49
+urn:cts:greekLit:tlg2200.tlg00449
+ 
+Oratio 50
+urn:cts:greekLit:tlg2200.tlg00450
+ 
+Oratio 51
+urn:cts:greekLit:tlg2200.tlg00451
+ 
+Oratio 52
+urn:cts:greekLit:tlg2200.tlg00452
+ 
+Oratio 53
+urn:cts:greekLit:tlg2200.tlg00453
+ 
+Oratio 54
+urn:cts:greekLit:tlg2200.tlg00454
+ 
+Oratio 55
+urn:cts:greekLit:tlg2200.tlg00455
+ 
+Oratio 56
+urn:cts:greekLit:tlg2200.tlg00456
+ 
+Oratio 57
+urn:cts:greekLit:tlg2200.tlg00457
+ 
+Oratio 58
+urn:cts:greekLit:tlg2200.tlg00458
+ 
+Oratio 59
+urn:cts:greekLit:tlg2200.tlg00459
+ 
+Oratio 60
+urn:cts:greekLit:tlg2200.tlg00460
+ 
+Oratio 61
+urn:cts:greekLit:tlg2200.tlg00461
+ 
+Oratio 62
+urn:cts:greekLit:tlg2200.tlg00462
+ 
+Oratio 63
+urn:cts:greekLit:tlg2200.tlg00463
+ 
+Oratio 64
+urn:cts:greekLit:tlg2200.tlg00464
+ 
+Declamatio 1
+urn:cts:greekLit:tlg2200.tlg00501
+ 
+Declamatio 2
+urn:cts:greekLit:tlg2200.tlg00502
+ 
+Declamatio 3
+urn:cts:greekLit:tlg2200.tlg00503
+ 
+Declamatio 4
+urn:cts:greekLit:tlg2200.tlg00504
+ 
+Declamatio 5
+urn:cts:greekLit:tlg2200.tlg00505
+ 
+Declamatio 6
+urn:cts:greekLit:tlg2200.tlg00506
+ 
+Declamatio 7
+urn:cts:greekLit:tlg2200.tlg00507
+ 
+Declamatio 8
+urn:cts:greekLit:tlg2200.tlg00508
+ 
+Declamatio 9
+urn:cts:greekLit:tlg2200.tlg00509
+ 
+Declamatio 10
+urn:cts:greekLit:tlg2200.tlg00510
+ 
+Declamatio 11
+urn:cts:greekLit:tlg2200.tlg00511
+ 
+Declamatio 12
+urn:cts:greekLit:tlg2200.tlg00512
+ 
+Declamatio 13
+urn:cts:greekLit:tlg2200.tlg00513
+ 
+Declamatio 14
+urn:cts:greekLit:tlg2200.tlg00514
+ 
+Declamatio 15
+urn:cts:greekLit:tlg2200.tlg00515
+ 
+Declamatio 16
+urn:cts:greekLit:tlg2200.tlg00516
+ 
+Declamatio 17
+urn:cts:greekLit:tlg2200.tlg00517
+ 
+Declamatio 18
+urn:cts:greekLit:tlg2200.tlg00518
+ 
+Declamatio 19
+urn:cts:greekLit:tlg2200.tlg00519
+ 
+Declamatio 20
+urn:cts:greekLit:tlg2200.tlg00520
+ 
+Declamatio 21
+urn:cts:greekLit:tlg2200.tlg00521
+ 
+Declamatio 22
+urn:cts:greekLit:tlg2200.tlg00522
+ 
+Declamatio 23
+urn:cts:greekLit:tlg2200.tlg00523
+ 
+Declamatio 24
+urn:cts:greekLit:tlg2200.tlg00524
+ 
+Declamatio 25
+urn:cts:greekLit:tlg2200.tlg00525
+ 
+Declamatio 26
+urn:cts:greekLit:tlg2200.tlg00526
+ 
+Declamatio 27
+urn:cts:greekLit:tlg2200.tlg00527
+ 
+Declamatio 28
+urn:cts:greekLit:tlg2200.tlg00528
+ 
+Declamatio 29
+urn:cts:greekLit:tlg2200.tlg00529
+ 
+Declamatio 30
+urn:cts:greekLit:tlg2200.tlg00530
+ 
+Declamatio 31
+urn:cts:greekLit:tlg2200.tlg00531
+ 
+Declamatio 32
+urn:cts:greekLit:tlg2200.tlg00532
+ 
+Declamatio 33
+urn:cts:greekLit:tlg2200.tlg00533
+ 
+Declamatio 34
+urn:cts:greekLit:tlg2200.tlg00534
+ 
+Declamatio 35
+urn:cts:greekLit:tlg2200.tlg00535
+ 
+Declamatio 36
+urn:cts:greekLit:tlg2200.tlg00536
+ 
+Declamatio 37
+urn:cts:greekLit:tlg2200.tlg00537
+ 
+Declamatio 38
+urn:cts:greekLit:tlg2200.tlg00538
+ 
+Declamatio 39
+urn:cts:greekLit:tlg2200.tlg00539
+ 
+Declamatio 40
+urn:cts:greekLit:tlg2200.tlg00540
+ 
+Declamatio 41
+urn:cts:greekLit:tlg2200.tlg00541
+ 
+Declamatio 42
+urn:cts:greekLit:tlg2200.tlg00542
+ 
+Declamatio 43
+urn:cts:greekLit:tlg2200.tlg00543
+ 
+Declamatio 44
+urn:cts:greekLit:tlg2200.tlg00544
+ 
+Declamatio 45
+urn:cts:greekLit:tlg2200.tlg00545
+ 
+Declamatio 46
+urn:cts:greekLit:tlg2200.tlg00546
+ 
+Declamatio 47
+urn:cts:greekLit:tlg2200.tlg00547
+ 
+Declamatio 48
+urn:cts:greekLit:tlg2200.tlg00548
+ 
+Declamatio 49
+urn:cts:greekLit:tlg2200.tlg00549
+ 
+Declamatio 50
+urn:cts:greekLit:tlg2200.tlg00550
+ 
+Declamatio 51
+urn:cts:greekLit:tlg2200.tlg00551
+ 
+Characteres Epistolici [Sp.]
+urn:cts:greekLit:tlg2200.tlg008
+Pseudo-Polemon
+urn:cts:greekLit:tlg2233
+ 
+Physiognomonica (Epitome Adamantiana)
+urn:cts:greekLit:tlg2233.tlg001
+ 
+Physiognomonica
+urn:cts:greekLit:tlg2233.tlg002
+Chronicon Paschale
+urn:cts:greekLit:tlg2371
+ 
+Chronicon Paschale
+urn:cts:greekLit:tlg2371.tlg001
+Manetho Astrologus
+urn:cts:greekLit:tlg2583
+ 
+Apotelesmatica
+urn:cts:greekLit:tlg2583.tlg001
+Menander Rhetor
+urn:cts:greekLit:tlg2586
+ 
+Διαίρεσις τῶν ἐπιδεικτικῶν
+urn:cts:greekLit:tlg2586.tlg001
+ 
+Περὶ ἐπιδεικτικῶν
+urn:cts:greekLit:tlg2586.tlg002
+Tiberius Rhetor
+urn:cts:greekLit:tlg2601
+ 
+De figuris Demosthenicis
+urn:cts:greekLit:tlg2601.tlg001
+Comarius
+urn:cts:greekLit:tlg2632
+ 
+De lapide philosophorum
+urn:cts:greekLit:tlg2632.tlg001
+Eusebius Myndius
+urn:cts:greekLit:tlg2640
+ 
+Fragmenta
+urn:cts:greekLit:tlg2640.tlg001
+Damigeron
+urn:cts:greekLit:tlg2655
+ 
+De lapidibus
+urn:cts:greekLit:tlg2655.tlg002
+Musaeus, Eleusinius
+urn:cts:greekLit:tlg2691
+ 
+Fragmenta
+urn:cts:greekLit:tlg2691.tlg002
+Anna Comnena
+urn:cts:greekLit:tlg2703
+ 
+Alexias
+urn:cts:greekLit:tlg2703.tlg001
+Evagrius, Scholasticus
+urn:cts:greekLit:tlg2733
+ 
+Historia Ecclesiastica
+urn:cts:greekLit:tlg2733.tlg001
+Gelasius
+urn:cts:greekLit:tlg2768
+ 
+Historia Ecclesiastica
+urn:cts:greekLit:tlg2768.tlg001
+Marcus Diaconus
+urn:cts:greekLit:tlg2806
+ 
+Vita Porphyrii episcopi Gazensis
+urn:cts:greekLit:tlg2806.tlg001
+John of Damascus, Saint
+urn:cts:greekLit:tlg2934
+ 
+Vita Barlaam et Joasaph
+urn:cts:greekLit:tlg2934.tlg066
+Acta Philippi
+urn:cts:greekLit:tlg2948
+ 
+Acta Philippi
+urn:cts:greekLit:tlg2948.tlg001
+Acta Barnabae
+urn:cts:greekLit:tlg2949
+ 
+Acta Barnabae
+urn:cts:greekLit:tlg2949.tlg001
+Methodius
+urn:cts:greekLit:tlg2959
+ 
+Symposium Sive Convivium Decem Virginum
+urn:cts:greekLit:tlg2959.tlg001
+ 
+De Libero Arbitrio
+urn:cts:greekLit:tlg2959.tlg002
+ 
+De Resurrectione
+urn:cts:greekLit:tlg2959.tlg003
+ 
+De Lepra Ad Sistelium
+urn:cts:greekLit:tlg2959.tlg004
+ 
+De Creatis (Fragmenta Ap. Photium, Bibl. Cod. 235)
+urn:cts:greekLit:tlg2959.tlg005
+ 
+Adversus Porphyrium (Fragmenta)
+urn:cts:greekLit:tlg2959.tlg006
+ 
+Fragmenta In Job (In Catenis)
+urn:cts:greekLit:tlg2959.tlg007
+ 
+De Martyribus (Fragmenta)
+urn:cts:greekLit:tlg2959.tlg008
+ 
+Fragmenta Incerta [Sp.]
+urn:cts:greekLit:tlg2959.tlg010
+ 
+In Genesim (In Catenis)
+urn:cts:greekLit:tlg2959.tlg011
+ 
+Sermo De Simeone Et Anna [Sp.]
+urn:cts:greekLit:tlg2959.tlg012
+Severus Philosophus
+urn:cts:greekLit:tlg2970
+ 
+Περὶ ψυχῆς (fragmentum)
+urn:cts:greekLit:tlg2970.tlg001
+Anonymi de Terrae Motibus
+urn:cts:greekLit:tlg2972
+ 
+Anonymi Dissertatio De Terrae Motibus
+urn:cts:greekLit:tlg2972.tlg001
+Syntipas
+urn:cts:greekLit:tlg3118
+ 
+Syntipas (translatio Michael Andreopuli)
+urn:cts:greekLit:tlg3118.tlg001
+ 
+Narrationes de Syntipa
+urn:cts:greekLit:tlg3118.tlg002
+Theophylactus
+urn:cts:greekLit:tlg3129
+ 
+Commentary on St. Cyril In XII Prophetas
+urn:cts:greekLit:tlg3129.ogl001
+Zonaras
+urn:cts:greekLit:tlg3135
+ 
+Epitome Historiarum
+urn:cts:greekLit:tlg3135.tlg001
+ 
+Argumenta
+urn:cts:greekLit:tlg3135.tlg011
+ 
+Chronologia
+urn:cts:greekLit:tlg3135.tlg012
+Anonymi Exegesis in Hesiodi Theogoniam
+urn:cts:greekLit:tlg3156
+ 
+Exegesis in Hesiodi theogoniam
+urn:cts:greekLit:tlg3156.tlg001
+Marcianus, of Heraclea
+urn:cts:greekLit:tlg4003
+ 
+Periplus maris exteri
+urn:cts:greekLit:tlg4003.tlg001
+ 
+Menippi periplus maris interni (epitome Marciani)
+urn:cts:greekLit:tlg4003.tlg002
+ 
+Artemidori Geographia (Epitome Marciani)
+urn:cts:greekLit:tlg4003.tlg003
+Simplicius
+urn:cts:greekLit:tlg4013
+ 
+In Aristotelis Quattuor Libros De Caelo Commentaria
+urn:cts:greekLit:tlg4013.tlg001
+ 
+In Aristotelis Categorias Commentarium
+urn:cts:greekLit:tlg4013.tlg003
+ 
+In Aristotelis Physicorum Libros Commentaria
+urn:cts:greekLit:tlg4013.tlg004
+ 
+In Aristotelis Libros De Anima Commentaria [Sp.?] (fort. auctore Prisciano Lydo)
+urn:cts:greekLit:tlg4013.tlg005
+John Philoponus
+urn:cts:greekLit:tlg4015
+ 
+In Aristotelis Categorias Commentarium
+urn:cts:greekLit:tlg4015.tlg001
+ 
+In Aristotelis Analytica Priora Commentaria
+urn:cts:greekLit:tlg4015.tlg002
+ 
+In Aristotelis Analytica Posteriora Commentaria
+urn:cts:greekLit:tlg4015.tlg004
+ 
+In Aristotelis Meteorologicorum Librum Primum Commentarium
+urn:cts:greekLit:tlg4015.tlg005
+ 
+In Aristotelis Libros De Generatione Et Corruptione Commentaria
+urn:cts:greekLit:tlg4015.tlg006
+ 
+In Libros De Generatione Animalium Commentaria
+urn:cts:greekLit:tlg4015.tlg007
+ 
+In Aristotelis Libros De Anima Commentaria
+urn:cts:greekLit:tlg4015.tlg008
+ 
+In Aristotelis Physicorum Libros Commentaria
+urn:cts:greekLit:tlg4015.tlg009
+Ammonius
+urn:cts:greekLit:tlg4016
+ 
+In Porphyrii Isagogen Sive Quinque Voces
+urn:cts:greekLit:tlg4016.tlg001
+ 
+In Aristotelis Categorias Commentarius
+urn:cts:greekLit:tlg4016.tlg002
+ 
+In Aristotelis Librum De Interpretatione Commentarius
+urn:cts:greekLit:tlg4016.tlg003
+ 
+In Aristotelis Analyticorum Priorum Librum I Commentarium
+urn:cts:greekLit:tlg4016.tlg004
+ 
+In Aristotelis analytica priora [Sp.]
+urn:cts:greekLit:tlg4016.tlg005
+Syrianus
+urn:cts:greekLit:tlg4017
+ 
+In Aristotelis Metaphysica Commentaria
+urn:cts:greekLit:tlg4017.tlg001
+Asclepius
+urn:cts:greekLit:tlg4018
+ 
+In Aristotelis Metaphysicorum Libros A-Z Commentaria
+urn:cts:greekLit:tlg4018.tlg001
+Olympiodorus
+urn:cts:greekLit:tlg4019
+ 
+Prolegomena
+urn:cts:greekLit:tlg4019.tlg001
+ 
+In Categorias Commentarium
+urn:cts:greekLit:tlg4019.tlg002
+ 
+In Aristotelis Meteora Commentaria
+urn:cts:greekLit:tlg4019.tlg003
+Elias Neoplatonicus
+urn:cts:greekLit:tlg4020
+ 
+In Porphyrii Isagogen
+urn:cts:greekLit:tlg4020.tlg001
+ 
+Eliae (Olim Davidis) In Aristotelis Categorias Commentarium
+urn:cts:greekLit:tlg4020.tlg002
+David the Invincible
+urn:cts:greekLit:tlg4021
+ 
+Prolegomena philosophiae
+urn:cts:greekLit:tlg4021.tlg001
+ 
+In Porphyrii Isagogen Commentarium
+urn:cts:greekLit:tlg4021.tlg002
+Agathias Scholasticus
+urn:cts:greekLit:tlg4024
+ 
+Historiae
+urn:cts:greekLit:tlg4024.tlg001
+ 
+Epigrammata
+urn:cts:greekLit:tlg4024.tlg002
+Anonymi in Aristotelis Artem Rhetoricam
+urn:cts:greekLit:tlg4026
+ 
+In Aristotelis artem rhetoricam commentarium
+urn:cts:greekLit:tlg4026.tlg001
+ 
+Fragmentum commentarii in Aristotelis rhetorica
+urn:cts:greekLit:tlg4026.tlg002
+ 
+Fragmentum paraphrasis in Aristotelis rhetorica
+urn:cts:greekLit:tlg4026.tlg003
+Anonymi In Aristotelis Categorias
+urn:cts:greekLit:tlg4027
+ 
+Paraphrasis Categoriarum
+urn:cts:greekLit:tlg4027.tlg001
+Procopius
+urn:cts:greekLit:tlg4029
+ 
+De Bellis
+urn:cts:greekLit:tlg4029.tlg001
+ 
+Historia Arcana
+urn:cts:greekLit:tlg4029.tlg002
+Sophonias
+urn:cts:greekLit:tlg4030
+ 
+In Aristotelis Libros De Anima Paraphrasis
+urn:cts:greekLit:tlg4030.tlg001
+Eustratius
+urn:cts:greekLit:tlg4031
+ 
+In Aristotelis Ethica Nicomachea I Commentaria
+urn:cts:greekLit:tlg4031.tlg002
+Anonymi In Aristotelis Ethica Nicomachea
+urn:cts:greekLit:tlg4033
+ 
+In Ethica Nicomachea Paraphrasis (Pseudepigraphum Olim A Constantino Palaeocappa confectum et olim sub auctore Heliodoro Prusensi vel Andronico Rhodio vel Olympiodoro)
+urn:cts:greekLit:tlg4033.tlg003
+Michael of Ephesus
+urn:cts:greekLit:tlg4034
+ 
+In Parva Naturalia Commentaria
+urn:cts:greekLit:tlg4034.tlg002
+ 
+In Libros De Partibus Animalium Commentaria
+urn:cts:greekLit:tlg4034.tlg003
+ 
+In libros de animalium motione commentarium
+urn:cts:greekLit:tlg4034.tlg004
+ 
+In librum de animalium incessu commentarium
+urn:cts:greekLit:tlg4034.tlg005
+ 
+In Librum Quintum Ethicorum Nicomacheorum Commentarium
+urn:cts:greekLit:tlg4034.tlg006
+Proclus
+urn:cts:greekLit:tlg4036
+ 
+In Platonis Rem Publicam Commentarii
+urn:cts:greekLit:tlg4036.tlg001
+ 
+Chrestomathy
+urn:cts:greekLit:tlg4036.tlg023
+Anonymi Paradoxographi
+urn:cts:greekLit:tlg4037
+ 
+De Incredibilibus (excerpta Vaticana)
+urn:cts:greekLit:tlg4037.tlg001
+Eutocius
+urn:cts:greekLit:tlg4072
+ 
+Commentarii in libros de sphaera et cylindro
+urn:cts:greekLit:tlg4072.tlg001
+ 
+Commentarius in dimensionem circuli
+urn:cts:greekLit:tlg4072.tlg002
+ 
+Commentarius in libros de planorum aequilibriis
+urn:cts:greekLit:tlg4072.tlg003
+Marinus, 5th century
+urn:cts:greekLit:tlg4075
+ 
+Commentarium in Euclidis data
+urn:cts:greekLit:tlg4075.tlg002
+Colluthus of Lycopolis
+urn:cts:greekLit:tlg4081
+ 
+The Rape of Helen
+urn:cts:greekLit:tlg4081.tlg001
+Zosimus
+urn:cts:greekLit:tlg4084
+ 
+Historia Nova
+urn:cts:greekLit:tlg4084.tlg001
+Agathodaemon
+urn:cts:greekLit:tlg4086
+ 
+Alchemical Fragment
+urn:cts:greekLit:tlg4086.tlg001
+ 
+Explanation and Commentary on the Oracle of Orpheus
+urn:cts:greekLit:tlg4086.tlg002
+Theodoret, Bishop of Cyrus
+urn:cts:greekLit:tlg4089
+ 
+Historia Ecclesiastica
+urn:cts:greekLit:tlg4089.tlg003
+ 
+Historia Religiosa
+urn:cts:greekLit:tlg4089.tlg004
+Cyril of Alexandria
+urn:cts:greekLit:tlg4090
+ 
+In XII Prophetas
+urn:cts:greekLit:tlg4090.tlg001
+Callistratus
+urn:cts:greekLit:tlg4091
+ 
+Descriptiones
+urn:cts:greekLit:tlg4091.tlg001
+Catenae (Novum Testamentum)
+urn:cts:greekLit:tlg4102
+ 
+Catena In Matthaeum (Catena Integra) (E Cod. Paris. Coislin. Gr. 23)
+urn:cts:greekLit:tlg4102.tlg001
+ 
+Catena In Marcum (Recensio ii) (E Codd. Oxon. Bodl. Laud. 33 + Paris. Coislin. 23 + Paris. gr. 178)
+urn:cts:greekLit:tlg4102.tlg002
+ 
+Supplementum et varietas lectionis ad commentarium Chrysostomi in evangelium sancti Matthaei (e cod. Oxon. Bodl. Auct. T.1.4)
+urn:cts:greekLit:tlg4102.tlg003
+ 
+Catena In Lucam (Typus B) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Misc. 182)
+urn:cts:greekLit:tlg4102.tlg004
+ 
+Catena In Joannem (Catena Integra) (e codd. Paris. Coislin. 23 + Oxon. Bodl. Auct. T.1.4)
+urn:cts:greekLit:tlg4102.tlg005
+ 
+Supplementum et varietas lectionis ad catenam in evangelium sancti Lucae (e cod. Oxon. Bodl. Laud. 33)
+urn:cts:greekLit:tlg4102.tlg006
+ 
+Supplementum Et Varietas Lectionis Ad Catenam In Evangelium Sancti Joannis (e cod. Bodl. B.)
+urn:cts:greekLit:tlg4102.tlg007
+ 
+Catena In Acta (Catena Andreae) (e cod. Oxon. coll. nov. 58)
+urn:cts:greekLit:tlg4102.tlg008
+ 
+Catena In Epistulam Ad Romanos (Typus Vaticanus) (E Cod. Oxon. Bodl. Auct. E.2.20 [= Misc. 48])
+urn:cts:greekLit:tlg4102.tlg010
+ 
+Catena In Epistulam Ad Romanos (Typus Monacensis) (E Cod. Monac. gr. 412)
+urn:cts:greekLit:tlg4102.tlg011
+ 
+Catena In Epistulam I Ad Corinthios (Typus Vaticanus) (e Cod. Paris. gr. 227)
+urn:cts:greekLit:tlg4102.tlg012
+ 
+Catena In Epistulam II Ad Corinthios (Catena Pseudo-Oecumenii)
+urn:cts:greekLit:tlg4102.tlg013
+ 
+Catena In Epistulam Ad Galatas (Typus Parisinus) (E Cod. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg019
+ 
+Catena In Epistulam Ad Ephesios (Typus Parisinus) (E Cod. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg020
+ 
+Catena In Epistulam Ad Philippenses (Typus Parisinus) (e cod. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg021
+ 
+Catena In Epistulam Ad Colossenses (Typus Parisinus) (E Cod. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg022
+ 
+Catena In Epistulam I Ad Thessalonicenses (Typus Parisinus)
+urn:cts:greekLit:tlg4102.tlg023
+ 
+Catena In Epistulam II Ad Thessalonicenses (Typus Parisinus)
+urn:cts:greekLit:tlg4102.tlg024
+ 
+Catena In Epistulam I Ad Timotheum (E Cod. Paris. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg034
+ 
+Catena In Epistulam II Ad Timotheum (E Cod. Paris. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg035
+ 
+Catena In Epistulam Ad Titum (E Cod. Paris. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg036
+ 
+Catena In Epistulam Ad Philemonem (E Cod. Paris. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg037
+ 
+Catena In Epistulam Ad Hebraeos (E Cod. Paris. Coislin. 204)
+urn:cts:greekLit:tlg4102.tlg038
+ 
+Catena In Epistulam Jacobi (Catena Andreae)
+urn:cts:greekLit:tlg4102.tlg040
+ 
+Catena in epistulam Petri i (catena Andreae) (e cod. Oxon. coll. nov. 58)
+urn:cts:greekLit:tlg4102.tlg041
+ 
+Catena in epistulam Petri ii (catena Andreae) (e cod. Oxon. coll. nov. 58)
+urn:cts:greekLit:tlg4102.tlg042
+ 
+Catena in epistulam Joannis i (catena Andreae) (e cod. Oxon. coll. nov. 58)
+urn:cts:greekLit:tlg4102.tlg043
+ 
+Catena in epistulam Joannis ii (catena Andreae) (e cod. Oxon. coll. nov. 58).
+urn:cts:greekLit:tlg4102.tlg044
+ 
+Catena in epistulam Joannis iii (catena Andreae) (e cod. Oxon. coll. nov. 58)
+urn:cts:greekLit:tlg4102.tlg045
+ 
+Catena in epistulam Juda (catena Andreae) (e cod. Oxon. coll. nov. 58)
+urn:cts:greekLit:tlg4102.tlg046
+ 
+Prooemium Pseudo-Oecumenii In Apocalypsin Commentarii (E Cod.)
+urn:cts:greekLit:tlg4102.tlgX01
+ 
+Commentarius In Apocalypsin
+urn:cts:greekLit:tlg4102.tlgX02
+ 
+Commentarius In Apocalypsin (Pseudo-Oecumenii) (E Cod. Coislin.)
+urn:cts:greekLit:tlg4102.tlgX03
+Vitae Pindari et varia de Pindaro
+urn:cts:greekLit:tlg4170
+ 
+Vita Ambrosiana
+urn:cts:greekLit:tlg4170.tlg001a
+ 
+Vita Thomana et hypothesis Olympiorum
+urn:cts:greekLit:tlg4170.tlg001b
+ 
+Vita metrica
+urn:cts:greekLit:tlg4170.tlg001c
+ 
+Pentathlon et de novem lyricis
+urn:cts:greekLit:tlg4170.tlg001d
+Paraphrases in Dioynsium Periegetam
+urn:cts:greekLit:tlg4174
+ 
+Paraphrases in Dioynsium Periegetam
+urn:cts:greekLit:tlg4174.tlg001
+Anonymi In Aristotelis Sophisticos Elenchos
+urn:cts:greekLit:tlg4193
+ 
+In Aristotelis Sophisticos Elenchos Paraphrasis
+urn:cts:greekLit:tlg4193.tlg012
+Scholia in Dionysium Periegetam
+urn:cts:greekLit:tlg5019
+ 
+Scholia in Dionysii Byzantii per Bosporum navigationem (scholia vetera)
+urn:cts:greekLit:tlg5019.tlg001
+ 
+Scholia in Dionysii Periegetae orbis descriptionem (scholia vetera)
+urn:cts:greekLit:tlg5019.tlg002
+Scholia in Euclidem
+urn:cts:greekLit:tlg5022
+ 
+Scholia in Euclidis Data
+urn:cts:greekLit:tlg5022.tlg002
+ 
+Scholia in Euclidis optica (scholia vetera)
+urn:cts:greekLit:tlg5022.tlg003
+ 
+Scholia in opticorum recensionem Theonis (scholia vetera)
+urn:cts:greekLit:tlg5022.tlg004
+ 
+Scholia in Euclidis catoptrica (scholia vetera)
+urn:cts:greekLit:tlg5022.tlg005
+ 
+Scholia in Euclidis phaenomena
+urn:cts:greekLit:tlg5022.tlg006
+ 
+Scholia in Euclidis data et catoptrica
+urn:cts:greekLit:tlg5022.tlg007
+Scholia in Euripidem
+urn:cts:greekLit:tlg5023
+ 
+Scholia in Euripidem (scholia vetera)
+urn:cts:greekLit:tlg5023.tlg001
+ 
+Vitae Euripidis
+urn:cts:greekLit:tlg5023.tlg010
+ 
+Scholia in Euripidis Rhesum
+urn:cts:greekLit:tlg5023.tlg011
+ 
+Scholia in Euripidis Troiades
+urn:cts:greekLit:tlg5023.tlg012
+ 
+Scholia in Euripidis Hippolytum
+urn:cts:greekLit:tlg5023.tlg013
+ 
+Scholia in Euripidis Hecubam (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)
+urn:cts:greekLit:tlg5023.tlg014
+ 
+Scholia in Euripidis Orestem (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)
+urn:cts:greekLit:tlg5023.tlg015
+ 
+Scholia in Euripidis Phoenissas (scholia vetera et scholia recentiora Thomae Magistri, Triclinii, Moschopuli et anonyma)
+urn:cts:greekLit:tlg5023.tlg016
+Scholia in Homerum
+urn:cts:greekLit:tlg5026
+ 
+Scholia in Iliadem
+urn:cts:greekLit:tlg5026.tlg001
+ 
+Scholia in Odysseam
+urn:cts:greekLit:tlg5026.tlg007
+Scholia in Isocratem
+urn:cts:greekLit:tlg5028
+ 
+Scholia in Isocratem (scholia vetera)
+urn:cts:greekLit:tlg5028.tlg001
+Scholia in Lucianum
+urn:cts:greekLit:tlg5029
+ 
+Scholia in Lucianum
+urn:cts:greekLit:tlg5029.tlg001
+Scholia in Nicandrum
+urn:cts:greekLit:tlg5031
+ 
+Scholia et glossae in Nicandri theriaca (scholia vetera et recentiora)
+urn:cts:greekLit:tlg5031.tlg001
+ 
+Scholia et glossae in Nicandri alexipharmaca (scholia vetera et recentiora)
+urn:cts:greekLit:tlg5031.tlg002
+Scholia in Pindarum
+urn:cts:greekLit:tlg5034
+ 
+Scholia in Pindarum Olympian Odes
+urn:cts:greekLit:tlg5034.tlg001a
+ 
+Scholia in Pindarum Pythian Odes
+urn:cts:greekLit:tlg5034.tlg001b
+ 
+Scholia in Pindarum Nemean Odes
+urn:cts:greekLit:tlg5034.tlg001c
+ 
+Scholia in Pindarum Isthmian Odes
+urn:cts:greekLit:tlg5034.tlg001d
+Scholia in Sophoclem
+urn:cts:greekLit:tlg5037
+ 
+Scholia in Sophoclem (scholia vetera)
+urn:cts:greekLit:tlg5037.tlg004
+Greek Anthology
+urn:cts:greekLit:tlg7000
+ 
+Greek Anthology
+urn:cts:greekLit:tlg7000.tlg001
+Anonymi In Aristotelis Librum Alterum Analyticorum Posteriorum
+urn:cts:greekLit:tlg9004
+ 
+Anonymi In Analyticorum Posteriorum Librum Alterum Commentarium
+urn:cts:greekLit:tlg9004.tlg001
+Gregory II, of Cyprus, Patriarch of Constantinople
+urn:cts:greekLit:tlg9006
+ 
+Paroemiae
+urn:cts:greekLit:tlg9006.tlg001
+ 
+Declamatio de Atheniensium defensio (ad Libanii declamationem antilogia)
+urn:cts:greekLit:tlg9006.tlg016
+Appendix Proverbiorum
+urn:cts:greekLit:tlg9007
+ 
+Appendix Proverbiorum
+urn:cts:greekLit:tlg9007.tlg001
+Suda
+urn:cts:greekLit:tlg9010
+ 
+Suidae lexicon
+urn:cts:greekLit:tlg9010.tlg001
+Stephanus of Alexandria
+urn:cts:greekLit:tlg9019
+ 
+In Aristotelis Librum De Interpretatione Commentarium
+urn:cts:greekLit:tlg9019.tlg001
