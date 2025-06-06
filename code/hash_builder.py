@@ -36,7 +36,8 @@ def get_lemmas(file, running_dict):
     doc_dict["TOTAL_WORDS"] = doc_words
     running_dict["totals"]["TOTAL_WORDS"] += doc_words
 
-    short_urn = file.split('/')[-1]
+    short_urn = (file.split('/')[-1]).split('.')[0] #rm folder and .xml
+    print(file, short_urn)
     running_dict[short_urn] = doc_dict
 
     return running_dict
@@ -64,9 +65,9 @@ def generate_data(folder, dest_file):
     return
 
 def main():
-    data_file = "testPickle"
-    #generate_data("./xml", data_file)
-    data = utils.open_data(data_file)
+    data_file = "treebankData"
+    generate_data("../xml", data_file)
+    #data = utils.open_data(data_file)
     
 main()
 

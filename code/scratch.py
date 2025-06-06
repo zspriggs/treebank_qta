@@ -5,23 +5,7 @@ from utils import urn_to_name
 
 def main():
     aner = wa.word_analyzer("ἀνήρ")
-
-    print("Calcing top docs")
-    raw_lemmas = aner.raw_lemma_freq()
-    print(raw_lemmas)
-    print([urn_to_name(doc[0]) for doc in raw_lemmas])
-
-    print("Calcing top docs")
-    rel_lemmas = aner.rel_lemma_freq()
-    print(rel_lemmas)
-    print([urn_to_name(doc[0]) for doc in rel_lemmas])
-
-    print("caclcing stats")
-    doc = "0012-001.xml"
-
     
-    #print(aner.ll_doc(doc))
-    #print(aner.chi2_doc(doc))
 
 #if __name__ == '__main__':
     #main()
@@ -38,10 +22,12 @@ def messages(la: wa.word_analyzer):
 def document_console_program(la: wa.word_analyzer):
     print("\n*\t*\t*\t*\t*\t*\t*\n")
     print(f"You are analyzing the lemma {la.get_lemma()}")
-    print(f"Please provide the document you are interested in inspecting (incl. .xml):")
+    print(f"Please provide the URN of the document you are interested in inspecting:")
     URN1 = str(input())
-    print(f"Please provide the document you are interested in comparing to (or type \"A\" for all texts:")
+    print(f"Please provide the document you are interested in comparing to (or type \"A\" for all texts):")
     URN2 = str(input())
+
+
     #if URN2 == "A":
 
 

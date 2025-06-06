@@ -19,16 +19,18 @@ def urn_to_name(urn):
 
 #prob move this eventually
 def ll_comprehender(results: dict):
-    print(f"Your log likelihood value is: {results['log likelihood']}")
+    explanation = f"Your log likelihood value is: {results['log likelihood']}\n"
     if results['log likelihood'] < 3.8:
-        print("This indicates that the result is not statistically significant.")
-        return
+        explanation += "\nThis indicates that the result is not statistically significant."
+        return explanation
     elif results['log likelihood'] > 3.84:
-        print("This indicates that the result is significant with p < .05")
+        explanation += "\nThis indicates that the result is significant with p < .05"
+    
     
     if results['log ratio'] > 0:
-        print("The log ratio is positive, which indicates that text 1 includes this lemma more")
+        explanation += "\nThe log ratio is positive, which indicates that text 1 uses this lemma more"
     else:
-        print("The log ratio is positive, which indicates that text 1 includes this lemma more")
+        explanation += "\nThe log ratio is negative, which indicates that text 1 uses this lemma less"
 
+    return explanation
     #Research & add more log ratio analysis
