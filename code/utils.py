@@ -1,9 +1,13 @@
 import pickle
+import os
 import pandas as pd
 
 DATA_FILE = "./data/treebankData"
 
-df = pd.read_csv("./data/matched_urns.csv", dtype={"URN": str}, index_col="URN")
+#have do do this bc of streamlit
+this_dir = os.path.dirname(__file__)
+csv_path = os.path.join(this_dir, "data", "matched_urns.csv")
+df = pd.read_csv(csv_path, dtype={"URN": str}, index_col="URN")
 df.index = df.index.astype(str).str.strip()
 
 def open_data(data_file):
