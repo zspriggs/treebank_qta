@@ -12,7 +12,8 @@ def contingency_table(lemma1, total1, lemma2, total2):
         [lemma2, total2-lemma2]
     ]
 
-#assumes no list overlap between first_urns and second_urns
+#assumes no list overlap between first_urns and second_urns (change this for robustness later)
+#ignores bad urns
 #if second_urns is passed empty, then first_urns are comapred against whole corpus
 def get_totals(first_urns: list, second_urns: list, lemma: str, data):
     if len(first_urns) == 0:
@@ -21,29 +22,39 @@ def get_totals(first_urns: list, second_urns: list, lemma: str, data):
     
     lemma1 = lemma2 = total1 = total2 = 0
     for urn in first_urns:
-        lemma1 += data[urn][lemma]
-        total1 += data[urn]["TOTAL_WORDS"]
+        try:
+            lemma1 += data[urn][lemma]
+            total1 += data[urn]["TOTAL_WORDS"]
+        except:
+            continue
 
     if len(second_urns) == 0: #If we want to compare the first list against all the lemmas
         lemma2 = data["totals"][lemma] - lemma1
         total2 = data["totals"]["TOTAL_WORDS"] - total1
     else:
         for urn in second_urns: 
-            lemma2 += data[urn][lemma]
-            total2 += data[urn]["TOTAL_WORDS"]
+            try:
+                lemma2 += data[urn][lemma]
+                total2 += data[urn]["TOTAL_WORDS"]
+            except: 
+                continue
 
     if lemma1 < 5 or lemma2 < 5 or total1 < 5 or total2 < 5:
-        print("Not enough data.")
-        return
+        print("Not enough data. May be caused by a rare lemma, or a bad URN")
+        return 0, 0, 0, 0
     
     return lemma1, total1, lemma2, total2
 
 def chi_squared_lemma(first_urns: list, second_urns: list, lemma: str, data):
     lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data)
+    if lemma1 == 0: #if lemma1 == 0, it means one or all values were < 5
+        return None
     return calc_chi_squared(lemma1, total1, lemma2, total2)
 
 def log_likelihood_lemma(first_urns: list, second_urns: list, lemma: str, data):
     lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data)
+    if lemma1 == 0:  #if lemma1 == 0, it means one or all values were < 5
+        return None
     return calc_log_likelihood(lemma1, total1, lemma2, total2)
 
 def calc_chi_squared(var1, total1, var2, total2):
@@ -52,7 +63,12 @@ def calc_chi_squared(var1, total1, var2, total2):
     #chi2 value, p value, degrees of freedom, expected frequency
     chi2, p, dof, expected = chi2_contingency(table)
 
-    return chi2, p, dof, expected
+    return {
+        "chi squared": chi2,
+        "p value": p,
+        "dof": dof, 
+        "expected frequency": expected }
+    
 
 #log likelihood preferred for natural language freq data (Dunning 1993, look into this)
 #compares two lingustic features
@@ -103,8 +119,8 @@ def calc_ztest():
     #maybe cut this one out
     return
 
-'''def calc_stats(lemma, short_urn, data_file):
-    data = utils.open_data(data_file)
+#def calc_stats(lemma, short_urn, data_file):
+    #data = utils.open_data(data_file)
     #print(ll_singledoc(lemma, short_urn, data))
 
 #calc_stats("ἀνήρ", "0012-001.xml", "testPickle")'''

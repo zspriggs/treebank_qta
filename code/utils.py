@@ -15,9 +15,10 @@ def urn_to_name(urn):
     urn = urn.split('.')[0]
     if urn not in df.index:
         return "URN Not Found"
-    return f"{df.loc[urn]["Author"]}, {df.loc[urn]["Title"]}"
+    return f"{df.loc[urn]['Author']}, {df.loc[urn]['Title']}"
 
 #prob move this eventually
+'''
 def ll_comprehender(results: dict):
     explanation = f"Your log likelihood value is: {results['log likelihood']}\n"
     if results['log likelihood'] < 3.8:
@@ -33,4 +34,4 @@ def ll_comprehender(results: dict):
         explanation += "\nThe log ratio is negative, which indicates that text 1 uses this lemma less"
 
     return explanation
-    #Research & add more log ratio analysis
+    #Research & add more log ratio analysis '''
