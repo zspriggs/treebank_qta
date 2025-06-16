@@ -1,12 +1,10 @@
 import utils
 import stat_calculator as calc
 
-DATA_FILE = "treebankData"
-
 class word_analyzer:
     def __init__(self, lemma: str):
         self.lemma = lemma
-        self.data = utils.open_data(DATA_FILE)
+        self.data = utils.open_data()
 
     def get_lemma(self):
         return self.lemma

@@ -1,7 +1,9 @@
 import pickle
 import pandas as pd
 
-df = pd.read_csv("../matched_urns.csv", dtype={"URN": str}, index_col="URN")
+DATA_FILE = "./data/treebankData"
+
+df = pd.read_csv("./data/matched_urns.csv", dtype={"URN": str}, index_col="URN")
 df.index = df.index.astype(str).str.strip()
 
 def open_data(data_file):
