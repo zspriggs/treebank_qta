@@ -6,12 +6,15 @@ DATA_FILE = "./data/treebankData"
 
 #have do do this bc of streamlit
 this_dir = os.path.dirname(__file__)
+
 csv_path = os.path.join(this_dir, "data", "matched_urns.csv")
 df = pd.read_csv(csv_path, dtype={"URN": str}, index_col="URN")
 df.index = df.index.astype(str).str.strip()
 
-def open_data(data_file):
-    file = open(data_file, 'rb')
+DATA_FILE = os.path.join(this_dir, "data", "treebankData")
+
+def open_data():
+    file = open(DATA_FILE, 'rb')
     tb_dict = pickle.load(file)
     file.close()
 
