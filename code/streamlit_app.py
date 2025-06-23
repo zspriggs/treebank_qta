@@ -101,7 +101,7 @@ if lemma:
         rel_data = []
         for urn, count in rel_lemmas:
             name = urn_to_name(urn)
-            rel_data.append({"Document Name": name, "URN": urn, "Raw Frequency": count})
+            rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
         st.table(pd.DataFrame(rel_data))
 
         st.divider()

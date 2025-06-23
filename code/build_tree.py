@@ -1,10 +1,11 @@
 from collections import defaultdict
 import xml.etree.ElementTree as ET
 
-tree = ET.parse("../xml/0627-025.xml")
-root = tree.getroot()
-
-def build_dependency_tree(sentence_elem):
+'''
+nodes: {id: Element}
+children: {head_id: [child_ids]}
+'''
+def build_tree(sentence_elem):
     nodes = {} #id, xml element dictionary
     children = defaultdict(list)
 
@@ -21,14 +22,16 @@ def print_tree(word_map, children, current_id=0, depth=0):
         word = word_map[child_id]
         print('  ' * depth + f"{word.get('form')} ({word.get('relation')})")
         print_tree(word_map, children, child_id, depth + 1)
+    return
 
+def build_trees(file):
+    tree = ET.parse(file)
+    root = tree.getroot()
+    all_trees = []
 
-# Example: build for first sentence
-sentence = root.find('sentence')
-nodes, children = build_dependency_tree(sentence)
+    for sentence in root.findall('.//sentence'):  # .// to find nested <sentence> elements
+        nodes, children = build_tree(sentence)
+        all_trees.append((nodes, children))
+        
+    return all_trees
 
-#for value in nodes.values():
-    #print(value.get('lemma'))
-    #print(value.attrib)
-
-print_tree(nodes, children)

@@ -25,22 +25,3 @@ def urn_to_name(urn):
     if urn not in df.index:
         return "URN Not Found"
     return f"{df.loc[urn]['Author']}, {df.loc[urn]['Title']}"
-
-#prob move this eventually
-'''
-def ll_comprehender(results: dict):
-    explanation = f"Your log likelihood value is: {results['log likelihood']}\n"
-    if results['log likelihood'] < 3.8:
-        explanation += "\nThis indicates that the result is not statistically significant."
-        return explanation
-    elif results['log likelihood'] > 3.84:
-        explanation += "\nThis indicates that the result is significant with p < .05"
-    
-    
-    if results['log ratio'] > 0:
-        explanation += "\nThe log ratio is positive, which indicates that text 1 uses this lemma more"
-    else:
-        explanation += "\nThe log ratio is negative, which indicates that text 1 uses this lemma less"
-
-    return explanation
-    #Research & add more log ratio analysis '''

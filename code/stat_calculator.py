@@ -119,10 +119,4 @@ def calc_ztest():
     #maybe cut this one out
     return
 
-#def calc_stats(lemma, short_urn, data_file):
-    #data = utils.open_data(data_file)
-    #print(ll_singledoc(lemma, short_urn, data))
-
-#calc_stats("ἀνήρ", "0012-001.xml", "testPickle")'''
-
 
