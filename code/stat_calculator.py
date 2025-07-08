@@ -38,30 +38,24 @@ def get_totals(first_urns: list, second_urns: list, lemma: str, data):
                 total2 += data[urn]["TOTAL_WORDS"]
             except: 
                 continue
-
-    if lemma1 < 5 or lemma2 < 5 or total1 < 5 or total2 < 5:
-        print("Not enough data. May be caused by a rare lemma, or a bad URN")
-        return 0, 0, 0, 0
     
     return lemma1, total1, lemma2, total2
 
 def chi_squared_lemma(first_urns: list, second_urns: list, lemma: str, data):
-    lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data)
-    if lemma1 == 0: #if lemma1 == 0, it means one or all values were < 5
-        return None
-    return calc_chi_squared(lemma1, total1, lemma2, total2)
+    lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data) # type: ignore
+    return __calc_chi_squared(lemma1, total1, lemma2, total2)
 
 def log_likelihood_lemma(first_urns: list, second_urns: list, lemma: str, data):
-    lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data)
-    if lemma1 == 0:  #if lemma1 == 0, it means one or all values were < 5
-        return None
-    return calc_log_likelihood(lemma1, total1, lemma2, total2)
+    lemma1, total1, lemma2, total2 = get_totals(first_urns, second_urns, lemma, data) # type: ignore
+    return __calc_log_likelihood(lemma1, total1, lemma2, total2)
 
-def calc_chi_squared(var1, total1, var2, total2):
+def __calc_chi_squared(var1, total1, var2, total2):
     table = contingency_table(var1, total1, var2, total2)
     
     #chi2 value, p value, degrees of freedom, expected frequency
     chi2, p, dof, expected = chi2_contingency(table)
+    if var1 < 5 or total1 < 5 or var2 < 5 or total2 < 5:
+        chi2 = p = dof = expected = -1
 
     return {
         "chi squared": chi2,
@@ -72,9 +66,9 @@ def calc_chi_squared(var1, total1, var2, total2):
 
 #log likelihood preferred for natural language freq data (Dunning 1993, look into this)
 #compares two lingustic features
-def calc_log_likelihood(var1, total1, var2, total2):
-    print("TEST DATA:")
-    print(var1, total1, var2, total2)
+def __calc_log_likelihood(var1, total1, var2, total2):
+    #print("TEST DATA:")
+    #print(var1, total1, var2, total2)
     #TODO:
     #research: diff between results of this and chi2?
     #double check this calculation
@@ -104,6 +98,9 @@ def calc_log_likelihood(var1, total1, var2, total2):
 
     #fac-check that this is okay:
     p_val = chi2.sf(G, df=1)
+
+    if var1 < 5 or total1 < 5 or var2 < 5 or total2 < 5:
+        G = log_ratio = p_val = -1
 
     return {
         "log likelihood": G,

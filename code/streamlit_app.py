@@ -1,11 +1,13 @@
 import streamlit as st
 import word_analyzer as wa 
+import document_analyzer as da
 import pandas as pd
 import altair as alt
 from utils import urn_to_name
 
 st.title("Lemma Analyzer App")
 
+tab1, tab2 = st.tabs(["Lemma analyzer", "Document analyzer"])
 
 def display_word_stats(analyzer, main_urns, comparison_urns=[]):
     
@@ -67,7 +69,7 @@ def display_word_stats(analyzer, main_urns, comparison_urns=[]):
     st.write("Raw data (for debugging):")
     st.write(stats)
             
-    with st.expander("📘 What do these numbers mean?"):
+    with st.expander("What do these numbers mean?"):
         st.markdown("""
         - **Relative Frequency**: How often the word appears, normalized by total word count.
         - **Log-Likelihood** and **Chi-Squared**: Statistical tests for frequency differences.
@@ -76,50 +78,79 @@ def display_word_stats(analyzer, main_urns, comparison_urns=[]):
           should be considered.
         """)
 
+with tab1: 
+    # Lemma input
+    lemma = st.text_input("Enter a lemma to analyze:")
 
-# Lemma input
-lemma = st.text_input("Enter a lemma to analyze:")
+    if lemma:
+        la = wa.word_analyzer(lemma)
+        st.success(f"Analyzing the lemma: {lemma}")
 
-if lemma:
-    la = wa.word_analyzer(lemma)
-    st.success(f"Analyzing the lemma: {lemma}")
+        st.header("Top Documents by Raw Frequency")
+        raw_lemmas = la.raw_lemma_freq()[:5]
+        
+        if raw_lemmas[0][1] == 0:
+            st.warning("This lemma does not appear in the data. Are you sure it is correct?")
+        else:
+            raw_data = []
+            for urn, count in raw_lemmas:
+                name = urn_to_name(urn)
+                raw_data.append({"Document Name": name, "URN": urn, "Lemma Count": count})
+            st.table(pd.DataFrame(raw_data))
 
-    st.header("Top Documents by Raw Frequency")
-    raw_lemmas = la.raw_lemma_freq()[:5]
-    
-    if raw_lemmas[0][1] == 0:
-        st.warning("This lemma does not appear in the data. Are you sure it is correct?")
-    else:
-        raw_data = []
-        for urn, count in raw_lemmas:
-            name = urn_to_name(urn)
-            raw_data.append({"Document Name": name, "URN": urn, "Lemma Count": count})
-        st.table(pd.DataFrame(raw_data))
+            st.header("Top Documents by Relative Frequency")
+            rel_lemmas = la.rel_lemma_freq()[:5]
+            rel_data = []
+            for urn, count in rel_lemmas:
+                name = urn_to_name(urn)
+                rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
+            st.table(pd.DataFrame(rel_data))
 
-        st.header("Top Documents by Relative Frequency")
-        rel_lemmas = la.rel_lemma_freq()[:5]
-        rel_data = []
-        for urn, count in rel_lemmas:
-            name = urn_to_name(urn)
-            rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
-        st.table(pd.DataFrame(rel_data))
+            st.divider()
 
-        st.divider()
+            # Document comparison mode
+            st.subheader("Compare Documents")
 
-        # Document comparison mode
-        st.subheader("Compare Documents")
+            #allow this to be a list later on (backend already implemented)
+            urn1 = st.text_input("Enter URN of the document to inspect:")
+            urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):")
 
-        #allow this to be a list later on (backend already implemented)
-        urn1 = st.text_input("Enter URN of the document to inspect:")
-        urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):")
+            if st.button("Compare"):
+                st.spinner("Loading...")
+                if urn1:
+                    display_word_stats(
+                        analyzer=la,
+                        main_urns=[urn1],
+                        comparison_urns=[] if urn2 == "A" else [urn2]
+                    )
+                else:
+                    st.error("Please enter a valid first URN.")
 
-        if st.button("Compare"):
-            st.spinner("Loading...")
-            if urn1:
-                display_word_stats(
-                    analyzer=la,
-                    main_urns=[urn1],
-                    comparison_urns=[] if urn2 == "A" else [urn2]
-                )
-            else:
-                st.error("Please enter a valid first URN.")
+
+with tab2:
+    doc_urn = st.text_input("Enter URN of the document to inspect:")
+    try:
+        doc = da.document_analyzer(doc_urn)
+    except:
+        st.error("Please enter a valid URN")
+        st.stop()
+    if st.button("Find keywords"):
+        results = doc.detect_keywords_ll()
+        st.write(f"Document Name: {urn_to_name(doc_urn)}")
+        data = []
+        for res in results:
+            data.append({"Lemma": res[0], "Log likelihood": res[1]['log likelihood'], "Log ratio (direction)": res[1]['log ratio']})
+        st.table(pd.DataFrame(data))
+    if st.button("Get Document Stats"):
+        st.write(f"Total words: {doc.get_word_count()}")
+        st.write(f"Unique lemma count: {doc.get_lemma_count()}")
+        st.write(f"Type-Token Ratio: {doc.get_ttr()}")
+        with st.expander("What's this?"):
+            st.write("Type--Token Ratio is the number of unique lemmas divided by the number of total words. This value gives a sense of the lexical complexity of a document.")
+        
+        st.write(f"Most common lemmas:")
+        results = doc.get_top_lemmas()
+        data = []
+        for res in results:
+            data.append({"Lemma": res[0], "Raw count": res[1]})
+        st.table(pd.DataFrame(data))
