@@ -5,12 +5,24 @@
 
 import stat_calculator as calc
 import utils
+import os
+
+from nltk.collocations import BigramCollocationFinder
+from nltk.metrics import BigramAssocMeasures
+
+
 
 class document_analyzer:
     def __init__(self, doc_urn):
         try:
             self.data = utils.open_data()
             self.doc_data = self.data[doc_urn]
+
+            this_dir = os.path.dirname(__file__)
+            xml_file = os.path.join(this_dir, "data", "xml", f"{doc_urn}.xml")
+
+            #xml_file = os.path.join(XML_FOLDER, f"{doc_urn}.xml")
+            self.text = utils.extract_text(xml_file)
         except: 
             raise ValueError("Invalid URN")    
 
@@ -34,5 +46,19 @@ class document_analyzer:
             keywords[lemma] = calc.log_likelihood_lemma([self.urn], [], lemma, self.data)
 
         return sorted(keywords.items(), key=lambda x: x[1]['log likelihood'], reverse=True)[:n]
+    
+    def detect_collocates_chi2(self, n=10):
+        finder = BigramCollocationFinder.from_words(self.text)
+        finder.apply_freq_filter(5)
 
+        scored = finder.score_ngrams(BigramAssocMeasures.chi_sq)
 
+        return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
+    
+    def detect_collocates_phi2(self, n=10):
+        finder = BigramCollocationFinder.from_words(self.text)
+        finder.apply_freq_filter(5)
+
+        scored = finder.score_ngrams(BigramAssocMeasures.phi_sq)
+
+        return sorted(scored, key=lambda x: x[1], reverse=True)[:n]

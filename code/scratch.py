@@ -3,7 +3,12 @@
 import word_analyzer as wa
 import detect_grammar as g
 import build_tree
-from utils import urn_to_name
+from utils import urn_to_name, extract_text
+
+from nltk.collocations import BigramCollocationFinder
+from nltk.metrics import BigramAssocMeasures
+
+
 
 
 
@@ -16,5 +21,3 @@ def main():
         dos = g.collect_verb_dos(verb, tree[0], tree[1])
         for do in dos:
             print(do.get('form'), do.get('lemma'), do.get('postag'))
-  
-main()

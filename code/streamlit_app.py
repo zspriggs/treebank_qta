@@ -5,6 +5,11 @@ import pandas as pd
 import altair as alt
 from utils import urn_to_name
 
+##TODO:
+#clean up this code!
+#add more document analysis
+#add explanations to doc analysis
+
 st.title("Lemma Analyzer App")
 
 tab1, tab2 = st.tabs(["Lemma analyzer", "Document analyzer"])
@@ -108,7 +113,6 @@ with tab1:
 
             st.divider()
 
-            # Document comparison mode
             st.subheader("Compare Documents")
 
             #allow this to be a list later on (backend already implemented)
@@ -153,4 +157,36 @@ with tab2:
         data = []
         for res in results:
             data.append({"Lemma": res[0], "Raw count": res[1]})
+        st.table(pd.DataFrame(data))
+    
+    if 'show_table' not in st.session_state:
+        st.session_state.show_table = False
+
+    if st.button("Find Collocates"):
+        st.session_state.show_table = True
+
+    if st.session_state.show_table:
+        st.write("Top 10 collocates (words that frequently appear beside each other)")
+
+        if 'use_chi2' not in st.session_state:
+            st.session_state.use_chi2 = True 
+        
+        def collocate_toggle():
+            st.session_state.use_chi2 = not st.session_state.use_chi2
+
+        current_label = f"Switch to {'phi²' if st.session_state.use_chi2 else 'chi²'}"
+        st.button(current_label, on_click=collocate_toggle)
+
+        if st.session_state.use_chi2:
+            collocates = doc.detect_collocates_chi2()
+            st.write("Using: Chi-squared")
+            ##ADD EXPLAINERS
+        else:
+            collocates = doc.detect_collocates_phi2()
+            st.write("Using: Phi-squared")
+            ##ADD EXPLAINERS
+
+        data=[]
+        for collocate in collocates:
+            data.append({"Word": collocate[0][0], "Collocate": collocate[0][1], "Score": collocate[1]})
         st.table(pd.DataFrame(data))

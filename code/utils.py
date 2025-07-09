@@ -1,8 +1,9 @@
 import pickle
 import os
 import pandas as pd
+import xml.etree.ElementTree as ET
 
-DATA_FILE = "./data/treebankData"
+#DATA_FILE = "./data/treebankData"
 
 #have do do this bc of streamlit
 this_dir = os.path.dirname(__file__)
@@ -25,3 +26,15 @@ def urn_to_name(urn):
     if urn not in df.index:
         return "URN Not Found"
     return f"{df.loc[urn]['Author']}, {df.loc[urn]['Title']}"
+
+
+def extract_text(file_path):
+    tree = ET.parse(file_path)
+    root = tree.getroot()
+
+    sentences = root.findall('.//sentence')
+    lemmas = []
+    for sentence in sentences:
+        lemmas.extend([word.get('lemma') for word in sentence.findall('.//word') if word.get('lemma')])
+    
+    return lemmas

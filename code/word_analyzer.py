@@ -80,6 +80,7 @@ class word_analyzer:
         
         return {'main rf': main_rel_freq, 'comp rf': comp_rel_freq, 'll calc': ll, 'chi2 calc': chi2}
         
-        
+    def find_collocates():
+        return   
     
     #fetch appearances of lemma?
