@@ -10,9 +10,9 @@ from utils import urn_to_name
 #add more document analysis
 #add explanations to doc analysis
 
-st.title("Lemma Analyzer App")
+st.title("QTA Tools for Greek Treebank")
 
-tab1, tab2 = st.tabs(["Lemma analyzer", "Document analyzer"])
+tab1, tab2, tab3 = st.tabs(["Lemma analyzer", "Document analyzer", "Corpus Overview"])
 
 def display_word_stats(analyzer, main_urns, comparison_urns=[]):
     
@@ -45,7 +45,6 @@ def display_word_stats(analyzer, main_urns, comparison_urns=[]):
 
     st.altair_chart(chart, use_container_width=True)
 
-    # === Significance Metrics ===
     col1, col2 = st.columns(2)
     col1.metric("Log-Likelihood", round(stats['ll calc']['log likelihood'], 2))
     col2.metric("Chi-Squared", round(stats['chi2 calc']['chi squared'], 2))
@@ -68,6 +67,8 @@ def display_word_stats(analyzer, main_urns, comparison_urns=[]):
             else:
                 st.info(f"The log ratio is {log_ratio}, meaning that the lemma {lemma} is used " + 
                         f"equally often in {doc} and {comparison}")
+    elif stats['ll calc']['log likelihood'] == -1:
+        st.error("Not enough data to calculate log likelihood. This likely means that there were < 5 lemma occurences in one of the documents.")
     else:
         st.info("No statistically significant difference in frequency detected.")
         
@@ -116,8 +117,8 @@ with tab1:
             st.subheader("Compare Documents")
 
             #allow this to be a list later on (backend already implemented)
-            urn1 = st.text_input("Enter URN of the document to inspect:")
-            urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):")
+            urn1 = st.text_input("Enter URN of the document to inspect:", key=1)
+            urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):", key=2)
 
             if st.button("Compare"):
                 st.spinner("Loading...")
@@ -138,14 +139,28 @@ with tab2:
     except:
         st.error("Please enter a valid URN")
         st.stop()
-    if st.button("Find keywords"):
-        results = doc.detect_keywords_ll()
+    
+    if "show_collocates" not in st.session_state:
+        st.session_state.show_collocates = False
+        
+    col1_, col2_, col3_ = st.columns([5,5,5])
+    with col1_:
+        stats_clicked = st.button("Get Document Stats")
+    with col2_:
+        keywords_clicked = st.button("Find keywords")
+    with col3_:
+        collocates_clicked = st.button("Find Collocates")
+        
+    if keywords_clicked:
+        st.session_state.show_collocates = False
+        results = doc.detect_keywords_ll(20)
         st.write(f"Document Name: {urn_to_name(doc_urn)}")
         data = []
         for res in results:
             data.append({"Lemma": res[0], "Log likelihood": res[1]['log likelihood'], "Log ratio (direction)": res[1]['log ratio']})
         st.table(pd.DataFrame(data))
-    if st.button("Get Document Stats"):
+        
+    if stats_clicked:
         st.write(f"Total words: {doc.get_word_count()}")
         st.write(f"Unique lemma count: {doc.get_lemma_count()}")
         st.write(f"Type-Token Ratio: {doc.get_ttr()}")
@@ -158,35 +173,32 @@ with tab2:
         for res in results:
             data.append({"Lemma": res[0], "Raw count": res[1]})
         st.table(pd.DataFrame(data))
-    
-    if 'show_table' not in st.session_state:
-        st.session_state.show_table = False
-
-    if st.button("Find Collocates"):
-        st.session_state.show_table = True
-
-    if st.session_state.show_table:
-        st.write("Top 10 collocates (words that frequently appear beside each other)")
-
-        if 'use_chi2' not in st.session_state:
-            st.session_state.use_chi2 = True 
         
-        def collocate_toggle():
-            st.session_state.use_chi2 = not st.session_state.use_chi2
+    if collocates_clicked:
+        st.session_state.show_collocates = True
 
-        current_label = f"Switch to {'phi²' if st.session_state.use_chi2 else 'chi²'}"
-        st.button(current_label, on_click=collocate_toggle)
-
-        if st.session_state.use_chi2:
-            collocates = doc.detect_collocates_chi2()
-            st.write("Using: Chi-squared")
-            ##ADD EXPLAINERS
-        else:
-            collocates = doc.detect_collocates_phi2()
-            st.write("Using: Phi-squared")
-            ##ADD EXPLAINERS
-
+    if st.session_state.show_collocates:
+        method = st.selectbox(
+            "Choose statistical method for collocate detection:",
+            options=["chi²", "phi²", "dice coefficient", "mutual information"],
+            index=0  # default to chi²
+        )
+        
+        st.write(f"Using: {method}")
+        collocates=[]
+        if method == "chi²":
+            collocates = doc.detect_collocates(method='chi2')
+        elif method == "phi²":
+            collocates = doc.detect_collocates(method='phi2')
+        elif method == "dice coefficient":
+            collocates = doc.detect_collocates(method='dice')
+        elif method == "mutual information":
+            collocates = doc.detect_collocates(method='mi')          
+            
         data=[]
         for collocate in collocates:
             data.append({"Word": collocate[0][0], "Collocate": collocate[0][1], "Score": collocate[1]})
         st.table(pd.DataFrame(data))
+        
+with tab3:
+    st.write("work in progress")

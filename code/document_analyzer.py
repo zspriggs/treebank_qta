@@ -6,6 +6,7 @@
 import stat_calculator as calc
 import utils
 import os
+#import math
 
 from nltk.collocations import BigramCollocationFinder
 from nltk.metrics import BigramAssocMeasures
@@ -34,7 +35,7 @@ class document_analyzer:
     def get_word_count(self):
         return self.doc_data['TOTAL_WORDS']
 
-    def get_top_lemmas(self, n=10):
+    def get_top_lemmas(self, n=10, exclude_stopwords=True):
         return sorted(self.doc_data.items(), key= lambda x: x[1], reverse=True)[1:(n+1)]
 
     def get_ttr(self):
@@ -45,20 +46,36 @@ class document_analyzer:
         for lemma, _ in self.doc_data.items():
             keywords[lemma] = calc.log_likelihood_lemma([self.urn], [], lemma, self.data)
 
-        return sorted(keywords.items(), key=lambda x: x[1]['log likelihood'], reverse=True)[:n]
+        #sort by biggest/smallest log ratio
+        return sorted(keywords.items(), key=lambda x: abs(int(x[1]['log ratio'])), reverse=True)[:n] 
     
-    def detect_collocates_chi2(self, n=10):
-        finder = BigramCollocationFinder.from_words(self.text)
-        finder.apply_freq_filter(5)
+    # def detect_collocates_chi2(self, n=10):
+    #     finder = BigramCollocationFinder.from_words(self.text)
+    #     finder.apply_freq_filter(5)
 
-        scored = finder.score_ngrams(BigramAssocMeasures.chi_sq)
+    #     scored = finder.score_ngrams(BigramAssocMeasures.chi_sq)
 
-        return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
+    #     return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
     
-    def detect_collocates_phi2(self, n=10):
-        finder = BigramCollocationFinder.from_words(self.text)
-        finder.apply_freq_filter(5)
+    # def detect_collocates_phi2(self, n=10):
+    #     finder = BigramCollocationFinder.from_words(self.text)
+    #     finder.apply_freq_filter(5)
 
-        scored = finder.score_ngrams(BigramAssocMeasures.phi_sq)
+    #     scored = finder.score_ngrams(BigramAssocMeasures.phi_sq)
+
+    #     return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
+    
+    def detect_collocates(self, method='chi2', n=10):
+        finder = BigramCollocationFinder.from_words(self.text)
+        finder.apply_freq_filter(3)
+
+        if method == 'chi2':
+            scored = finder.score_ngrams(BigramAssocMeasures.chi_sq)
+        elif method == 'phi2':
+            scored = finder.score_ngrams(BigramAssocMeasures.phi_sq)
+        elif method == 'dice':
+            scored = finder.score_ngrams(BigramAssocMeasures.dice)
+        elif method == 'mi':
+            scored = finder.score_ngrams(BigramAssocMeasures.mi_like)
 
         return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
