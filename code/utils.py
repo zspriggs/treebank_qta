@@ -2,6 +2,7 @@ import pickle
 import os
 import pandas as pd
 import xml.etree.ElementTree as ET
+import re
 
 #DATA_FILE = "./data/treebankData"
 
@@ -21,6 +22,7 @@ def open_data():
 
     return tb_dict
 
+#converts urns INCLUDING .xml file extension
 def urn_to_name(urn):
     urn = urn.split('.')[0]
     if urn not in df.index:
@@ -38,3 +40,23 @@ def extract_text(file_path):
         lemmas.extend([word.get('lemma') for word in sentence.findall('.//word') if word.get('lemma')])
     
     return lemmas
+
+def clean_century(century_str):
+    try:
+        matches = re.findall(r"[0-9]+", century_str)
+    except:
+        return None
+    
+    centuries = [int(match) for match in matches]
+
+    if "B.C." in century_str:
+        centuries = [-c for c in centuries]
+
+    if len(centuries) == 1:
+        return centuries[0]
+    elif len(centuries) == 0:
+        print("This date didn't work!\n") #some REALLY advanced coding here, fix this later
+        return None
+
+    #if it's a range take the middle value
+    return round(sum(centuries) / len(centuries))

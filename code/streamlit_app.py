@@ -93,7 +93,7 @@ with tab1:
         st.success(f"Analyzing the lemma: {lemma}")
 
         st.header("Top Documents by Raw Frequency")
-        raw_lemmas = la.raw_lemma_freq()[:5]
+        raw_lemmas = la.raw_freq_list()[:5]
         
         if raw_lemmas[0][1] == 0:
             st.warning("This lemma does not appear in the data. Are you sure it is correct?")
@@ -105,12 +105,14 @@ with tab1:
             st.table(pd.DataFrame(raw_data))
 
             st.header("Top Documents by Relative Frequency")
-            rel_lemmas = la.rel_lemma_freq()[:5]
+            rel_lemmas = la.rel_freq_list()[:5]
             rel_data = []
             for urn, count in rel_lemmas:
                 name = urn_to_name(urn)
                 rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
             st.table(pd.DataFrame(rel_data))
+            
+            st.pyplot(la.graph())
 
             st.divider()
 
