@@ -112,7 +112,15 @@ with tab1:
                 rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
             st.table(pd.DataFrame(rel_data))
             
-            st.pyplot(la.graph())
+            st.pyplot(la.generate_lineplot())
+            with st.expander("What's this?"):
+                st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time, with a 95% confidence interval via bootstrapping.")
+
+            st.pyplot(la.generate_heatmap())
+
+            #ADD GENRE CHOICE
+
+            #st.pyplot(la.generate_relplot())
 
             st.divider()
 
@@ -123,6 +131,7 @@ with tab1:
             urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):", key=2)
 
             if st.button("Compare"):
+                #ADD MORE DATA VIS TO THIS SECTION
                 st.spinner("Loading...")
                 if urn1:
                     display_word_stats(
@@ -144,6 +153,8 @@ with tab2:
     
     if "show_collocates" not in st.session_state:
         st.session_state.show_collocates = False
+    if "show_stats" not in st.session_state:
+        st.session_state.show_stats = False
         
     col1_, col2_, col3_ = st.columns([5,5,5])
     with col1_:
@@ -155,6 +166,8 @@ with tab2:
         
     if keywords_clicked:
         st.session_state.show_collocates = False
+        st.session_state.show_stats = False
+
         results = doc.detect_keywords_ll(20)
         st.write(f"Document Name: {urn_to_name(doc_urn)}")
         data = []
@@ -163,6 +176,11 @@ with tab2:
         st.table(pd.DataFrame(data))
         
     if stats_clicked:
+        st.session_state.show_stats = True
+
+    if st.session_state.show_stats:
+        st.session_state.show_collocates = False
+
         st.write(f"Total words: {doc.get_word_count()}")
         st.write(f"Unique lemma count: {doc.get_lemma_count()}")
         st.write(f"Type-Token Ratio: {doc.get_ttr()}")
@@ -170,7 +188,11 @@ with tab2:
             st.write("Type--Token Ratio is the number of unique lemmas divided by the number of total words. This value gives a sense of the lexical complexity of a document.")
         
         st.write(f"Most common lemmas:")
-        results = doc.get_top_lemmas()
+
+        exclude_stopwords = st.checkbox("Exclude punctuation and stopwords?", value=True)
+
+        results = doc.get_top_lemmas(n=20, exclude_stopwords=exclude_stopwords)
+
         data = []
         for res in results:
             data.append({"Lemma": res[0], "Raw count": res[1]})
@@ -180,6 +202,8 @@ with tab2:
         st.session_state.show_collocates = True
 
     if st.session_state.show_collocates:
+        st.session_state.show_stats = False
+
         method = st.selectbox(
             "Choose statistical method for collocate detection:",
             options=["chi²", "phi²", "dice coefficient", "mutual information"],

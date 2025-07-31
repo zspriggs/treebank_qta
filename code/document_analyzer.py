@@ -11,6 +11,7 @@ import os
 from nltk.collocations import BigramCollocationFinder
 from nltk.metrics import BigramAssocMeasures
 
+import pdb
 
 
 class document_analyzer:
@@ -36,7 +37,17 @@ class document_analyzer:
         return self.doc_data['TOTAL_WORDS']
 
     def get_top_lemmas(self, n=10, exclude_stopwords=True):
-        return sorted(self.doc_data.items(), key= lambda x: x[1], reverse=True)[1:(n+1)]
+        sorted_lemmas = sorted(self.doc_data.items(), key= lambda x: x[1], reverse=True)
+
+        if exclude_stopwords:
+            with open("../stopwords_greek.txt", 'r') as f:
+                content = f.readlines()
+                stopwords = []
+                for line in content:
+                    if not("#" in line or len(line) == 0 or line.isspace()):
+                        stopwords.append(line.strip())
+                return [word for word in sorted_lemmas if word[0] not in stopwords][1:(n+1)]
+        return sorted_lemmas[1:(n+1)]
 
     def get_ttr(self):
         return (len(self.doc_data)-1)/self.doc_data['TOTAL_WORDS']
@@ -48,22 +59,6 @@ class document_analyzer:
 
         #sort by biggest/smallest log ratio
         return sorted(keywords.items(), key=lambda x: abs(int(x[1]['log ratio'])), reverse=True)[:n] 
-    
-    # def detect_collocates_chi2(self, n=10):
-    #     finder = BigramCollocationFinder.from_words(self.text)
-    #     finder.apply_freq_filter(5)
-
-    #     scored = finder.score_ngrams(BigramAssocMeasures.chi_sq)
-
-    #     return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
-    
-    # def detect_collocates_phi2(self, n=10):
-    #     finder = BigramCollocationFinder.from_words(self.text)
-    #     finder.apply_freq_filter(5)
-
-    #     scored = finder.score_ngrams(BigramAssocMeasures.phi_sq)
-
-    #     return sorted(scored, key=lambda x: x[1], reverse=True)[:n]
     
     def detect_collocates(self, method='chi2', n=10):
         finder = BigramCollocationFinder.from_words(self.text)

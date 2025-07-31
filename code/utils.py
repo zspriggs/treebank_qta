@@ -9,6 +9,8 @@ import re
 #have do do this bc of streamlit
 this_dir = os.path.dirname(__file__)
 
+
+#REFACTOR THIS WITH read_csv FUNC
 csv_path = os.path.join(this_dir, "data", "matched_urns.csv")
 df = pd.read_csv(csv_path, dtype={"URN": str}, index_col="URN")
 df.index = df.index.astype(str).str.strip()
@@ -21,6 +23,10 @@ def open_data():
     file.close()
 
     return tb_dict
+
+def read_metadata_csv():
+    csv_path = os.path.join(this_dir, "data", "matched_urns.csv")
+    return pd.read_csv(csv_path, dtype={"URN": str})
 
 #converts urns INCLUDING .xml file extension
 def urn_to_name(urn):

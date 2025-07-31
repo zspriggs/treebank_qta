@@ -36,7 +36,7 @@ class word_analyzer:
         except: 
             return None
     
-    #ignores bad URNs (change later?)
+    #ignores bad URNs
     #either calc rel frequency for combined urns or rel freq for everything BUT those urns
     def combined_rel_freq(self, urns: list, inverse = False):
         lemmas = 0
@@ -81,28 +81,65 @@ class word_analyzer:
         
         return {'main rf': main_rel_freq, 'comp rf': comp_rel_freq, 'll calc': ll, 'chi2 calc': chi2}
     
-    def graph(self):
-        csv_path = "./data/matched_urns.csv"
-        df = pd.read_csv(csv_path, dtype={"URN": str})
-        
-        #data_dict = utils.open_data()                
-            
-        df["raw freq"] = df.apply(lambda row: self.get_raw_freq(row.URN), axis=1)
-        df["rel freq"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
-        df["century"] = df["Date"].apply(utils.clean_century)
+    def generate_lineplot(self):
+        df = utils.read_metadata_csv()
+
+        df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
+        df["Century"] = df["Date"].apply(utils.clean_century)
                     
         plot = sns.lineplot(
             data=df,
-            x='century',
-            y='rel freq',
-            errorbar=('ci',95)  # built-in bootstrap CI
+            x='Century',
+            y='Relative Frequency',
+            errorbar=('ci',95)  # bootstrap confidence interval
         )
+        plot.set_title(f"Relative Frequency of {self.lemma} Over Time")
         fig = plot.get_figure()
         
-        return fig #??
-        #fig.savefig("out.png") 
-        
-        
+        return fig
+
+    def generate_heatmap(self):
+        df = utils.read_metadata_csv()
+
+        df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
+        df["Century"] = df["Date"].apply(utils.clean_century)
+
+        grouped = (
+            df.groupby(['Century', 'Genre'])
+            .agg(
+                mean_rel_freq=('Relative Frequency', 'mean'),
+                std_rel_freq=('Relative Frequency', 'std'),
+                num_docs=('Relative Frequency', 'count')
+            )
+            .reset_index()
+        )
+
+        pivoted = grouped.pivot(index='Century', columns='Genre', values='mean_rel_freq')
+        plot = sns.heatmap(pivoted)
+        plot.set_title(f"{self.lemma} Relative Frequency Heatmap")
+
+        fig = plot.get_figure()
+
+        return fig
+
+    #def generate_relplot(self, genres):
+    def generate_relplot(self):
+        df = utils.read_metadata_csv()
+
+        df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
+        df["Century"] = df["Date"].apply(utils.clean_century)
+
+        frequent_genres = df['Genre'].value_counts()
+        frequent_genres = frequent_genres[frequent_genres >= 15].index #adjust this
+
+        df = df[df['Genre'].isin(frequent_genres)]
+
+        plot = sns.relplot(
+            data=df,
+            x="Century", y="Relative Frequency", hue="Genre", kind="line")
+
+        return plot
+
     #def find_collocates():
         #return   
     

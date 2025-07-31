@@ -67,10 +67,7 @@ def __calc_chi_squared(var1, total1, var2, total2):
 #log likelihood preferred for natural language freq data (Dunning 1993, look into this)
 #compares two lingustic features
 def __calc_log_likelihood(var1, total1, var2, total2):
-    #print("TEST DATA:")
-    #print(var1, total1, var2, total2)
     #TODO:
-    #research: diff between results of this and chi2?
     #double check this calculation
 
     vars_total = var1 + var2
@@ -96,7 +93,7 @@ def __calc_log_likelihood(var1, total1, var2, total2):
     p2 = var2 / total2 if total2 > 0 else 0
     log_ratio = np.log2(p1/p2) if p1 > 0 and p2 > 0 else np.nan
 
-    #fac-check that this is okay:
+    #DO PVAL DIFFERENTLY
     p_val = chi2.sf(G, df=1)
 
     if var1 < 5 or total1 < 5 or var2 < 5 or total2 < 5:
