@@ -122,21 +122,17 @@ class word_analyzer:
 
         return fig
 
-    #def generate_relplot(self, genres):
-    def generate_relplot(self):
+    def generate_relplot(self, genres):
         df = utils.read_metadata_csv()
 
         df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
         df["Century"] = df["Date"].apply(utils.clean_century)
 
-        frequent_genres = df['Genre'].value_counts()
-        frequent_genres = frequent_genres[frequent_genres >= 15].index #adjust this
-
-        df = df[df['Genre'].isin(frequent_genres)]
+        df = df[df['Genre'].isin(genres)]
 
         plot = sns.relplot(
             data=df,
-            x="Century", y="Relative Frequency", hue="Genre", kind="line")
+            x="Century", y="Relative Frequency", kind="line")
 
         return plot
 

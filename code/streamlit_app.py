@@ -10,13 +10,38 @@ from utils import urn_to_name
 #add more document analysis
 #add explanations to doc analysis
 
+st.set_page_config(layout="wide")
+
+st.html('''
+<style>
+div[data-testid="stMultiSelect"] [data-baseweb="select"] > div > div {
+    max-height: 114px !important; /* Fix the height */
+    overflow: auto !important;
+}
+</style>
+''')
+
 st.title("QTA Tools for Greek Treebank")
 
 tab1, tab2, tab3 = st.tabs(["Lemma analyzer", "Document analyzer", "Corpus Overview"])
 
+def create_genre_options():
+    """Create genre options for selecting texts by genre"""
+    return [
+        'Epic poetry', 'Lyric poetry', 'History', 'Tragedy', 'Biography', 'Philosophy',
+        'Rhetoric', 'Polyhistory', 'Oratory', 'Epistolography', 'Comedy',
+        'Scientific Poetry', 'Philosophic Dialogue', 'Military', 'Biology',
+        'Medicine', 'Paradoxography', 'Narrative', 'Dialogue', 'AstronomyAstrology',
+        'Geography', 'Physics', 'Language', 'Music', 'Mathematics', 'Mythography',
+        'Religious Poetry', 'Theology', 'Engineering', 'Rhetoric',
+        'Commentary'
+    ]
+
 def display_word_stats(analyzer, main_urns, comparison_urns=[]):
     
-    analyzer.lemma = lemma 
+    analyzer.lemma = lemma
+    #get genre URNS and calculate
+
     stats = analyzer.calc_all_stats(main_urns, comparison_urns)
     
     if stats['ll calc'] == None or stats['chi2 calc'] == None:
@@ -85,49 +110,55 @@ def display_word_stats(analyzer, main_urns, comparison_urns=[]):
         """)
 
 with tab1: 
-    # Lemma input
     lemma = st.text_input("Enter a lemma to analyze:")
-
+    
     if lemma:
         la = wa.word_analyzer(lemma)
         st.success(f"Analyzing the lemma: {lemma}")
-
-        st.header("Top Documents by Raw Frequency")
-        raw_lemmas = la.raw_freq_list()[:5]
         
-        if raw_lemmas[0][1] == 0:
-            st.warning("This lemma does not appear in the data. Are you sure it is correct?")
-        else:
-            raw_data = []
-            for urn, count in raw_lemmas:
-                name = urn_to_name(urn)
-                raw_data.append({"Document Name": name, "URN": urn, "Lemma Count": count})
-            st.table(pd.DataFrame(raw_data))
+        stats_col, comp_col = st.columns(2, gap="large")
 
-            st.header("Top Documents by Relative Frequency")
-            rel_lemmas = la.rel_freq_list()[:5]
-            rel_data = []
-            for urn, count in rel_lemmas:
-                name = urn_to_name(urn)
-                rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
-            st.table(pd.DataFrame(rel_data))
+        with stats_col:
+            st.header("Top Documents by Raw Frequency")
+            raw_lemmas = la.raw_freq_list()[:5]
             
-            st.pyplot(la.generate_lineplot())
-            with st.expander("What's this?"):
-                st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time, with a 95% confidence interval via bootstrapping.")
+            if raw_lemmas[0][1] == 0:
+                st.warning("This lemma does not appear in the data. Are you sure it is correct?")
+            else:
+                raw_data = []
+                for urn, count in raw_lemmas:
+                    name = urn_to_name(urn)
+                    raw_data.append({"Document Name": name, "URN": urn, "Lemma Count": count})
+                st.table(pd.DataFrame(raw_data))
 
-            st.pyplot(la.generate_heatmap())
+                st.header("Top Documents by Relative Frequency")
+                rel_lemmas = la.rel_freq_list()[:5]
+                rel_data = []
+                for urn, count in rel_lemmas:
+                    name = urn_to_name(urn)
+                    rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
+                st.table(pd.DataFrame(rel_data))
+                
+                #st.pyplot(la.generate_lineplot())
 
-            #ADD GENRE CHOICE
+                st.divider()
+                st.subheader("Relative Frequency Lineplot")
+                selected_genres = st.multiselect("Select genre(s) to display (all genres are selected by default):", create_genre_options(), default=create_genre_options(), placeholder="Select genre(s)")
+                st.pyplot(la.generate_relplot(selected_genres))
 
-            #st.pyplot(la.generate_relplot())
+                with st.expander("What's this?"):
+                    st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping.")
+                st.divider()
 
-            st.divider()
-
+                st.pyplot(la.generate_heatmap())
+                with st.expander("What's this?"):
+                    st.write("This heatmap displays the relative frequency per genre over time.")
+                st.divider()
+        with comp_col:
             st.subheader("Compare Documents")
 
             #allow this to be a list later on (backend already implemented)
-            urn1 = st.text_input("Enter URN of the document to inspect:", key=1)
+            urn1 = st.text_input("Enter URN of the document of interest:", key=1)
             urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):", key=2)
 
             if st.button("Compare"):
