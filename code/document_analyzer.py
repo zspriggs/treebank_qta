@@ -1,18 +1,10 @@
-
-#load document trees
-#get keywords
-#compare to rest of corpus in various ways (general stats might be useful?)
-
 import stat_calculator as calc
 import utils
 import os
-#import math
-
 from nltk.collocations import BigramCollocationFinder
 from nltk.metrics import BigramAssocMeasures
 
-import pdb
-
+#TODO: Explanatory comments for functions
 
 class document_analyzer:
     def __init__(self, doc_urn):
@@ -23,7 +15,6 @@ class document_analyzer:
             this_dir = os.path.dirname(__file__)
             xml_file = os.path.join(this_dir, "data", "xml", f"{doc_urn}.xml")
 
-            #xml_file = os.path.join(XML_FOLDER, f"{doc_urn}.xml")
             self.text = utils.extract_text(xml_file)
         except: 
             raise ValueError("Invalid URN")    
@@ -40,13 +31,13 @@ class document_analyzer:
         sorted_lemmas = sorted(self.doc_data.items(), key= lambda x: x[1], reverse=True)
 
         if exclude_stopwords:
-            with open("../stopwords_greek.txt", 'r') as f:
-                content = f.readlines()
-                stopwords = []
-                for line in content:
-                    if not("#" in line or len(line) == 0 or line.isspace()):
-                        stopwords.append(line.strip())
-                return [word for word in sorted_lemmas if word[0] not in stopwords][1:(n+1)]
+            file_content = utils.read_stopwords()
+            stopwords = []
+            for line in file_content:
+                if not("#" in line or len(line) == 0 or line.isspace()):
+                    stopwords.append(line.strip())
+            return [word for word in sorted_lemmas if word[0] not in stopwords][1:(n+1)]
+        
         return sorted_lemmas[1:(n+1)]
 
     def get_ttr(self):
@@ -60,7 +51,13 @@ class document_analyzer:
         #sort by biggest/smallest log ratio
         return sorted(keywords.items(), key=lambda x: abs(int(x[1]['log ratio'])), reverse=True)[:n] 
     
+    
     def detect_collocates(self, method='chi2', n=10):
+        """
+        Detects top n collocates in a document, using specified NLTK function.
+        If n is 0, all collocates will be returned
+        """
+        
         finder = BigramCollocationFinder.from_words(self.text)
         finder.apply_freq_filter(3)
 
@@ -72,5 +69,7 @@ class document_analyzer:
             scored = finder.score_ngrams(BigramAssocMeasures.dice)
         elif method == 'mi':
             scored = finder.score_ngrams(BigramAssocMeasures.mi_like)
+            
+        if n == 0: n = len(scored)
 
         return sorted(scored, key=lambda x: x[1], reverse=True)[:n]

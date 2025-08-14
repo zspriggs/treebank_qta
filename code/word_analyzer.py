@@ -2,8 +2,10 @@ import utils
 import stat_calculator as calc
 import pandas as pd
 import seaborn as sns
-import altair as alt
 
+import document_analyzer as da
+import networkx as nx
+import matplotlib.pyplot as plt
 
 class word_analyzer:
     def __init__(self, lemma: str):
@@ -82,7 +84,7 @@ class word_analyzer:
         return {'main rf': main_rel_freq, 'comp rf': comp_rel_freq, 'll calc': ll, 'chi2 calc': chi2}
     
     def generate_lineplot(self):
-        df = utils.read_metadata_csv()
+        df = utils.read_metadata()
 
         df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
         df["Century"] = df["Date"].apply(utils.clean_century)
@@ -99,7 +101,7 @@ class word_analyzer:
         return fig
 
     def generate_heatmap(self):
-        df = utils.read_metadata_csv()
+        df = utils.read_metadata()
 
         df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
         df["Century"] = df["Date"].apply(utils.clean_century)
@@ -123,7 +125,7 @@ class word_analyzer:
         return fig
 
     def generate_relplot(self, genres):
-        df = utils.read_metadata_csv()
+        df = utils.read_metadata()
 
         df["Relative Frequency"] = df.apply(lambda row: self.get_rel_freq(row.URN), axis=1)
         df["Century"] = df["Date"].apply(utils.clean_century)
@@ -136,7 +138,21 @@ class word_analyzer:
 
         return plot
 
-    #def find_collocates():
-        #return   
-    
-    #fetch appearances of lemma?
+    def graph_collocates_in_doc(self, urn):
+        doc = da.document_analyzer(urn)
+        collocates = doc.detect_collocates(n=0)
+        
+        stopwords = utils.read_stopwords()
+        lemma_collocates = [(w1, w2, score) for (w1, w2), score in collocates if (w1 == self.lemma or w2 == self.lemma) and (w1 not in stopwords and w2 not in stopwords)]
+        df = pd.DataFrame(lemma_collocates, columns=["Word1", "Word2", "Score"])
+            
+        G=nx.from_pandas_edgelist(df, 'Word1', 'Word2', 'Score')
+        fig, ax = plt.subplots(figsize=(10, 8))
+        pos = nx.spring_layout(G, k=5, iterations=50, weight='Score')
+        nx.draw_networkx(G, with_labels=True, pos=pos, node_color="lightgreen", edge_color="lightgreen", font_size=8, ax=ax)
+        
+        plt.title(f"Collocates of {self.lemma} in {utils.urn_to_name(urn)} (excluding stopwords)")
+
+        plot = fig.get_figure()
+        
+        return plot

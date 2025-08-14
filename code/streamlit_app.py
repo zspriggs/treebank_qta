@@ -7,8 +7,7 @@ from utils import urn_to_name
 
 ##TODO:
 #clean up this code!
-#add more document analysis
-#add explanations to doc analysis
+#add !explanations! to doc analysis
 
 st.set_page_config(layout="wide")
 
@@ -147,7 +146,8 @@ with tab1:
                 st.pyplot(la.generate_relplot(selected_genres))
 
                 with st.expander("What's this?"):
-                    st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping.")
+                    st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping. " \
+                        "Note that the confidence interval may not show for infrequent lemmas or individual genres due to lack of data.")
                 st.divider()
 
                 st.pyplot(la.generate_heatmap())
@@ -162,9 +162,10 @@ with tab1:
             urn2 = st.text_input("Enter URN to compare to (or type 'A' for all texts):", key=2)
 
             if st.button("Compare"):
-                #ADD MORE DATA VIS TO THIS SECTION
                 st.spinner("Loading...")
                 if urn1:
+                    st.pyplot(la.graph_collocates_in_doc(urn1))
+                    
                     display_word_stats(
                         analyzer=la,
                         main_urns=[urn1],
@@ -256,6 +257,6 @@ with tab2:
         for collocate in collocates:
             data.append({"Word": collocate[0][0], "Collocate": collocate[0][1], "Score": collocate[1]})
         st.table(pd.DataFrame(data))
-        
+                
 with tab3:
     st.write("work in progress")
