@@ -9,7 +9,7 @@ from utils import urn_to_name
 #clean up this code!
 #add !explanations! to doc analysis
 
-st.set_page_config(layout="wide")
+st.set_page_config(page_title="Greek Word Analysis", page_icon="🏺", layout="wide")
 
 st.html('''
 <style>
@@ -20,7 +20,7 @@ div[data-testid="stMultiSelect"] [data-baseweb="select"] > div > div {
 </style>
 ''')
 
-st.title("QTA Tools for Greek Treebank")
+st.title("Ancient Greek Lemma Analysis")
 
 tab1, tab2, tab3 = st.tabs(["Lemma analyzer", "Document analyzer", "Corpus Overview"])
 
@@ -109,7 +109,13 @@ def display_word_stats(analyzer, main_urns, comparison_urns=[]):
         """)
 
 with tab1: 
-    lemma = st.text_input("Enter a lemma to analyze:")
+    lemma = st.text_input("Enter a lemma to analyze:", value="λέγω")
+    with st.expander("What's a lemma?"):
+        st.write("A lemma is the dictionary form of a word. For nouns, this is the nominative singular "
+        "form. For verbs, this is the first person singular present indicative. If you're not "
+        "sure what the lemma of your word is, try using the default word λέγω, or check the "
+        "Perseus Greek Word study tool: https://www.perseus.tufts.edu/hopper/morph")
+
     
     if lemma:
         la = wa.word_analyzer(lemma)
@@ -118,7 +124,7 @@ with tab1:
         stats_col, comp_col = st.columns(2, gap="large")
 
         with stats_col:
-            st.header("Top Documents by Raw Frequency")
+            st.subheader("Top Documents by Raw Frequency")
             raw_lemmas = la.raw_freq_list()[:5]
             
             if raw_lemmas[0][1] == 0:
@@ -130,7 +136,7 @@ with tab1:
                     raw_data.append({"Document Name": name, "URN": urn, "Lemma Count": count})
                 st.table(pd.DataFrame(raw_data))
 
-                st.header("Top Documents by Relative Frequency")
+                st.subheader("Top Documents by Relative Frequency")
                 rel_lemmas = la.rel_freq_list()[:5]
                 rel_data = []
                 for urn, count in rel_lemmas:
@@ -140,21 +146,29 @@ with tab1:
                 
                 #st.pyplot(la.generate_lineplot())
 
-                st.divider()
-                st.subheader("Relative Frequency Lineplot")
-                selected_genres = st.multiselect("Select genre(s) to display (all genres are selected by default):", create_genre_options(), default=create_genre_options(), placeholder="Select genre(s)")
-                st.pyplot(la.generate_relplot(selected_genres))
+                # st.divider()
+                # st.subheader("Relative Frequency Lineplot")
+                # selected_genres = st.multiselect("Select genre(s) to display (all genres are selected by default):", create_genre_options(), default=create_genre_options(), placeholder="Select genre(s)")
+                # st.pyplot(la.generate_relplot(selected_genres))
 
-                with st.expander("What's this?"):
-                    st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping. " \
-                        "Note that the confidence interval may not show for infrequent lemmas or individual genres due to lack of data.")
-                st.divider()
+                # with st.expander("What's this?"):
+                #     st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping. " \
+                #         "Note that the confidence interval may not show for infrequent lemmas or individual genres due to lack of data.")
+                # st.divider()
 
-                st.pyplot(la.generate_heatmap())
-                with st.expander("What's this?"):
-                    st.write("This heatmap displays the relative frequency per genre over time.")
-                st.divider()
+                # st.pyplot(la.generate_heatmap())
+                # with st.expander("What's this?"):
+                #     st.write("This heatmap displays the relative frequency per genre over time.")
+                # st.divider()
         with comp_col:
+            st.subheader("Relative Frequency Lineplot")
+            selected_genres = st.multiselect("Select genre(s) to display (all genres are selected by default):", create_genre_options(), default=create_genre_options(), placeholder="Select genre(s)")
+            st.pyplot(la.generate_relplot(selected_genres))
+
+            with st.expander("What's this?"):
+                st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping. " \
+                    "Note that the confidence interval may not show for infrequent lemmas or individual genres due to lack of data.")
+            st.divider()
             st.subheader("Compare Documents")
 
             #allow this to be a list later on (backend already implemented)
