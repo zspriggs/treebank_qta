@@ -7,6 +7,8 @@ import document_analyzer as da
 import networkx as nx
 import matplotlib.pyplot as plt
 
+from utils import urn_to_name
+
 class word_analyzer:
     def __init__(self, lemma: str):
         self.lemma = lemma
@@ -98,6 +100,33 @@ class word_analyzer:
         plot.set_title(f"Relative Frequency of {self.lemma} Over Time")
         fig = plot.get_figure()
         
+        return fig
+    
+    def generate_pichart(self, n=5):
+        df = utils.read_metadata()
+        df['Raw Frequency'] = df.apply(lambda row: self.get_raw_freq(row.URN), axis=1)
+        print(df)
+        
+        #get top 5 for rel freq
+        sorted_df = df.sort_values(by=['Raw Frequency'], axis=0, ascending=False)
+        print(sorted_df)
+        pie_data = sorted_df.head(n)['Raw Frequency'].tolist()
+        print(pie_data)
+        pie_labels = sorted_df.head(n)['Title'].tolist()
+
+        #add sum of all others
+        pie_data.append(sorted_df.tail(-1 * n)['Raw Frequency'].sum())
+        pie_labels.append("Other")
+
+        if pie_data[-1] > pie_data[1] * 10: 
+            print(pie_data[-1], pie_data[1])
+            return
+
+        colors = sns.color_palette('pastel')
+        plot = plt.pie(pie_data, labels=pie_labels, colors=colors)
+        plt.title(f"Raw frequency of {self.lemma} per document")
+        fig = plt.gcf()
+
         return fig
 
     def generate_heatmap(self):

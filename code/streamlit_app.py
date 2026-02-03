@@ -143,23 +143,18 @@ with tab1:
                     name = urn_to_name(urn)
                     rel_data.append({"Document Name": name, "URN": urn, "Relative Frequency": count})
                 st.table(pd.DataFrame(rel_data))
-                
-                #st.pyplot(la.generate_lineplot())
-
-                # st.divider()
-                # st.subheader("Relative Frequency Lineplot")
-                # selected_genres = st.multiselect("Select genre(s) to display (all genres are selected by default):", create_genre_options(), default=create_genre_options(), placeholder="Select genre(s)")
-                # st.pyplot(la.generate_relplot(selected_genres))
-
-                # with st.expander("What's this?"):
-                #     st.write("This line graph shows the relative frequency (raw target lemma count divided by total lemmas) graphed over time for the selected genres, with a 95% confidence interval via bootstrapping. " \
-                #         "Note that the confidence interval may not show for infrequent lemmas or individual genres due to lack of data.")
-                # st.divider()
 
                 # st.pyplot(la.generate_heatmap())
                 # with st.expander("What's this?"):
                 #     st.write("This heatmap displays the relative frequency per genre over time.")
                 # st.divider()
+
+                if la.generate_pichart(): #generate pichart returns null if lemma is too universal to be displayed
+                    st.subheader("Raw frequency")
+                    st.write("What documents account for the appearances of this lemma?")
+                    st.pyplot(la.generate_pichart())
+
+
         with comp_col:
             st.subheader("Relative Frequency Lineplot")
             selected_genres = st.multiselect("Select genre(s) to display (all genres are selected by default):", create_genre_options(), default=create_genre_options(), placeholder="Select genre(s)")
